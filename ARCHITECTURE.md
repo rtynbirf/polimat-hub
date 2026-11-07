@@ -7,7 +7,7 @@
 
 - **НОУС** (`nous`) — конституция и генезис. Не трогается архитектором: это орган права, а не работы.
 - **ПОЛИМАТ-HUB** (`polimat-hub`) — место сверок и хранения архитектора: журнал, пломбы, инструменты.
-- **ПОЛИМАТ-VAULT** (`polimat-vault`) — хранилище пломб: git-бандлы и SHA256 всего, что перемещается или удаляется.
+- **ПОЛИМАТ-VAULT** — хранилище пломб: каталог `vault/` внутри `polimat-hub` (консолидировано 2026-11-08 по ревизии Хозяина: лишний слой свёрнут) + офлайн-копия у Хозяина.
 
 ## Кластеры (7)
 
@@ -40,14 +40,14 @@
 ### E. WINDOWS-CANON — единый канон Windows
 `windows-chronicle` — **единственный канонический репозиторий** истории Windows 1985–2026.
 Ветка `merged/encyclopedia` и каталог `merged-from/` хранят поглощённые тела
-`windows-encyclopedia` и `windows-full-report` (пломбы их истории — в `polimat-vault`).
+`windows-encyclopedia` и `windows-full-report` (пломбы их истории — в `vault/` этого репо).
 
 ### F. EXPOSITION — автономные экспозиции
 `language-through-the-ages`, `web-evolution-1991-2026`, `edinyy-svod` (свод-самоописание архива).
 
 ### G. META — мета-органы
 `repo-doctrine` (доктрина), `github-runbook` (ранбук настроек), `.github` (health files),
-`markitdown` (форк-инструмент), `polimat-vault` (пломбы), `polimat-hub` (сверки).
+`markitdown` (форк-инструмент), `polimat-hub` (сверки + каталог `vault/` с пломбами).
 
 ## Правила архитектуры (не противоречащие GitHub и лучшим практикам)
 
@@ -64,7 +64,7 @@
 
 | Операция | Объект | Результат |
 |---|---|---|
-| CREATE | `polimat-vault` | хранилище пломб, private |
+| CREATE → ABSORB | `polimat-vault` | создан, затем свёрнут в каталог `vault/` внутри hub |
 | CREATE | `polimat-hub` | место сверок, private |
 | MERGE | `windows-encyclopedia` + `windows-full-report` → `windows-chronicle` | канон E |
 | ABSORB | `rumu` → ветка `rumu` в `singulyar` (код уже там), репо-носитель имени удалён | кластер C |
