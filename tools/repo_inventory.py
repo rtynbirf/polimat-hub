@@ -56,7 +56,9 @@ def main() -> int:
     }
     out_dir = os.path.join(os.path.dirname(__file__), "..", "audit")
     os.makedirs(out_dir, exist_ok=True)
-    out_path = os.path.join(out_dir, f"inventory-{date.today().isoformat()}.json")
+    # суффикс из argv, чтобы не затирать пломбы прошлых описей того же дня
+    suffix = sys.argv[1] if len(sys.argv) > 1 else ""
+    out_path = os.path.join(out_dir, f"inventory-{date.today().isoformat()}{suffix}.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(inventory, f, ensure_ascii=False, indent=1)
     print(f"repos: {len(inventory['repos'])}  ->  {out_path}")
