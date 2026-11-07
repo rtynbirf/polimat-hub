@@ -1,0 +1,376 @@
+{
+ "integrated_at": "2026-11-08",
+ "features": "F1-F8 см. tools/features_integrate.py",
+ "results": {
+  "windows-chronicle": {
+   "repo": "windows-chronicle",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['windows-canon']"
+  },
+  "polimat-hub": {
+   "repo": "polimat-hub",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['meta-tools']"
+  },
+  "universal-agent": {
+   "repo": "universal-agent",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "polimat-vault": {
+   "repo": "polimat-vault",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['meta-tools']"
+  },
+  "cell-swarm": {
+   "repo": "cell-swarm",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "release-vault": {
+   "repo": "release-vault",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "polymath-os": {
+   "repo": "polymath-os",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "neutral-browser": {
+   "repo": "neutral-browser",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "runtime-protocol": {
+   "repo": "runtime-protocol",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "H-PE11-PHOENIX": {
+   "repo": "H-PE11-PHOENIX",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['system-layer']"
+  },
+  "nous": {
+   "repo": "nous",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['swarm-agents']"
+  },
+  "agryp": {
+   "repo": "agryp",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "cell-rs": {
+   "repo": "cell-rs",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "repo-doctrine": {
+   "repo": "repo-doctrine",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['meta-tools']"
+  },
+  "red-thread-debt-audit": {
+   "repo": "red-thread-debt-audit",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['research-verification']"
+  },
+  "global-video-platforms-registry": {
+   "repo": "global-video-platforms-registry",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "github-runbook": {
+   "repo": "github-runbook",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['meta-tools']"
+  },
+  "ruvson-lyrics": {
+   "repo": "ruvson-lyrics",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "uace-pml": {
+   "repo": "uace-pml",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['research-verification']"
+  },
+  "cell65-host": {
+   "repo": "cell65-host",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "singulyar": {
+   "repo": "singulyar",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "language-through-the-ages": {
+   "repo": "language-through-the-ages",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "edinyy-svod": {
+   "repo": "edinyy-svod",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "rtynbirf.github.io": {
+   "repo": "rtynbirf.github.io",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "task-graph-propagator": {
+   "repo": "task-graph-propagator",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['research-verification']"
+  },
+  "web-evolution-1991-2026": {
+   "repo": "web-evolution-1991-2026",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['exposition']"
+  },
+  "voice-atlas-llm": {
+   "repo": "voice-atlas-llm",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "rent-mechanism-q43": {
+   "repo": "rent-mechanism-q43",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['research-verification']"
+  },
+  "polimat-task174": {
+   "repo": "polimat-task174",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "403",
+   "F8_topics": "get=200,put=200,added=['research-verification']"
+  },
+  "commons": {
+   "repo": "commons",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "singulyar-llm": {
+   "repo": "singulyar-llm",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "ruvson-rse2": {
+   "repo": "ruvson-rse2",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "domovoy-tweaker": {
+   "repo": "domovoy-tweaker",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "polymath-tools-atlas": {
+   "repo": "polymath-tools-atlas",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "polymath-atlas-v107": {
+   "repo": "polymath-atlas-v107",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "os-forge": {
+   "repo": "os-forge",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  "karaoke-dream": {
+   "repo": "karaoke-dream",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "404 Not Found",
+   "F8_topics": "get=200,put=200,added=[]"
+  },
+  ".github": {
+   "repo": ".github",
+   "F1_dependabot_alerts": 204,
+   "F2_security_updates": 204,
+   "F3_delete_branch_on_merge": 200,
+   "F4_ruleset_guard": "already-present",
+   "F5_secret_scanning": "200",
+   "F6_private_vuln_reporting": 204,
+   "F7_codeql_default": "skip-lang",
+   "F8_topics": "get=200,put=200,added=[]"
+  }
+ }
+}

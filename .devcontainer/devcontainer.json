@@ -1,0 +1,13 @@
+{
+  "name": "polimat-hub",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "python3 --version && git --version",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python", "github.vscode-github-actions"]
+    }
+  }
+}
