@@ -38,3 +38,22 @@
 - Операция: удаление `windows-encyclopedia`, `windows-full-report`, `rumu` после пломб и слияния.
 - Предохранитель: у владельца GitHub — восстановление репозитория в течение 90 дней (Settings → Deleted repositories); полные зеркала — в `polimat-vault`.
 - Статус: см. финальную секцию.
+
+---
+
+## ФИНАЛЬНАЯ СВЕРКА 2026-11-08 (после операций)
+
+- DELETE `rumu`: HTTP 204, удалено.
+- DELETE `windows-encyclopedia`: HTTP 204, удалено.
+- DELETE `windows-full-report`: HTTP 204, удалено.
+- MERGE: `windows-chronicle` ← 37 файлов (encyclopedia) + 29 файлов (full-report) в `merged-from/`, + `MERGED.md`; коммит fix после первой ошибки tar (пустые каталоги отловлены сверкой tracked-файлов).
+- Снимок ПОСЛЕ: `audit/inventory-2026-11-08-after.json` — 39 репозиториев (40 − 3 удалённых + 2 созданных).
+- `verify_architecture.py`: **ВЕРДИКТ — СОГЛАСОВАНА**, fails=0, warns=2 (ruvson-lyrics 514 МБ, singulyar 1541 МБ — медиа в git-дереве; это дорожная карта, не блокер).
+- Кластеры: A=8, B=6, C=7, D=8, E=1, F=3, G=6.
+
+## Дорожная карта (следующим заходам)
+
+1. Медиа RUVSON из git-дерева → Releases/asset + шифрованный `release-vault`; деревья похудеют до <500 МБ (правило 4).
+2. `edinyy-svod` перегенерировать по факту 39 репозиториев (сейчас в нём 37).
+3. Ежеквартальный прогон `verify_architecture.py` с новой описью.
+4. Токен, использованный в мандате, отзвать Хозяином после сессии (правило 7).
