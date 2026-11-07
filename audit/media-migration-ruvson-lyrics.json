@@ -1,7 +1,8 @@
 {
   "protocol": "media-migration-ruvson-lyrics",
   "created": "2026-11-08",
-  "reconstructed": "2026-11-08, после ревокации токена сессии; восстановлен из локальных артефактов аудита (запись в RESTRUCTURE-LOG.md п.6 РАУНДА 3, файл /tmp/bigs.txt, два извлечённых блоба)",
+  "updated": "2026-11-08 (РАУНД 5): все 5 частей подняты до re-verified по независимому каналу — живые ассеты релиза, git-blob sha1 потоком по HTTP; релиз подтверждён опубликованным (draft=false), не черновиком",
+  "reconstructed_from": "запись RESTRUCTURE-LOG РАУНД 3 п.6, /tmp/bigs.txt (БД объектов зеркала), извлечённые блобы part1/part5",
   "object": {
     "repo": "rtynbirf/ruvson-lyrics",
     "what": "5 частей RUVSON_QUANTUM_v5 = одно одностраничное HTML-приложение 'КУБ-2026 · Квантовая Сансара v3' (HTML+JS+base64-пейлоад), разрезанное на 5 томов. НЕ медиа: аудиофайлов в дереве нет.",
@@ -10,20 +11,22 @@
     "share_of_repo": "446.7 МБ из ~514 МБ = 82.9% веса репо"
   },
   "parts": [
-    {"n": 1, "file": "RUVSON_QUANTUM_v5.part1of5", "bytes": 89342035, "git_sha1": "cda1c72e2225f9394c063cda98b1ab72998abbd7", "evidence": "локально перепроверен 2026-11-08: git-blob sha1 совпал; sha256=ffce387bafbb61dee08562ca1adae182fe59e5828586327f0f819783ad1f13c9", "level": "re-verified"},
-    {"n": 2, "file": "RUVSON_QUANTUM_v5.part2of5", "bytes": 89342035, "git_sha1": "6e4a0a6b15637b5965e8d0f0edfb5dcd006a07d7", "evidence": "записано из БД объектов зеркала при аудите 2026-11-08; зеркало пережито рециклом песочницы не было", "level": "recorded"},
-    {"n": 3, "file": "RUVSON_QUANTUM_v5.part3of5", "bytes": 89342035, "git_sha1": "c0e480f515eee0573b4b07af1a23b97eb85c6f63", "evidence": "записано из БД объектов зеркала при аудите 2026-11-08", "level": "recorded"},
-    {"n": 4, "file": "RUVSON_QUANTUM_v5.part4of5", "bytes": 89342035, "git_sha1": "c5e9839aadd2618ba00ec1eb66161c1c096367d3", "evidence": "записано из БД объектов зеркала при аудите 2026-11-08", "level": "recorded"},
-    {"n": 5, "file": "RUVSON_QUANTUM_v5.part5of5", "bytes": 89342039, "git_sha1": "11da60f5b8f12890e4b8220b3f5bb14a5f088775", "evidence": "локально перепроверен 2026-11-08: git-blob sha1 совпал; sha256=0b4b76632d7cbb5dc8442e9f6b17f6468787a62dd1075af62a43f8d296ae10fa", "level": "re-verified"}
+    {"n": 1, "bytes": 89342035, "git_sha1": "cda1c72e2225f9394c063cda98b1ab72998abbd7", "sha256": "ffce387bafbb61dee08562ca1adae182fe59e5828586327f0f819783ad1f13c9", "channels": ["локальный блоб 2026-11-08", "ассет релиза 2026-11-08"], "level": "re-verified"},
+    {"n": 2, "bytes": 89342035, "git_sha1": "6e4a0a6b15637b5965e8d0f0edfb5dcd006a07d7", "channels": ["БД объектов зеркала 2026-11-08", "ассет релиза 2026-11-08"], "level": "re-verified"},
+    {"n": 3, "bytes": 89342035, "git_sha1": "c0e480f515eee0573b4b07af1a23b97eb85c6f63", "channels": ["БД объектов зеркала 2026-11-08", "ассет релиза 2026-11-08"], "level": "re-verified"},
+    {"n": 4, "bytes": 89342035, "git_sha1": "c5e9839aadd2618ba00ec1eb66161c1c096367d3", "channels": ["БД объектов зеркала 2026-11-08", "ассет релиза 2026-11-08"], "level": "re-verified"},
+    {"n": 5, "bytes": 89342039, "git_sha1": "11da60f5b8f12890e4b8220b3f5bb14a5f088775", "sha256": "0b4b76632d7cbb5dc8442e9f6b17f6468787a62dd1075af62a43f8d296ae10fa", "channels": ["локальный блоб 2026-11-08", "ассет релиза 2026-11-08"], "level": "re-verified"}
   ],
-  "migration": {
-    "target": "Release 'media-vault' в rtynbirf/ruvson-lyrics",
-    "status": "части выгружены в релиз в ходе мандата 2026-11-08",
-    "visibility": "релиз создан черновиком: виден только залогиненному владельцу; без сессии/токена не проверить — подтверждение на Хозяине (браузер) или живым API при следующем токене"
+  "release": {
+    "name": "media-vault — большие файлы вне git-дерева",
+    "url": "https://github.com/rtynbirf/ruvson-lyrics/releases",
+    "draft": false,
+    "assets_state": "5/5 uploaded",
+    "note": "РАУНД 3 считал релиз черновиком — поправлено: живой API показывает опубликованный релиз"
   },
   "open_items": [
-    "дерево НЕ переписано: репо по-прежнему несёт 446.7 МБ в git-истории; полный сброс = git filter-repo + force-push, ТОЛЬКО по прямой команде Хозяина (у агентов живые клоны)",
-    "уровень 'recorded' для part2-4 поднять до 're-verified' при первом живом токене: git cat-file по живому репо или сверка ассетов релиза",
-    "подтвердить существование и содержимое черновик-релиза media-vault (владелец или API)"
+    "дерево НЕ переписано: 446.7 МБ всё ещё в git-истории; полный сброс = git filter-repo + force-push, ТОЛЬКО по прямой команде Хозяина (у агентов живые клоны)",
+    "пустые релизы 'RUVSON_QUANTUM_v5 — 107 треков (103 аудио)' и 'RUVSON_QUANTUM_v4 — 107 треков (84 аудио)': 0 ассетов — заполнить или удалить (решение Хозяина)",
+    "edinyy-svod перегенерировать под 41 репозиторий — нужен генератор (build/ пуст, источник генерации не найден в верхнеуровневых файлах)"
   ]
 }
