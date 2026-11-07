@@ -25,7 +25,7 @@
 ## Запуск инструментов
 
 ```bash
-export GITHUB_TOKEN=ghp_...        # токен с scope repo
+export GITHUB_TOKEN="***"         # реальный токен НЕ пишется в файлы — только в переменную окружения
 python3 tools/repo_inventory.py    # опись → audit/inventory-<дата>.json
 python3 tools/verify_architecture.py audit/inventory-2026-11-08.json   # сверка с архитектурой
 ```
