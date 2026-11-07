@@ -116,3 +116,28 @@
    (draft=false), не черновик. `audit/media-migration-ruvson-lyrics.json` обновлён.
 6. **Открыто**: пустые релизы v4/v5 (0 ассетов — заполнить/удалить?); edinyy-svod
    (41 репо, генератор не найден); filter-repo ruvson-lyrics — только по команде Хозяина.
+
+## 2026-11-08 · РАУНД 6 · fetchkit: инцидент доставки и починка (токен Хозяина)
+
+1. **Инцидент**: FETCH_MODELS.bat выдан Хозяину БЕЗ tools/fetch_models.py →
+   `[FAIL] tools\fetch_models.py not found next to this bat` на живой машине.
+   Вина доставки (сборщика), не машины и не Хозяина. Свободный батник отозван.
+2. **Фикс**: самодостаточный `POLIMAT_FETCH_KIT_V1.zip` — 4 файла (bat + tools +
+   README + SHA256SUMS), источник истины `hub/fetchkit/`, сборщик
+   `scripts/build_fetch_kit.py`. Стандарты пака v2.1: bat ASCII+CRLF, README
+   UTF-8 BOM+CRLF, манифест ASCII+LF (sha256sum-совместим, не самохэшируется),
+   round-trip ZIP байт-в-байт.
+3. **fetch_models.py v2 — pin ревизий HF**: первый прогон фиксирует sha каждого
+   репо в MANIFEST.sha256 (строки `# revision <repo> <sha>`), повторные прогоны
+   докачивают строго ту же ревизию; `--pin SHA` — явно. Закрыт чек 09_PRIEMKA
+   «Pin ревизий: не main» (был открыт: R4/Ф4).
+4. **Замер весов по живому API HF** (докпаковская оценка «~650 МБ» была до замера):
+   *_quantized-набор целиком = mt 1747 МБ + whisper-tiny 100 МБ. Плеер
+   (index.html: `pipeline(..., dtype:"q8")`) реально грузит только
+   encoder_model_quantized + decoder_model_merged_quantized → фильтр `minimal()`:
+   mt 854 МБ + whisper-tiny 41 МБ ≈ 0.9 ГБ. Оценку «~650 МБ» в докпаке править
+   при следующей содержательной пересборке пака (косметика, пак v2.1 не трогать).
+5. **Живой тест в песочнице**: asr-tiny скачан целиком (13 файлов, 43.2 МБ,
+   ревизия ff4177021cc4); повторный прогон — 0 докачек, ревизия та же;
+   mt — список 9 файлов по ревизии 261c31d1a573 (encoder + merged + 7 конфигов).
+   Хозяину: распаковать ZIP → двойной клик FETCH_MODELS.bat.
