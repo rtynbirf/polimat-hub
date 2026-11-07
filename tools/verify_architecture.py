@@ -14,7 +14,7 @@ CANON = {
     "nous": "B", "cell-swarm": "B", "runtime-protocol": "B", "cell-rs": "B",
     "universal-agent": "B", "commons": "B",
     "singulyar": "C", "ruvson-lyrics": "C", "ruvson-rse2": "C", "karaoke-dream": "C",
-    "singulyar-llm": "C", "rtynbirf.github.io": "C", "voice-atlas-llm": "C",
+    "singulyar-llm": "C", "rtynbirf.github.io": "C", "voice-atlas-llm": "C", "rumu": "C",
     "red-thread-debt-audit": "D", "rent-mechanism-q43": "D", "polymath-atlas-v107": "D",
     "task-graph-propagator": "D", "global-video-platforms-registry": "D",
     "polymath-tools-atlas": "D", "uace-pml": "D", "polimat-task174": "D",
@@ -25,7 +25,9 @@ CANON = {
 }
 
 # Запрещённые имена после реструктуризации (поглощены/удалены)
-FORBIDDEN = {"windows-encyclopedia", "windows-full-report", "rumu"}
+# rumu исключён из FORBIDDEN по ADR-011 (2026-11-08): восстановлен Хозяином из пломбы
+# polimat-vault добавлен: поглощён в polimat-hub/vault (РАУНД 3, п.7)
+FORBIDDEN = {"windows-encyclopedia", "windows-full-report", "polimat-vault"}
 
 SIZE_WARN_KB = 500_000   # 500 МБ: цель архитектуры — ни одного дерева больше
 
