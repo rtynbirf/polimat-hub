@@ -147,3 +147,20 @@
    sha256, torrent-совместимы). Пломба — транскрипт приёмки 2026-11-08.
    Примечание: models\ плеер ждёт рядом со своим index.html
    (`localModelPath = ./models/`, allowRemoteModels=false); singulyar — так же.
+
+## 2026-11-08 · РАУНД 7 · полная ревизия аккаунта и дорожная карта для роя (токен Хозяина)
+
+1. **Опись `-audit`**: 41 репо (26 публичных, 15 приватных, 1 форк). Верификатор:
+   СОГЛАСОВАНА fails=0 warns=3 (singulyar ~1547 МБ, ruvson-lyrics ~514 МБ — план Ф2;
+   polymath-gen, rtynbirf вне канона — ADR-012). `audit/inventory-2026-11-08-audit.json`.
+2. **Живые проверки**: релизы ruvson-lyrics — quantum-v4 и quantum-v5 ПУСТЫЕ (0 ассетов),
+   media-vault 5/5; rumu main сдвинулся параллельным агентом: 1a7d025 → 53e1fa1
+   («RTYNBIRF LABS cover») — пломба бандла старше live; membrane-ветка на месте (0bbd068).
+3. **SWARM-ROADMAP.md v2.0** (корень hub): протокол входа агента, состояние, нумерованный
+   реестр 41 репо «сделано/недоделано», приоритеты P0–P3 (тяжёлое раньше косметики).
+   Заменяет docpack/02_ROADMAP.md как живой документ (сам пак не тронут — пломба приёмки).
+4. **tools/ пополнены**: post_push_checks.py, verify_release_assets.py переехали из
+   песочницы в репо (ADR-012 ссылался на них, а файлов в репо не было).
+5. **Открыто (P0)**: filter-repo ruvson-lyrics (по прямой команде), ADR-005 singulyar,
+   ADR-012 решение, пломбы после-слияния windows-chronicle и после-53e1fa1 rumu.
+   Полный список с приоритетами — SWARM-ROADMAP.md §4.
