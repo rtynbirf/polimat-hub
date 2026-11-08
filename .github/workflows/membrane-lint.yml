@@ -1,0 +1,38 @@
+# П-73 (polimat-hub#97): мембрана как исполняемый договор.
+# Канон AGENTS.md + линт присутствия README.md / AGENTS.md / llms.txt по всем репо.
+name: membrane-lint
+
+on:
+  schedule:
+    - cron: "0 5 * * 0" # воскресенье, 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wave5-membrane
+  cancel-in-progress: false
+
+jobs:
+  lint:
+    name: линт мембраны x41
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout (пин v4)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Самопроверка линтера (без сети)
+        run: python3 tools/membrane_lint.py --selftest
+
+      - name: Живой линт мембраны
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -o pipefail
+          set +e
+          python3 tools/membrane_lint.py --all --json membrane.json | tee membrane.md
+          code=$?
+          cat membrane.md >> "$GITHUB_STEP_SUMMARY" || true
+          exit $code

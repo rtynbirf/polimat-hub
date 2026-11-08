@@ -1,0 +1,2014 @@
+{
+"name": "ruvson-lyrics-sarcofag",
+"created": "2026-11-08T21:41:25Z",
+"profile": "data-package",
+"repo": "rtynbirf/ruvson-lyrics",
+"ref": "main",
+"count": 400,
+"total_bytes": 37748960,
+"hash_mode": "git-blob-sha1",
+"note": "САРКОФАГ-НАУКА (П-71, polimat-hub#95): content-addressed идентичность ДО любой перезаписи истории. sha1 = git blob sha (контент-адресованный); sha256-пересчёт при первом checkout-drill.",
+"truncated": false,
+"resources": [
+{
+"path": ".gitattributes",
+"size": 193,
+"sha": "c592420b4f7bd1674f761564bc29ae0cc7a63fb2"
+},
+{
+"path": ".github/dependabot.yml",
+"size": 118,
+"sha": "5ace4600a1f26e6892982f3e2f069ebfab108d87"
+},
+{
+"path": ".github/workflows/ci.yml",
+"size": 1528,
+"sha": "3d66b0c271fa9a4eac4c18a6ebc64385bcd8dd8c"
+},
+{
+"path": ".github/workflows/guardian-tripwire.yml",
+"size": 5616,
+"sha": "464d9462d09091fea2c91817326e849c981fdd81"
+},
+{
+"path": ".github/workflows/pages.yml",
+"size": 2610,
+"sha": "93506774a464d0938e9dd14d401bc5577415cc08"
+},
+{
+"path": ".github/workflows/self-audit.yml",
+"size": 12120,
+"sha": "da86a0b716ab5823a36771258edee6e7682d6afc"
+},
+{
+"path": ".gitignore",
+"size": 68,
+"sha": "1302f39edcbc52ea42fe3807013f478075617a26"
+},
+{
+"path": "AGENTS.md",
+"size": 611,
+"sha": "1b8ae3398e2e82aa14e5327e98f2b3db87f40b18"
+},
+{
+"path": "CODEOWNERS",
+"size": 12,
+"sha": "6ef69432ceddaa5b1a10d47910040aef683a76a4"
+},
+{
+"path": "CONTRIBUTING.md",
+"size": 2726,
+"sha": "de925cf1be1a3a954cb8cdc622e4c65a78cb874d"
+},
+{
+"path": "LICENSE",
+"size": 1108,
+"sha": "86b06a279be61a1d73a99e47ec850fab80662bea"
+},
+{
+"path": "PULSE.md",
+"size": 4350,
+"sha": "b0b4b54929b561ea8fea1aa0106052cae03c9bc0"
+},
+{
+"path": "README.md",
+"size": 10785,
+"sha": "7e3ce0075a1fc3b5e7d7d6e403905446b0c9642a"
+},
+{
+"path": "SECURITY.md",
+"size": 265,
+"sha": "6276a2d1311e2af3bf51b15bee1050d4b332ec76"
+},
+{
+"path": "data/lyrics/01_Начать_сначала.lrc",
+"size": 2536,
+"sha": "bb84ec4ab85288a926f736b9e2bb46ba7de58607"
+},
+{
+"path": "data/lyrics/02_Цени_моменты.lrc",
+"size": 3189,
+"sha": "a3703bd58c625be3f671e8af781b2b5dbc73adbb"
+},
+{
+"path": "data/lyrics/03_Не_тех_мы_ценим.lrc",
+"size": 3787,
+"sha": "d10e139289393d2066942a5629cac164a75a2d82"
+},
+{
+"path": "data/lyrics/04_Ангел_без_крыльев.lrc",
+"size": 3490,
+"sha": "35fb5b6c6417539bc251940678f1d1b6cbecd437"
+},
+{
+"path": "data/lyrics/05_Не_теряй_шанс.lrc",
+"size": 2116,
+"sha": "50c7cbea2922e49dc99aac0ee5b9813d41b61cb2"
+},
+{
+"path": "data/lyrics/06_Не_жди_завтра.lrc",
+"size": 2246,
+"sha": "d952a2693aae12964a8562787876fe1d0a9fc07d"
+},
+{
+"path": "data/lyrics/07_Цени_моменты_Remix.lrc",
+"size": 2216,
+"sha": "8292b8a1727c08503ac292e3757e51988c465d2c"
+},
+{
+"path": "data/lyrics/08_Куда_летят_года.lrc",
+"size": 2216,
+"sha": "d5a65158eafd03906c8c25390d9c2ab361ee356d"
+},
+{
+"path": "data/lyrics/09_Два_голоса.lrc",
+"size": 2491,
+"sha": "a8cd1356eeb3337738e1d02cbc2ed32a3ab4fecd"
+},
+{
+"path": "data/lyrics/10_Цени_время.lrc",
+"size": 3070,
+"sha": "62207ea32742f845048319dcf6b85b9e36df3c21"
+},
+{
+"path": "data/lyrics/11_Там_где_ты.lrc",
+"size": 2250,
+"sha": "38435261057e1eaa62ad078731d83c68af88caa2"
+},
+{
+"path": "data/lyrics/12_Свет_в_темноте.lrc",
+"size": 2046,
+"sha": "abaa5b71e24e4d5e7296abf552b2daf0cf5114ee"
+},
+{
+"path": "data/lyrics/13_Где_настоящее.lrc",
+"size": 4068,
+"sha": "9884e6cc0a9018a53cd65e9e1ba75a24dd436831"
+},
+{
+"path": "data/lyrics/14_Время_как_вода.lrc",
+"size": 2556,
+"sha": "f0f85e439f54f930d0267512f34f8dbbd2b62d2b"
+},
+{
+"path": "data/lyrics/15_Бой_с_собой.lrc",
+"size": 1940,
+"sha": "d703a06c444781d76d0c06c3b62a9ecc8a4a29ae"
+},
+{
+"path": "data/lyrics/16_Крик_в_тишине.lrc",
+"size": 3130,
+"sha": "f2a86f0a4df5d95fe189932cda2646fc20c5900e"
+},
+{
+"path": "data/lyrics/17_А_что_если_да.lrc",
+"size": 3077,
+"sha": "821a09695de4f47493336696d52da86c7c1da243"
+},
+{
+"path": "data/lyrics/18_Когда_теряем.lrc",
+"size": 3558,
+"sha": "c8440b2c5046054e9403a7bb66a18cb8842331d0"
+},
+{
+"path": "data/lyrics/19_Суть_проста.lrc",
+"size": 3187,
+"sha": "6eae0ec5214bd149b7ac5b327e831bb550abbd6b"
+},
+{
+"path": "data/lyrics/20_Когда_погаснут_огни.lrc",
+"size": 2923,
+"sha": "2b5e02245114896bc167d2fc6614298f39dfb1ff"
+},
+{
+"path": "data/lyrics/21_Вера_остаётся.lrc",
+"size": 3160,
+"sha": "4a492da9043b109e94ad9c8671ee64823583776c"
+},
+{
+"path": "data/lyrics/22_Всё_начинается_с_тебя.lrc",
+"size": 2636,
+"sha": "0310a724a251f18f7d735d5342a2dc180aaaa8e9"
+},
+{
+"path": "data/lyrics/23_Тень_ушедших.lrc",
+"size": 3492,
+"sha": "1b7f5255c598ac097454fde3dbd5f6cec7ec7eec"
+},
+{
+"path": "data/lyrics/24_Я_сам_себе_враг.lrc",
+"size": 2669,
+"sha": "84429729603ad3d77dde6c6b199b4384772372c8"
+},
+{
+"path": "data/lyrics/25_Не_спеши_осуждать.lrc",
+"size": 3955,
+"sha": "c17b4267b290498863b7695740916e2380a258f9"
+},
+{
+"path": "data/lyrics/27_Я_сам_себе_судья.lrc",
+"size": 2531,
+"sha": "97295cea266e0414e5beadb27ed97e622bf387d8"
+},
+{
+"path": "data/lyrics/28_Тишина_спасает.lrc",
+"size": 3123,
+"sha": "393373842ca936fa2e16099710cce38cd7b8cc3a"
+},
+{
+"path": "data/lyrics/29_Смысл_жизни_прост.lrc",
+"size": 2353,
+"sha": "5a8455fc9578e824dc89abc3450689336d091773"
+},
+{
+"path": "data/lyrics/30_Нас_учат_потери.lrc",
+"size": 2866,
+"sha": "48fb0f24cebcabe1bccf78e1c0bed4fb8e6ce962"
+},
+{
+"path": "data/lyrics/31_Не_играй_в_любовь.lrc",
+"size": 2955,
+"sha": "e8843692c7e02119af7126256e54670f569d7889"
+},
+{
+"path": "data/lyrics/32_Просто_люби.lrc",
+"size": 2242,
+"sha": "add9d2048d5ef84e7430806acb9aa6b53872af2a"
+},
+{
+"path": "data/lyrics/33_Остаться_человеком.lrc",
+"size": 3525,
+"sha": "a3b1086c43e3b473f7f35fdf5a8004d91fcafab2"
+},
+{
+"path": "data/lyrics/34_Ты_одна_дала.lrc",
+"size": 1871,
+"sha": "7c86a86e14de39a4200bcd902c8cd33d708e2b17"
+},
+{
+"path": "data/lyrics/35_Жизнь_не_прощает.lrc",
+"size": 1842,
+"sha": "456994bc5e6c30b58456627c7b9a2c88b1133903"
+},
+{
+"path": "data/lyrics/36_Когда_ты_удобен.lrc",
+"size": 3006,
+"sha": "2c168bb963cd9438d637a8be5b471163495c071d"
+},
+{
+"path": "data/lyrics/37_Не_играй_в_любовь_Remix.lrc",
+"size": 3045,
+"sha": "a4cf6ced3d47b9d102be4ad0f3fa3db3e9a9a849"
+},
+{
+"path": "data/lyrics/39_Оставайся_молодым.lrc",
+"size": 2983,
+"sha": "39982f791dbe05de72961ffcbbd0c54ba5ffc942"
+},
+{
+"path": "data/lyrics/40_Пленники_прошлого.lrc",
+"size": 2473,
+"sha": "369f32f2a764897d7108f8d3ebc2b381af902069"
+},
+{
+"path": "data/lyrics/41_Живи_сейчас.lrc",
+"size": 3068,
+"sha": "c1d53181a6a05397d1aa01c30e9ae25ab3a9eb78"
+},
+{
+"path": "data/lyrics/42_Это_не_секрет.lrc",
+"size": 3540,
+"sha": "3d2b10ff99e4b75ea0f30a33dbd6ecd1dd59d1e4"
+},
+{
+"path": "data/lyrics/43_В_чём_смысл.lrc",
+"size": 2565,
+"sha": "8c42fdcbdd78f4d4feed86bf45c4eeaf72702da2"
+},
+{
+"path": "data/lyrics/44_Гордость_нас_убивает.lrc",
+"size": 2320,
+"sha": "7fc287790f6b77eb86e6e89bb8a0166d21e5ddf3"
+},
+{
+"path": "data/lyrics/45_Меня_не_сломать.lrc",
+"size": 3193,
+"sha": "f49e01d5b472587b02bebf66b7c8f06e040febb4"
+},
+{
+"path": "data/lyrics/46_Дорога_мой_учитель.lrc",
+"size": 2758,
+"sha": "2d2a479abbcb0b0bb7613967acbe690fe4857d50"
+},
+{
+"path": "data/lyrics/47_Время_всё_расставит.lrc",
+"size": 3469,
+"sha": "d62762f667c4fae972d894079f331de941bec729"
+},
+{
+"path": "data/lyrics/48_Вне_зоны_доступа.lrc",
+"size": 3429,
+"sha": "ed9e8b3f814ca5ed74f712b0ec939d605230b02a"
+},
+{
+"path": "data/lyrics/49_О_чём_мечтаешь_ты.lrc",
+"size": 4185,
+"sha": "f3f2d1f1fb6d4d834f60ec9564921d307a2b2f58"
+},
+{
+"path": "data/lyrics/50_Действуй_сейчас.lrc",
+"size": 2113,
+"sha": "f31e6fe6b1bd51ab6a7100f51392f9e5b6d9f6d8"
+},
+{
+"path": "data/lyrics/51_Ты_главный_игрок.lrc",
+"size": 4611,
+"sha": "eeb5936ffb09f7451bafc0aff9ede038dbf619a0"
+},
+{
+"path": "data/lyrics/52_Люди_в_масках.lrc",
+"size": 2375,
+"sha": "c043e12785f1c54da4268b6b1e1d31d6b3a7538b"
+},
+{
+"path": "data/lyrics/53_Живи_как_умеешь.lrc",
+"size": 3834,
+"sha": "3a1102e353d2c381a2cf12aa4164341eef01279b"
+},
+{
+"path": "data/lyrics/54_Одиночество_среди_людей.lrc",
+"size": 2995,
+"sha": "d1aab9e80547bc3a0a53385bd400197d42528ebc"
+},
+{
+"path": "data/lyrics/55_Разгадка_в_небесах.lrc",
+"size": 2166,
+"sha": "0f48f1ee3c2fd69c25f5709d087343f650dd5e5f"
+},
+{
+"path": "data/lyrics/56_А_время_капает.lrc",
+"size": 2439,
+"sha": "c13818d5389e536b3200cf7ca7f8854dad660e05"
+},
+{
+"path": "data/lyrics/57_Страх_не_слабость.lrc",
+"size": 3038,
+"sha": "7a9626f9832e3a0147881f81b8d65b96e973d8fc"
+},
+{
+"path": "data/lyrics/58_Твоё_плавание_не_вечно.lrc",
+"size": 4212,
+"sha": "b714c4a6347a828788c7c5de5fe604d292c5e22b"
+},
+{
+"path": "data/lyrics/59_Не_угасай.lrc",
+"size": 1951,
+"sha": "5e6e5013ac0217aa45287cac1e2a24b8c95267f4"
+},
+{
+"path": "data/lyrics/60_Неудача_не_конец.lrc",
+"size": 2948,
+"sha": "8b7c52aa9653369ba73e23e123bce6dcea499c50"
+},
+{
+"path": "data/lyrics/61_Компас_на_дом.lrc",
+"size": 2498,
+"sha": "8454ac9e696f4e9c3690efa910ffb9c887755494"
+},
+{
+"path": "data/lyrics/62_Остаться_человеком_Remix.lrc",
+"size": 2057,
+"sha": "d0db2b7411fe7f049d814b9aac3eb8bfdb2742fa"
+},
+{
+"path": "data/lyrics/63_Код_перемен.lrc",
+"size": 3047,
+"sha": "f6d89f9108c964ca91a4148236fbb72d2882429b"
+},
+{
+"path": "data/lyrics/64_Когда_теряем_feat_OutShadow.lrc",
+"size": 3505,
+"sha": "84471288b20c378f60a4ac423c62f3b7b5cea4a4"
+},
+{
+"path": "data/lyrics/65_Не_тех_мы_ценим_feat_OutShadow.lrc",
+"size": 3768,
+"sha": "fcb420648bc780374b626a082eed2e5a52714f97"
+},
+{
+"path": "data/lyrics/registry.json",
+"size": 35589,
+"sha": "a084e3fa15f4c812a947cf0f1a56e0d1076d1f6d"
+},
+{
+"path": "docs/KARAOKE_ARCHITECTURE.md",
+"size": 10896,
+"sha": "a438c930db02880fbbff96cf5a3a7e5ab0105e62"
+},
+{
+"path": "docs/KARAOKE_ROADMAP.md",
+"size": 6276,
+"sha": "acdeb5a81e405ef9ef4a38cbcbeb32bee189918b"
+},
+{
+"path": "docs/KARAOKE_ТЗ.md",
+"size": 20181,
+"sha": "893498835824578ed789024da1379b1e6767c9f1"
+},
+{
+"path": "docs/RESEARCH_ENGINE_2026.md",
+"size": 6422,
+"sha": "b100c660a0f45886dc70aa4fea4b8e42fd9099c3"
+},
+{
+"path": "docs/RESEARCH_TRENDS_2026.md",
+"size": 9068,
+"sha": "d37dff47e7075094a15b9a4b50a2188d62706432"
+},
+{
+"path": "download/01_Начать_сначала_ЧИСТОВИК.txt",
+"size": 2331,
+"sha": "2c1cc631cf123ba3b5bcec0225ddc964742b55c6"
+},
+{
+"path": "download/02_Цени_моменты_ЧИСТОВИК.txt",
+"size": 2964,
+"sha": "4a96da1669ceeda69b7ad5662ed5d1bda068ff39"
+},
+{
+"path": "download/03_Не_тех_мы_ценим_ЧИСТОВИК.txt",
+"size": 3564,
+"sha": "35f778debf517218ce7e6e57debd0415be3c410d"
+},
+{
+"path": "download/04_Ангел_без_крыльев_ЧИСТОВИК.txt",
+"size": 3268,
+"sha": "6267e8c632078fafb0807c38c8e79db6d3de088a"
+},
+{
+"path": "download/05_Не_теряй_шанс_ЧИСТОВИК.txt",
+"size": 1908,
+"sha": "764b65ce42fc1935317de0626ecacf06f5ce72d6"
+},
+{
+"path": "download/06_Не_жди_завтра_ЧИСТОВИК.txt",
+"size": 2038,
+"sha": "d5bf7905e4a4196603e7a254f4d30685348fc8cf"
+},
+{
+"path": "download/07_Цени_моменты_Remix_ЧИСТОВИК.txt",
+"size": 2009,
+"sha": "77e2f38f05ca53843e418f664ebfc31de21560c3"
+},
+{
+"path": "download/08_Куда_летят_года_ЧИСТОВИК.txt",
+"size": 2004,
+"sha": "fead6cdea93eae4591dcd9a53ac3f130c0a87896"
+},
+{
+"path": "download/09_Два_голоса_ЧИСТОВИК.txt",
+"size": 2288,
+"sha": "4e8e40c15b6417aa038aef6cb52185b36765b73b"
+},
+{
+"path": "download/10_Цени_время_ЧИСТОВИК.txt",
+"size": 2892,
+"sha": "669ce3560cd3a30114f02523efaee29cdac3fc09"
+},
+{
+"path": "download/11_Там_где_ты_ЧИСТОВИК.txt",
+"size": 2049,
+"sha": "8a246255757a22a6eaf04efb3b86d81ac67ecaff"
+},
+{
+"path": "download/12_Свет_в_темноте_ЧИСТОВИК.txt",
+"size": 1861,
+"sha": "20574c2b79000be32b41db4533500dec5e6bc60e"
+},
+{
+"path": "download/13_Где_настоящее_ЧИСТОВИК.txt",
+"size": 3860,
+"sha": "1c9ec29de740d75e957a0455334ffda65c53ada1"
+},
+{
+"path": "download/14_Время_как_вода_ЧИСТОВИК.txt",
+"size": 2347,
+"sha": "f60510ad128429ab820813bcfe8ebfc095f25269"
+},
+{
+"path": "download/15_Бой_с_собой_ЧИСТОВИК.txt",
+"size": 1737,
+"sha": "416691d7f28c554d87ed42e4020b0076f59316c7"
+},
+{
+"path": "download/16_Крик_в_тишине_ЧИСТОВИК.txt",
+"size": 2923,
+"sha": "cd3f0c5ebf28523c613d51977dfe6e0a49579774"
+},
+{
+"path": "download/17_А_что_если_да_ЧИСТОВИК.txt",
+"size": 2871,
+"sha": "ec37af1bf4591f953719bf18d7bb5118c0639aa0"
+},
+{
+"path": "download/18_Когда_теряем_ЧИСТОВИК.txt",
+"size": 3352,
+"sha": "725e2a2ae6531acccd57d610b07ab543b0f0b4c8"
+},
+{
+"path": "download/19_Суть_проста_ЧИСТОВИК.txt",
+"size": 2983,
+"sha": "96575c39b6fbdf7648e5606bd6203499ef934803"
+},
+{
+"path": "download/20_Когда_погаснут_огни_ЧИСТОВИК.txt",
+"size": 2704,
+"sha": "650944b12e46cbc3410641d3f16ae6cbc05f7cf2"
+},
+{
+"path": "download/21_Вера_остаётся_ЧИСТОВИК.txt",
+"size": 2976,
+"sha": "f3533f9ac4b5275016b0a8ca8a92745ab4935503"
+},
+{
+"path": "download/22_Всё_начинается_с_тебя_ЧИСТОВИК.txt",
+"size": 2414,
+"sha": "0c6c39b7a26e89c699aa58688426dcf2ab42d528"
+},
+{
+"path": "download/23_Тень_ушедших_ЧИСТОВИК.txt",
+"size": 3286,
+"sha": "6646b6155b9479517bd6dce797177f8db4496185"
+},
+{
+"path": "download/24_Я_сам_себе_враг_ЧИСТОВИК.txt",
+"size": 2459,
+"sha": "e3679d06be57f4f77c52303ef2b2afbcb1ef47af"
+},
+{
+"path": "download/25_Не_спеши_осуждать_ЧИСТОВИК.txt",
+"size": 3740,
+"sha": "92c4b1b83366222362f71df0b6ea8a5e574738de"
+},
+{
+"path": "download/27_Я_сам_себе_судья_ЧИСТОВИК.txt",
+"size": 2319,
+"sha": "594e5ab84f6a107f1678002e69a3fda545b2189d"
+},
+{
+"path": "download/28_Тишина_спасает_ЧИСТОВИК.txt",
+"size": 2913,
+"sha": "df53ad644aba28ec053fb4906a2683f5b9d54324"
+},
+{
+"path": "download/29_Смысл_жизни_прост_ЧИСТОВИК.txt",
+"size": 2162,
+"sha": "3747a4fb191a8d9cedda97d7300ee25317eaddca"
+},
+{
+"path": "download/30_Нас_учат_потери_ЧИСТОВИК.txt",
+"size": 2655,
+"sha": "29ad8d31c5d8c004bb65486420ec7cbbf00e5c0d"
+},
+{
+"path": "download/31_Не_играй_в_любовь_ЧИСТОВИК.txt",
+"size": 2741,
+"sha": "bf5e45fa3ac8b70d79af57c8dc6512ebd3ed9606"
+},
+{
+"path": "download/32_Просто_люби_ЧИСТОВИК.txt",
+"size": 2038,
+"sha": "d76d21f3ecf43335aa4aa9d4d48fb0b6fd2b156a"
+},
+{
+"path": "download/33_Остаться_человеком_ЧИСТОВИК.txt",
+"size": 3307,
+"sha": "5d1e207899201c629da31f7b68ea9ca23a7c9d1e"
+},
+{
+"path": "download/34_Ты_одна_дала_ЧИСТОВИК.txt",
+"size": 1690,
+"sha": "41e2c829129a3cb7bcf7c800fa308768484a1906"
+},
+{
+"path": "download/35_Жизнь_не_прощает_ЧИСТОВИК.txt",
+"size": 1653,
+"sha": "57adf2a82b7a282fe244e36f50a7f4f9113b6fa7"
+},
+{
+"path": "download/36_Когда_ты_удобен_ЧИСТОВИК.txt",
+"size": 2795,
+"sha": "82cb74d1d8032de58c626c34a04d289845e82a2d"
+},
+{
+"path": "download/37_Не_играй_в_любовь_Remix_ЧИСТОВИК.txt",
+"size": 2825,
+"sha": "ae0a223c7bcc3baf06bdafa2c723c38969d2c907"
+},
+{
+"path": "download/39_Оставайся_молодым_ЧИСТОВИК.txt",
+"size": 2767,
+"sha": "a47bdbe85baceeddce71e72a501350c139ecf61b"
+},
+{
+"path": "download/40_Пленники_прошлого_ЧИСТОВИК.txt",
+"size": 2281,
+"sha": "387a911bbade02740937cdaffc0790236a29b474"
+},
+{
+"path": "download/41_Живи_сейчас_ЧИСТОВИК.txt",
+"size": 2852,
+"sha": "ba975b1283b97f4cdd7dc40e6ff3fec5626d5947"
+},
+{
+"path": "download/42_Это_не_секрет_ЧИСТОВИК.txt",
+"size": 3333,
+"sha": "90607489be7124bba86cda7655aa6b094833e292"
+},
+{
+"path": "download/43_В_чём_смысл_ЧИСТОВИК.txt",
+"size": 2362,
+"sha": "8382522d4b4ecb91ee4ddd39f4c63950a84415e6"
+},
+{
+"path": "download/44_Гордость_нас_убивает_ЧИСТОВИК.txt",
+"size": 2123,
+"sha": "eb973c3a3e606b354f4b1e1543b06b301436f884"
+},
+{
+"path": "download/45_Меня_не_сломать_ЧИСТОВИК.txt",
+"size": 3006,
+"sha": "d17511df497b5f520380032e22569476a228455e"
+},
+{
+"path": "download/46_Дорога_мой_учитель_ЧИСТОВИК.txt",
+"size": 2541,
+"sha": "d489cd69a2cc3a911aee3ce6da8c765dc04bf9e1"
+},
+{
+"path": "download/47_Время_всё_расставит_ЧИСТОВИК.txt",
+"size": 3274,
+"sha": "0eb805972f7826ad7056add71879575bff684042"
+},
+{
+"path": "download/48_Вне_зоны_доступа_ЧИСТОВИК.txt",
+"size": 3216,
+"sha": "82288436983ec19331b966290fb9cac5348960bf"
+},
+{
+"path": "download/49_О_чём_мечтаешь_ты_ЧИСТОВИК.txt",
+"size": 3971,
+"sha": "4ef397cf36a2f82af200a4d108c1a5a899e52b6c"
+},
+{
+"path": "download/50_Действуй_сейчас_ЧИСТОВИК.txt",
+"size": 1901,
+"sha": "b5b57353376e0094e86b4d185c88b2ecac94271e"
+},
+{
+"path": "download/51_Ты_главный_игрок_ЧИСТОВИК.txt",
+"size": 4398,
+"sha": "339fb979862405535d09bc0fe2a93508951255e9"
+},
+{
+"path": "download/52_Люди_в_масках_ЧИСТОВИК.txt",
+"size": 2192,
+"sha": "7a5854c9530a502d0e65ad2e032ba986b3284138"
+},
+{
+"path": "download/53_Живи_как_умеешь_ЧИСТОВИК.txt",
+"size": 3623,
+"sha": "a253b9f8dacfaf4ac77b54354cac2825d2303cf7"
+},
+{
+"path": "download/54_Одиночество_среди_людей_ЧИСТОВИК.txt",
+"size": 2768,
+"sha": "199c09bf62048a64c5a55238e41fbf7a43a490ef"
+},
+{
+"path": "download/55_Разгадка_в_небесах_ЧИСТОВИК.txt",
+"size": 1949,
+"sha": "f81a1a89285ccb417e92368658b4523b6a405ee9"
+},
+{
+"path": "download/56_А_время_капает_ЧИСТОВИК.txt",
+"size": 2230,
+"sha": "8173eb01e5a85a7e7b514b7554124dc5dc88577a"
+},
+{
+"path": "download/57_Страх_не_слабость_ЧИСТОВИК.txt",
+"size": 2823,
+"sha": "c70c9a0827ae877f485815c33a5409474825efde"
+},
+{
+"path": "download/58_Твоё_плавание_не_вечно_ЧИСТОВИК.txt",
+"size": 3970,
+"sha": "7165fbb3484df93a2dcb6d90f814f4dd1e5d9a91"
+},
+{
+"path": "download/59_Не_угасай_ЧИСТОВИК.txt",
+"size": 1751,
+"sha": "dd05cc0cd060ceb005a02eef9a0070b0976a7d23"
+},
+{
+"path": "download/60_Неудача_не_конец_ЧИСТОВИК.txt",
+"size": 2741,
+"sha": "e78cb5639d77c5518012e4ab8a6ec207212bab97"
+},
+{
+"path": "download/61_Компас_на_дом_ЧИСТОВИК.txt",
+"size": 2315,
+"sha": "1ce41a2723883b3e197c0368b9eb6bbebe6dc80a"
+},
+{
+"path": "download/62_Остаться_человеком_Remix_ЧИСТОВИК.txt",
+"size": 1857,
+"sha": "15334d58975f8de6240aa349f38af0d43a316f82"
+},
+{
+"path": "download/63_Код_перемен_ЧИСТОВИК.txt",
+"size": 2849,
+"sha": "acd58d39ad7454f1ce7b10333208d539a367a681"
+},
+{
+"path": "download/64_Когда_теряем_feat_OutShadow_ЧИСТОВИК.txt",
+"size": 3284,
+"sha": "d340c7d697db750a9428b97412b4ae94cb2a6944"
+},
+{
+"path": "download/65_Не_тех_мы_ценим_feat_OutShadow_ЧИСТОВИК.txt",
+"size": 3543,
+"sha": "3e6375dcbd462e3e9c3fa3b93f7667ccdb89474c"
+},
+{
+"path": "download/README.md",
+"size": 1344,
+"sha": "5dd9b21f4b737d80bc27787372e88f8817de1ff2"
+},
+{
+"path": "download/RUVSON_ВСЕ_ТЕКСТЫ_65.zip",
+"size": 126249,
+"sha": "28edde70251c91d158d1b7c666e99230421e3a7a"
+},
+{
+"path": "download/konveyer/accept_conveyor_v3.py",
+"size": 57761,
+"sha": "9d880d384570968f9e3c216a0cb0314b8863434d"
+},
+{
+"path": "download/konveyer/accept_conveyor_v4.py",
+"size": 58167,
+"sha": "605fad3e03496b8028df23d7958a0b29a27a0a32"
+},
+{
+"path": "download/konveyer/v5_parts/MANIFEST.md",
+"size": 3728,
+"sha": "4e45ceb3772845f092168723240858128de06f95"
+},
+{
+"path": "download/konveyer/v5_parts/README.md",
+"size": 3458,
+"sha": "c6b399e81ec516caf9fb0083d0400f2fa274a6ca"
+},
+{
+"path": "download/konveyer/v5_parts/SHA256SUMS",
+"size": 578,
+"sha": "90ea9b094a0092836c7cd856ab2463efc253bf1a"
+},
+{
+"path": "download/konveyer/v5_parts/assemble_v5.py",
+"size": 2815,
+"sha": "31e99dd1ddc068a73c9b4c4dfbcb10fdaa7a68ad"
+},
+{
+"path": "download/konveyer/ОТЧЁТ_КОНВЕЙЕР_v3.md",
+"size": 5211,
+"sha": "70752f1f81a098a34272b2db4beab23f4eba012c"
+},
+{
+"path": "download/konveyer/ОТЧЁТ_КОНВЕЙЕР_v4.md",
+"size": 1853,
+"sha": "101900519af8b7022bf52cd177f6abb30b6c67c3"
+},
+{
+"path": "download/konveyer/инвентаризация-монолит-vs-v4.json",
+"size": 14467,
+"sha": "3093e7cf36eae72577fdb3bf820568f3f39f23d9"
+},
+{
+"path": "download/konveyer/молчащие-треки-v4.json",
+"size": 1119,
+"sha": "27664b1a808b6cd093e17446a9f1d6af541a03d2"
+},
+{
+"path": "engine/house_graph.py",
+"size": 14772,
+"sha": "3522b22d0dc8c93b4fc16c43cafd97865bf4044d"
+},
+{
+"path": "engine/propagator.py",
+"size": 16363,
+"sha": "d1492b13e77b13c532da90c4099b2276f1612006"
+},
+{
+"path": "engine/tests.py",
+"size": 16105,
+"sha": "2bffb23650431b4562766ff4e0a6c5b43a3b9ee6"
+},
+{
+"path": "karaoke/app.js",
+"size": 78712,
+"sha": "d2958c5efd7e3f61d04bca753c5b2f6c92e1abc4"
+},
+{
+"path": "karaoke/engine.js",
+"size": 31418,
+"sha": "c4c32d19e9f23b2928a8207ff944f27a3418b80b"
+},
+{
+"path": "karaoke/icon.svg",
+"size": 1059,
+"sha": "dbfc6a3739d7ecf4cbe61bc7d874885a8da10141"
+},
+{
+"path": "karaoke/index.html",
+"size": 10773,
+"sha": "6a83588e05b044c012c18decbe5113167535eabb"
+},
+{
+"path": "karaoke/lrc/n01.lrc",
+"size": 2843,
+"sha": "12875eca73cc91a9e350d317e0a41bcf4a14d9cb"
+},
+{
+"path": "karaoke/lrc/n02.lrc",
+"size": 3529,
+"sha": "08d5b6f25b364cc0bb4f7ed554eec2e65e53653c"
+},
+{
+"path": "karaoke/lrc/n03.lrc",
+"size": 4234,
+"sha": "b29e35c990712bc3d63c69c17aaebc60715a8b1e"
+},
+{
+"path": "karaoke/lrc/n04.lrc",
+"size": 3892,
+"sha": "604c3b3e09173d5e219a99a9192f611525f01e43"
+},
+{
+"path": "karaoke/lrc/n05.lrc",
+"size": 2386,
+"sha": "786ffc8540c6de073879e4ef76d628f8bba8d565"
+},
+{
+"path": "karaoke/lrc/n06.lrc",
+"size": 2536,
+"sha": "7d830be4e907c92f0645c72fe8a5390003f3815e"
+},
+{
+"path": "karaoke/lrc/n07.lrc",
+"size": 2521,
+"sha": "38bf38cc2180078b90a90fac62ea8ad1406b31f8"
+},
+{
+"path": "karaoke/lrc/n08.lrc",
+"size": 2472,
+"sha": "c0a1c44cc32d6fd48c5bb3f86769e90152d8db6d"
+},
+{
+"path": "karaoke/lrc/n09.lrc",
+"size": 2936,
+"sha": "91ac32e12eafd7ecc514f0a2855ef7002ce63c38"
+},
+{
+"path": "karaoke/lrc/n10.lrc",
+"size": 3485,
+"sha": "d6ac24fe76e989e475a2df20a8719caa3d3e1ff8"
+},
+{
+"path": "karaoke/lrc/n11.lrc",
+"size": 2616,
+"sha": "50ef016ebea88d5432cc859bded675177ba16dc2"
+},
+{
+"path": "karaoke/lrc/n12.lrc",
+"size": 2234,
+"sha": "0e054e2b2d3313ad0e19426c95ccdaaa836e57f4"
+},
+{
+"path": "karaoke/lrc/n13.lrc",
+"size": 4717,
+"sha": "04274b2e6eaef81278c90803dbd286af4448cb70"
+},
+{
+"path": "karaoke/lrc/n14.lrc",
+"size": 2934,
+"sha": "c472438b8f81639f231752d87d526bdaca5dcf33"
+},
+{
+"path": "karaoke/lrc/n15.lrc",
+"size": 2164,
+"sha": "240f69715d39d6a81c1d91f1e41f0dfd68917321"
+},
+{
+"path": "karaoke/lrc/n16.lrc",
+"size": 3600,
+"sha": "6b500c83110f2239e30d7c433606d0ff281e24de"
+},
+{
+"path": "karaoke/lrc/n17.lrc",
+"size": 3538,
+"sha": "1f550b4e7978f8455730304a10e22b463921dcf5"
+},
+{
+"path": "karaoke/lrc/n18.lrc",
+"size": 4039,
+"sha": "0dbaa96a896f9c25c3f30384a6fd574ba119100d"
+},
+{
+"path": "karaoke/lrc/n19.lrc",
+"size": 3640,
+"sha": "9776832e43bbfaf5164abda718b549582c34a8b7"
+},
+{
+"path": "karaoke/lrc/n20.lrc",
+"size": 3301,
+"sha": "859c0fd8b9aa32321dd86ed732a44c3e3503c687"
+},
+{
+"path": "karaoke/lrc/n21.lrc",
+"size": 3569,
+"sha": "fe69ade5d9fa1c2ebfe44a3febb402859f839727"
+},
+{
+"path": "karaoke/lrc/n22.lrc",
+"size": 2971,
+"sha": "78538572b55db19eb8ba3ee6e8533caf5fee1f6c"
+},
+{
+"path": "karaoke/lrc/n23.lrc",
+"size": 4033,
+"sha": "3e0a95176e0d12fee5bd4286ee078f894b7090fc"
+},
+{
+"path": "karaoke/lrc/n24.lrc",
+"size": 2976,
+"sha": "190a29c05a88450c68782bc57e13e57a58cc4afa"
+},
+{
+"path": "karaoke/lrc/n25.lrc",
+"size": 4517,
+"sha": "072e648691d83c28beee8b5e2186f33e4f0fc584"
+},
+{
+"path": "karaoke/lrc/n27.lrc",
+"size": 2856,
+"sha": "fe0573f5f8eecc64e07f8a6fca0f07d2b9c69fc2"
+},
+{
+"path": "karaoke/lrc/n28.lrc",
+"size": 3550,
+"sha": "ac49d5a3b23328f5cd19f1aa58e939b12a8ff9bd"
+},
+{
+"path": "karaoke/lrc/n29.lrc",
+"size": 2685,
+"sha": "39c4070995888246efb3d993063899bb9b9669fb"
+},
+{
+"path": "karaoke/lrc/n30.lrc",
+"size": 3232,
+"sha": "1c9cf661c26e31895166285104cd53f57184f4ac"
+},
+{
+"path": "karaoke/lrc/n31.lrc",
+"size": 3478,
+"sha": "e2cd0cfbd257955e839643e0cc4d59176a08d41c"
+},
+{
+"path": "karaoke/lrc/n32.lrc",
+"size": 2565,
+"sha": "bd94252aaa0c4eb997bdda6930848c29365c7da5"
+},
+{
+"path": "karaoke/lrc/n33.lrc",
+"size": 3974,
+"sha": "801d27e26892a429cacadcf890250399cf6f3edf"
+},
+{
+"path": "karaoke/lrc/n34.lrc",
+"size": 2113,
+"sha": "6367fcd5982fcdf09b9eac566d43a8d8a897c868"
+},
+{
+"path": "karaoke/lrc/n35.lrc",
+"size": 2086,
+"sha": "adab329c88ff245922f3ac113c8c52d80a867d1b"
+},
+{
+"path": "karaoke/lrc/n36.lrc",
+"size": 3412,
+"sha": "158cefaf338c3d83afda3058e2262d7ba7687692"
+},
+{
+"path": "karaoke/lrc/n37.lrc",
+"size": 3572,
+"sha": "3fac426f2c30379965b861c15c907762f6dcb093"
+},
+{
+"path": "karaoke/lrc/n39.lrc",
+"size": 3354,
+"sha": "eeaf336ed6593b5c06cae57a46a82a2b6df53afc"
+},
+{
+"path": "karaoke/lrc/n40.lrc",
+"size": 2794,
+"sha": "42abbd0510ac31778d98531e5c2211e38b21ce0b"
+},
+{
+"path": "karaoke/lrc/n41.lrc",
+"size": 3461,
+"sha": "df19edbe4580d8c06847aac11fe17b5f039127cb"
+},
+{
+"path": "karaoke/lrc/n42.lrc",
+"size": 4140,
+"sha": "11e92893a7dbe7011435aa2f13588c8b5fde817f"
+},
+{
+"path": "karaoke/lrc/n43.lrc",
+"size": 3019,
+"sha": "4a5b452e76ad4a592afa2de604a7dace46fb828a"
+},
+{
+"path": "karaoke/lrc/n44.lrc",
+"size": 2666,
+"sha": "fdeea3d8a3e94df776a56ad856f273b52ba3a899"
+},
+{
+"path": "karaoke/lrc/n45.lrc",
+"size": 3649,
+"sha": "d023aceddaddab14c3cb0ec30cccee9bc491905c"
+},
+{
+"path": "karaoke/lrc/n46.lrc",
+"size": 3128,
+"sha": "21936730c19b008be38aaa0b2a21b046c67d6579"
+},
+{
+"path": "karaoke/lrc/n47.lrc",
+"size": 3947,
+"sha": "d6e9f131830383535fac6ef486a2db2f7bf537a5"
+},
+{
+"path": "karaoke/lrc/n48.lrc",
+"size": 3983,
+"sha": "a94bc96eee3fdd588db3ce9a2c82e0e43ba5f2f5"
+},
+{
+"path": "karaoke/lrc/n49.lrc",
+"size": 4828,
+"sha": "1c8eb9ff2d2fc9c26f2f756aeb656feb76ed3cd8"
+},
+{
+"path": "karaoke/lrc/n50.lrc",
+"size": 2408,
+"sha": "ddf2ae0b4a92fcce52c3bf8fec49e04f13be92d9"
+},
+{
+"path": "karaoke/lrc/n51.lrc",
+"size": 5255,
+"sha": "9dc9c2fdbeec21caa789611ada9c01206034a3a0"
+},
+{
+"path": "karaoke/lrc/n52.lrc",
+"size": 2695,
+"sha": "45411dfcb26a31e16c34cc0a7f3acbe15fb314d3"
+},
+{
+"path": "karaoke/lrc/n53.lrc",
+"size": 4370,
+"sha": "a2203ca0f59eec466bfd5f5e027a1f96aae04da0"
+},
+{
+"path": "karaoke/lrc/n54.lrc",
+"size": 3355,
+"sha": "32f54ef98e7e77b444d4d2895af9462dafac2428"
+},
+{
+"path": "karaoke/lrc/n55.lrc",
+"size": 2416,
+"sha": "5e6055d1f3ba3e922ea42af7127b847b8f1de471"
+},
+{
+"path": "karaoke/lrc/n56.lrc",
+"size": 2797,
+"sha": "234c24c4c044463144115ec37afa4a5626f4887f"
+},
+{
+"path": "karaoke/lrc/n57.lrc",
+"size": 3380,
+"sha": "6c07db9ea4a771154312926fd76854f49620ec02"
+},
+{
+"path": "karaoke/lrc/n58.lrc",
+"size": 4775,
+"sha": "b2e723b199857aa59cb504c699dcd0553b66bdff"
+},
+{
+"path": "karaoke/lrc/n59.lrc",
+"size": 2208,
+"sha": "dd6214ea018c64d94f894d35a56384a81401f379"
+},
+{
+"path": "karaoke/lrc/n60.lrc",
+"size": 3322,
+"sha": "6b2d18402b5239fe5b896b74a525d0de307aa9fb"
+},
+{
+"path": "karaoke/lrc/n61.lrc",
+"size": 2818,
+"sha": "669042e152902a88af4c567665e56c7f2b30a09c"
+},
+{
+"path": "karaoke/lrc/n62.lrc",
+"size": 2300,
+"sha": "c3735c4a86034bdc7eb307dbeeb4b3297373915d"
+},
+{
+"path": "karaoke/lrc/n63.lrc",
+"size": 3460,
+"sha": "2ae52f7be5b68065407e54152acc34faec66ad66"
+},
+{
+"path": "karaoke/lrc/n64.lrc",
+"size": 3961,
+"sha": "bd9c1f43b27b8bc338343d512e89a29fdf7c7f7d"
+},
+{
+"path": "karaoke/lrc/n65.lrc",
+"size": 4210,
+"sha": "44269d065430a1a9103834fc934bd54ec0a2363f"
+},
+{
+"path": "karaoke/manifest.webmanifest",
+"size": 507,
+"sha": "01f598fe86dd1ca788f9ddff16b0c1ed4d4d8664"
+},
+{
+"path": "karaoke/songs.js",
+"size": 219317,
+"sha": "cc31945fc9474c5e9f8276e009095efe4fda9a0c"
+},
+{
+"path": "karaoke/style.css",
+"size": 17794,
+"sha": "df6f3aa96340a5fe1bcf7a5dcc2d559849af90a9"
+},
+{
+"path": "karaoke/sw.js",
+"size": 2192,
+"sha": "7e1d1caa3bec9e205848c2fefcccac4ef381f09f"
+},
+{
+"path": "llms.txt",
+"size": 1067,
+"sha": "e2fb3dfdf46a41f976a23f8ca8097f86f1b87445"
+},
+{
+"path": "lyrics_work/01_Начать_сначала.txt",
+"size": 2454,
+"sha": "3939e5bbe756a56eed7fecdb4cef498552033c6c"
+},
+{
+"path": "lyrics_work/02_Цени_моменты.txt",
+"size": 3023,
+"sha": "3d51d2c6b3090887df0845a0ca68d94af028591c"
+},
+{
+"path": "lyrics_work/03_Не_тех_мы_ценим.txt",
+"size": 3601,
+"sha": "aa26018f58ed5549c498698d48865606dcd4cb15"
+},
+{
+"path": "lyrics_work/04_Ангел_без_крыльев.txt",
+"size": 3285,
+"sha": "f1eee44e585c72180e09735e132e87b97d0d6116"
+},
+{
+"path": "lyrics_work/05_Не_теряй_шанс.txt",
+"size": 2035,
+"sha": "930f5d930dbf5299af9b670a4bd1e9f345a1177b"
+},
+{
+"path": "lyrics_work/06_Не_жди_завтра.txt",
+"size": 2160,
+"sha": "7975392d9e670b94f33fdddd09ebb4cf468c626e"
+},
+{
+"path": "lyrics_work/07_Цени_моменты_Remix.txt",
+"size": 2088,
+"sha": "601125633001fc543382da557b63c85ea73704b6"
+},
+{
+"path": "lyrics_work/08_Куда_летят_года.txt",
+"size": 2071,
+"sha": "8c54fc4232c7b77186886e2f20c234a060a25fe1"
+},
+{
+"path": "lyrics_work/09_Два_голоса.txt",
+"size": 2352,
+"sha": "5d5445d01f9e5133602689c522711d5a36066e95"
+},
+{
+"path": "lyrics_work/10_Цени_время.txt",
+"size": 3082,
+"sha": "dff9bc1a2613b6d1ed0ddbe79539f9d33ed1e9dc"
+},
+{
+"path": "lyrics_work/11_Там_где_ты.txt",
+"size": 2130,
+"sha": "c2179edfcdfd337aae8a1c3d1a41f183daf27a83"
+},
+{
+"path": "lyrics_work/12_Свет_в_темноте.txt",
+"size": 2032,
+"sha": "5429aa99342b2dadf33e6b889db3c9ab8aa768a8"
+},
+{
+"path": "lyrics_work/13_Где_настоящее.txt",
+"size": 3954,
+"sha": "eea859a9039097f4f9de480381f04f4be18b6dd4"
+},
+{
+"path": "lyrics_work/14_Время_как_вода.txt",
+"size": 2436,
+"sha": "5f3ae6bf5102372902e873acbfa9814de7d3f0a9"
+},
+{
+"path": "lyrics_work/15_Бой_с_собой.txt",
+"size": 1824,
+"sha": "8d08f1d699b51baac9ac72d41047190fe967c5e6"
+},
+{
+"path": "lyrics_work/16_Крик_в_тишине.txt",
+"size": 2986,
+"sha": "d4cd166f7313617d33eeb7e8d59dee1f84317ed3"
+},
+{
+"path": "lyrics_work/17_А_что_если_да.txt",
+"size": 2985,
+"sha": "633022c332ae65c389623e6bc11aa12723d9f3bf"
+},
+{
+"path": "lyrics_work/18_Когда_теряем.txt",
+"size": 3442,
+"sha": "c0dbcd2f3e081a85f94d853b0292579f8041fa08"
+},
+{
+"path": "lyrics_work/19_Суть_проста.txt",
+"size": 3076,
+"sha": "db537b1c0bf3042bd7873a520e20b0fec7bf9826"
+},
+{
+"path": "lyrics_work/20_Когда_погаснут_огни.txt",
+"size": 2808,
+"sha": "c489ec4209be10a422fefaa491c0401a584c1202"
+},
+{
+"path": "lyrics_work/21_Вера_остаётся.txt",
+"size": 3142,
+"sha": "1b9e17f2641fb73516767863e8823dd761ca40e1"
+},
+{
+"path": "lyrics_work/22_Всё_начинается_с_тебя.txt",
+"size": 2487,
+"sha": "b558604a9481800b213b216b8f62e7976faa104a"
+},
+{
+"path": "lyrics_work/23_Тень_ушедших.txt",
+"size": 3383,
+"sha": "5a0287cab76e10c61c9e40ebfdcc3ecdf3cb9ab0"
+},
+{
+"path": "lyrics_work/24_Я_сам_себе_враг.txt",
+"size": 2566,
+"sha": "a97329498c413765f5439b292f3de9b733dd6740"
+},
+{
+"path": "lyrics_work/25_Не_спеши_осуждать.txt",
+"size": 3812,
+"sha": "ba50ab211e418cfa7dc58da7ee74f4b60d9eaf2e"
+},
+{
+"path": "lyrics_work/27_Я_сам_себе_судья.txt",
+"size": 2387,
+"sha": "7443d02948eb6f036c11b274029ded77bd18dde4"
+},
+{
+"path": "lyrics_work/28_Тишина_спасает.txt",
+"size": 2988,
+"sha": "22ba0aad53d1896060c3de2d351efd5437fea3d2"
+},
+{
+"path": "lyrics_work/29_Смысл_жизни_прост.txt",
+"size": 2355,
+"sha": "0935dfd606ba63ff90d39302956dc747d439df92"
+},
+{
+"path": "lyrics_work/30_Нас_учат_потери.txt",
+"size": 2764,
+"sha": "6d824b4590654a6b8e365eaa6f4705d11d4437dd"
+},
+{
+"path": "lyrics_work/31_Не_играй_в_любовь.txt",
+"size": 2878,
+"sha": "6510750e368a1b0f4d1b49e83c83a6a12078c70d"
+},
+{
+"path": "lyrics_work/32_Просто_люби.txt",
+"size": 2145,
+"sha": "fc3efbd13b30d805d888fbb06121faf685634ff8"
+},
+{
+"path": "lyrics_work/33_Остаться_человеком.txt",
+"size": 3400,
+"sha": "e498b0de2f66e856404b88838434731b91048f2d"
+},
+{
+"path": "lyrics_work/34_Ты_одна_дала.txt",
+"size": 1837,
+"sha": "c2773ac19f5b6f4eee098170e6b2b295a9b5a793"
+},
+{
+"path": "lyrics_work/35_Жизнь_не_прощает.txt",
+"size": 1817,
+"sha": "156cbb00f5dffcddf1312fa5600a854a85c34d66"
+},
+{
+"path": "lyrics_work/36_Когда_ты_удобен.txt",
+"size": 2888,
+"sha": "91003adfed417395ddb5f03f3cd3e5f2b2c1fd46"
+},
+{
+"path": "lyrics_work/37_Не_играй_в_любовь_Remix.txt",
+"size": 2925,
+"sha": "30db25b9726579f357fe01dda72be9049cc8866b"
+},
+{
+"path": "lyrics_work/39_Оставайся_молодым.txt",
+"size": 2874,
+"sha": "204e918a1fb8ca7d178bc8742deef5d989cd4743"
+},
+{
+"path": "lyrics_work/40_Пленники_прошлого.txt",
+"size": 2465,
+"sha": "711fd95eb40e4b220a7204c733ed9a47cef0ebfa"
+},
+{
+"path": "lyrics_work/41_Живи_сейчас.txt",
+"size": 2946,
+"sha": "eb6af30efa59a8e1565da68b31743d788f687258"
+},
+{
+"path": "lyrics_work/42_Это_не_секрет.txt",
+"size": 3409,
+"sha": "a6798742bf068b6a4572d12ebec982b3660a6233"
+},
+{
+"path": "lyrics_work/43_В_чём_смысл.txt",
+"size": 2465,
+"sha": "56bb95d5fc7adef634d9d9ff5963e2c7528703b7"
+},
+{
+"path": "lyrics_work/44_Гордость_нас_убивает.txt",
+"size": 2327,
+"sha": "47afd17d6015bb4f9bea4327b1970daf8b9fb8f2"
+},
+{
+"path": "lyrics_work/45_Меня_не_сломать.txt",
+"size": 3200,
+"sha": "d13898dbeedaa7270c4d7357f3009eb0a92913b1"
+},
+{
+"path": "lyrics_work/46_Дорога_мой_учитель.txt",
+"size": 2667,
+"sha": "46e34070bec07d998fe25c75d04abb287be3b56c"
+},
+{
+"path": "lyrics_work/47_Время_всё_расставит.txt",
+"size": 3425,
+"sha": "7af37b31082ab1cebffccc28c07fdef1b9899ef3"
+},
+{
+"path": "lyrics_work/48_Вне_зоны_доступа.txt",
+"size": 3339,
+"sha": "2717532ca46f6a3de7d1e583cc176e856d0b48a9"
+},
+{
+"path": "lyrics_work/49_О_чём_мечтаешь_ты.txt",
+"size": 4041,
+"sha": "e400c393c58845b20fc3885ec0ef9c099bd80d5c"
+},
+{
+"path": "lyrics_work/50_Действуй_сейчас.txt",
+"size": 2016,
+"sha": "7954a5cf0f2d9e303869208a541988b6feb3b112"
+},
+{
+"path": "lyrics_work/51_Ты_главный_игрок.txt",
+"size": 4500,
+"sha": "91db3e34b1a36c68ad7af570aa46d13a37402c55"
+},
+{
+"path": "lyrics_work/52_Люди_в_масках.txt",
+"size": 2364,
+"sha": "fa462ce1b27861ae115e3f005b95fc8832204981"
+},
+{
+"path": "lyrics_work/53_Живи_как_умеешь.txt",
+"size": 3707,
+"sha": "438ea16b62ba917899fe96d829dc48edb4ffbc9b"
+},
+{
+"path": "lyrics_work/54_Одиночество_среди_людей.txt",
+"size": 2944,
+"sha": "4b9fce35e327cbce85020799da0c36068b9f3905"
+},
+{
+"path": "lyrics_work/55_Разгадка_в_небесах.txt",
+"size": 2079,
+"sha": "99b32d845e8dc4c0cf0fe61a152f1600c6ee24ee"
+},
+{
+"path": "lyrics_work/56_А_время_капает.txt",
+"size": 2316,
+"sha": "5e877d7779e9c5882b1806db3c6a67c457da492e"
+},
+{
+"path": "lyrics_work/57_Страх_не_слабость.txt",
+"size": 2983,
+"sha": "ea760d8884b85d70184babc1c1324ea7afd80f83"
+},
+{
+"path": "lyrics_work/58_Твоё_плавание_не_вечно.txt",
+"size": 4004,
+"sha": "5ebfc25315286b147b86a5865eb98f823cedae28"
+},
+{
+"path": "lyrics_work/59_Не_угасай.txt",
+"size": 1848,
+"sha": "614ceb6d3aa2ddda91363674e7c11832e8d004d7"
+},
+{
+"path": "lyrics_work/60_Неудача_не_конец.txt",
+"size": 2870,
+"sha": "9c2c40cda609825830c6bee7f264118b6e12f2ca"
+},
+{
+"path": "lyrics_work/61_Компас_на_дом.txt",
+"size": 2435,
+"sha": "bb5d489af47b1c89993302ff7b9789a2f84494e7"
+},
+{
+"path": "lyrics_work/62_Остаться_человеком_Remix.txt",
+"size": 1987,
+"sha": "944a4df0f68b6705741351d481b560985ea431c1"
+},
+{
+"path": "lyrics_work/63_Код_перемен.txt",
+"size": 2980,
+"sha": "fbb56f5a202a4a9a12d4dc69becb9dbb70d6dc8a"
+},
+{
+"path": "lyrics_work/64_Когда_теряем_feat_OutShadow.txt",
+"size": 3405,
+"sha": "1ba29f20c936cae264ee96c080ac44797559e66e"
+},
+{
+"path": "lyrics_work/65_Не_тех_мы_ценим_feat_OutShadow.txt",
+"size": 3644,
+"sha": "1dcbde4450c850b85c8ac1c1fc8e21853c1ee0dc"
+},
+{
+"path": "prototip/README.md",
+"size": 9443,
+"sha": "b2e029344ddf149b1958b563e1322f8992d51d40"
+},
+{
+"path": "prototip/css/style.css",
+"size": 9818,
+"sha": "4721e9e792c15ad604400aa3d1704650f1d7be8b"
+},
+{
+"path": "prototip/index.html",
+"size": 6698,
+"sha": "6b8673246ff0edf8010658084a57909f49c91fe7"
+},
+{
+"path": "prototip/js/app.js",
+"size": 38252,
+"sha": "649d6ec20e6f54a7117ef793570de3da55c34c2d"
+},
+{
+"path": "prototip/js/lrc-core.js",
+"size": 12269,
+"sha": "4465dbc138fec1a943edfded3232763a8fd1948c"
+},
+{
+"path": "prototip/js/opfs-core.js",
+"size": 8911,
+"sha": "b061728aed643e09343ad0dc0a4e39486443de54"
+},
+{
+"path": "prototip/js/pitch-core.js",
+"size": 9389,
+"sha": "a808e486ea159654483b8559d9c54c99e1d8c6ad"
+},
+{
+"path": "prototip/js/score-core.js",
+"size": 14123,
+"sha": "2156dde6d9da7635ab6899bccb952ce6bba8b215"
+},
+{
+"path": "prototip/js/song.js",
+"size": 19490,
+"sha": "a170a7029319ccbf8d537820ec671810ccf81a06"
+},
+{
+"path": "prototip/js/stage-core.js",
+"size": 12775,
+"sha": "d42781da690d9fe8465b430f0707aa43e7582da8"
+},
+{
+"path": "prototip/js/wsola-core.js",
+"size": 12245,
+"sha": "f8db0746dde60881680ff74ef5d67e08c85608ef"
+},
+{
+"path": "prototip/minus/R0SOJreGbhM.mp3",
+"size": 6043244,
+"sha": "8e7070b05a2ed29965011d7d5197d93ed722aeac"
+},
+{
+"path": "prototip/minus/WMU46n--Z-s.mp3",
+"size": 6001964,
+"sha": "03a66ccd8256b1a60fe94514ab54c0913922488a"
+},
+{
+"path": "prototip/minus/ahmGGM-P0CA.mp3",
+"size": 6430124,
+"sha": "c3b2458f8e51e21b47408992be63b55d6111a4fd"
+},
+{
+"path": "prototip/minus/cFHsQ-LP3ns.mp3",
+"size": 7266284,
+"sha": "9c4c3b1d690e850081bdf0563f030e667164b6a1"
+},
+{
+"path": "prototip/minus/kziwaat2nu4.mp3",
+"size": 9847724,
+"sha": "f9544f4294ccf365e8a4e3afb769b492395587f9"
+},
+{
+"path": "prototip/minus/n01.lrc",
+"size": 2843,
+"sha": "12875eca73cc91a9e350d317e0a41bcf4a14d9cb"
+},
+{
+"path": "prototip/minus/n02.lrc",
+"size": 3529,
+"sha": "08d5b6f25b364cc0bb4f7ed554eec2e65e53653c"
+},
+{
+"path": "prototip/minus/n03.lrc",
+"size": 4234,
+"sha": "b29e35c990712bc3d63c69c17aaebc60715a8b1e"
+},
+{
+"path": "prototip/minus/n04.lrc",
+"size": 3892,
+"sha": "604c3b3e09173d5e219a99a9192f611525f01e43"
+},
+{
+"path": "prototip/minus/n05.lrc",
+"size": 2386,
+"sha": "786ffc8540c6de073879e4ef76d628f8bba8d565"
+},
+{
+"path": "prototip/sw.js",
+"size": 3429,
+"sha": "bf592383592843f602b0728291f3cba7ae5c3e8b"
+},
+{
+"path": "prototip/tests/test_lrc_port.mjs",
+"size": 3732,
+"sha": "46126e64c4d44d7d29eb24b609607974497d0b62"
+},
+{
+"path": "prototip/tests/test_score_core.mjs",
+"size": 7063,
+"sha": "097be11375b09406dc6dd3acecabf364384ca695"
+},
+{
+"path": "prototip/tests/test_wsola_probe.mjs",
+"size": 4129,
+"sha": "603e8cbd2b2ae96eeb3bf7a614d123993c8d9829"
+},
+{
+"path": "scripts/apply_corrections.py",
+"size": 17337,
+"sha": "ad5576d45e6dbbea6129f9e3e730c2a1cd5fd362"
+},
+{
+"path": "scripts/build_corpus.py",
+"size": 10335,
+"sha": "70dc4bf501dacc8ed9be21e97af36eee00fc991d"
+},
+{
+"path": "scripts/build_exposition.py",
+"size": 9676,
+"sha": "16baa2217a15f18c2acae7d97a92a3b2e1f1273b"
+},
+{
+"path": "scripts/build_lrc.js",
+"size": 3913,
+"sha": "42081b1429ad0b8a3ff96b6bcaa5738fda71272e"
+},
+{
+"path": "scripts/build_lrc_registry.py",
+"size": 9133,
+"sha": "fdc2edda5ee1d7575ab1198ac2ee1582413e89f9"
+},
+{
+"path": "scripts/build_zip.py",
+"size": 14609,
+"sha": "b9fea8ec9e040470d67d733c063884fc036e4a32"
+},
+{
+"path": "scripts/chanvids.py",
+"size": 5066,
+"sha": "5218b901cad771d984a64adca62b71f69cce634c"
+},
+{
+"path": "scripts/get_01.py",
+"size": 1084,
+"sha": "a5118174ac857abee0dbf2832809062452aae04d"
+},
+{
+"path": "scripts/pipeget.py",
+"size": 7496,
+"sha": "3eab7c78a38c30d857a2541d2b130fa144b8b295"
+},
+{
+"path": "scripts/push_github.sh",
+"size": 271,
+"sha": "ad8be4f5663f3c83e8c9dc7f0750a98070686623"
+},
+{
+"path": "scripts/resolve_map.json",
+"size": 19109,
+"sha": "799580dc9ba1b84f27cbdc2b8db7a7866cd4b137"
+},
+{
+"path": "scripts/ytget.py",
+"size": 8806,
+"sha": "c00aed92d5fb59ac782cdb74bc388b4843c7aa21"
+},
+{
+"path": "site/SHA256SUMS.txt",
+"size": 5117,
+"sha": "e2000037320bfde7319ce53c792223770233095b"
+},
+{
+"path": "site/index.html",
+"size": 8928,
+"sha": "d457c16a89df88bc5b14f8b92c9a5081db50e4a0"
+},
+{
+"path": "site/style.css",
+"size": 604,
+"sha": "443ce01e44115b9674ca93d342b50958b17653a1"
+},
+{
+"path": "site/track-01.html",
+"size": 3462,
+"sha": "2b2653af960ee85cce709893a2561fc39feb2657"
+},
+{
+"path": "site/track-02.html",
+"size": 4231,
+"sha": "31b4714c1e131916aff3e72f5b8dd8205a55db7e"
+},
+{
+"path": "site/track-03.html",
+"size": 4844,
+"sha": "4105ed0e0b218ee8bc1eaacc0e4608d421153f5f"
+},
+{
+"path": "site/track-04.html",
+"size": 4511,
+"sha": "e62be2eb7a0e418b50c77fbfb1a237e75c6c2d00"
+},
+{
+"path": "site/track-05.html",
+"size": 3048,
+"sha": "5fb059d2f3d3d4e48c516ca2cd0726dcb5048ca7"
+},
+{
+"path": "site/track-06.html",
+"size": 3098,
+"sha": "68840adae6258ae75992105eb032ea86cfa5a405"
+},
+{
+"path": "site/track-07.html",
+"size": 3058,
+"sha": "3251e55a1224b80109d328caa576d11f2a49a847"
+},
+{
+"path": "site/track-08.html",
+"size": 3070,
+"sha": "eef2e9b4943b77f01b8616a5889f5af38adea30c"
+},
+{
+"path": "site/track-09.html",
+"size": 3418,
+"sha": "8d0c98600d7e1399157fba671eabb99ac597a454"
+},
+{
+"path": "site/track-10.html",
+"size": 3866,
+"sha": "0b20e9d4900e3aa65b09b74940545fe8d3433e86"
+},
+{
+"path": "site/track-11.html",
+"size": 3125,
+"sha": "3a358acad079b0387c9a1cefee4eb8ed66a85bae"
+},
+{
+"path": "site/track-12.html",
+"size": 2761,
+"sha": "511759c384428a61483c9a8656058008c27c0778"
+},
+{
+"path": "site/track-13.html",
+"size": 5066,
+"sha": "6d029e70af47bbea6708a3b3e6ae5e5885e4354c"
+},
+{
+"path": "site/track-14.html",
+"size": 3447,
+"sha": "423172a8412a4229f308fbdcea9ac80cff824c60"
+},
+{
+"path": "site/track-15.html",
+"size": 2761,
+"sha": "11eb09233ecac4cae730dccc72657fe0d43d1607"
+},
+{
+"path": "site/track-16.html",
+"size": 4055,
+"sha": "e84beae359cd309fd0c610638aee477e42bd11e8"
+},
+{
+"path": "site/track-17.html",
+"size": 3997,
+"sha": "f4223f0141a775030611e8e1bf4fbca548c6c5d3"
+},
+{
+"path": "site/track-18.html",
+"size": 4486,
+"sha": "488995f131c865078f0a6e9efc0005ab56839cbb"
+},
+{
+"path": "site/track-19.html",
+"size": 4101,
+"sha": "dfc25a5f825b1873c12533fa8dc3c894fbae1b31"
+},
+{
+"path": "site/track-20.html",
+"size": 3848,
+"sha": "41c6b82bd3b94d12f619f7a9e255b903d6a5f557"
+},
+{
+"path": "site/track-21.html",
+"size": 3962,
+"sha": "7a734800b6b915643d5bf14ffebebec6e62155dd"
+},
+{
+"path": "site/track-22.html",
+"size": 3538,
+"sha": "2893ae9ee34e4a8651e452483253af395087c8f6"
+},
+{
+"path": "site/track-23.html",
+"size": 4444,
+"sha": "d9b1adc5aba0ff4f48ba9bde47d797f7a4d1fe52"
+},
+{
+"path": "site/track-24.html",
+"size": 3543,
+"sha": "df46f2fd64ecad017200f14abd806f6beb886a95"
+},
+{
+"path": "site/track-25.html",
+"size": 4968,
+"sha": "f658d35c7bea52b154fe87013c01604af532a678"
+},
+{
+"path": "site/track-27.html",
+"size": 3405,
+"sha": "e761d5777e947ca66ccc4091cc825c47b0f47594"
+},
+{
+"path": "site/track-28.html",
+"size": 4035,
+"sha": "61f19960f6112d5169306fe35cbcf2cbcd96e1ee"
+},
+{
+"path": "site/track-29.html",
+"size": 3134,
+"sha": "d65cace5b9adbe6f769cdbb4b5d95feeca504a3b"
+},
+{
+"path": "site/track-30.html",
+"size": 3765,
+"sha": "fd8c26f4724f6204875389bfea23cbd032e8be91"
+},
+{
+"path": "site/track-31.html",
+"size": 3911,
+"sha": "91b14ff52a396da46f6169991b050466020b8255"
+},
+{
+"path": "site/track-32.html",
+"size": 3104,
+"sha": "c3f9d4101eed5cd57b30b332f9364e0e8f55e96a"
+},
+{
+"path": "site/track-33.html",
+"size": 4472,
+"sha": "1c34a627e22c6ce7eef03908624696c7da7c3e67"
+},
+{
+"path": "site/track-34.html",
+"size": 2602,
+"sha": "66218613027e610cd9b517f92854fd336d704f73"
+},
+{
+"path": "site/track-35.html",
+"size": 2585,
+"sha": "d37860992ead29776765fcec4234c37f5a11cbd0"
+},
+{
+"path": "site/track-36.html",
+"size": 3911,
+"sha": "b04435040a43d8ffab4ab78f0cf5762a03d18e12"
+},
+{
+"path": "site/track-37.html",
+"size": 4013,
+"sha": "84ce860bbe894fe4390c13a83670d1d60c2ba34b"
+},
+{
+"path": "site/track-39.html",
+"size": 3881,
+"sha": "5abf6a718c4bfbe7d5fdd26db39e3ea89b1ba076"
+},
+{
+"path": "site/track-40.html",
+"size": 3251,
+"sha": "188b4deb5e60c8d2ba6782acdc76bc9b80e10550"
+},
+{
+"path": "site/track-41.html",
+"size": 4008,
+"sha": "0d73ca0db204fb8fb73c5be5ab4ea1df88bb583c"
+},
+{
+"path": "site/track-42.html",
+"size": 4517,
+"sha": "1041eb459421ef79c4d418e4b71d3e525f597d8a"
+},
+{
+"path": "site/track-43.html",
+"size": 3488,
+"sha": "98473cd26a1d89e7012cfa479ba6d5326096c8d0"
+},
+{
+"path": "site/track-44.html",
+"size": 3115,
+"sha": "cb06667cd37b221d1c13c25a0fc3f53e524ba7b6"
+},
+{
+"path": "site/track-45.html",
+"size": 4018,
+"sha": "0b3b2e386e5be46ecc4f03c1aebc106609e1dabb"
+},
+{
+"path": "site/track-46.html",
+"size": 3657,
+"sha": "021e5cea39ec5a872cb6bc33c7c070d5ff016a6a"
+},
+{
+"path": "site/track-47.html",
+"size": 4314,
+"sha": "71e9f04f3a8937eccc4b81befdd2236314d18a48"
+},
+{
+"path": "site/track-48.html",
+"size": 4396,
+"sha": "e66b18e1ff8b4d5ed816527a619983b0c3b65acf"
+},
+{
+"path": "site/track-49.html",
+"size": 5199,
+"sha": "7d2a20588a4af107520c3e36007eb02e70982e4e"
+},
+{
+"path": "site/track-50.html",
+"size": 2985,
+"sha": "c36d2225fa34acbcb5f678fd98ea156cef9eeb69"
+},
+{
+"path": "site/track-51.html",
+"size": 5614,
+"sha": "218a4cde97586531b6304ecd3714150824de904f"
+},
+{
+"path": "site/track-52.html",
+"size": 3140,
+"sha": "b1d8bf28d9c72a369f6436e5d3e51735d38e1df6"
+},
+{
+"path": "site/track-53.html",
+"size": 4791,
+"sha": "d00654dca87c0fc21cf6d7b622430f4fbcc3537c"
+},
+{
+"path": "site/track-54.html",
+"size": 3914,
+"sha": "ca3684fb65425068b5ad15532a9d30c4d58336b2"
+},
+{
+"path": "site/track-55.html",
+"size": 3017,
+"sha": "ccebaa20b06c6527f36f217edd5a24949c232c8a"
+},
+{
+"path": "site/track-56.html",
+"size": 3322,
+"sha": "b63f32da4bdb8ce60479603f477dfdfbf1216446"
+},
+{
+"path": "site/track-57.html",
+"size": 3943,
+"sha": "78ca7a29b4b1a14d60daeb5b7e014c617c997f22"
+},
+{
+"path": "site/track-58.html",
+"size": 5273,
+"sha": "d13d78cbfea1f7f8f2313cb42cd4e23f04ae04e0"
+},
+{
+"path": "site/track-59.html",
+"size": 2781,
+"sha": "0547d6d48b383809ca13d911336009c33de93236"
+},
+{
+"path": "site/track-60.html",
+"size": 3822,
+"sha": "93f3871766757266bfafa0733fc58cca67e91813"
+},
+{
+"path": "site/track-61.html",
+"size": 3263,
+"sha": "7c1f08cdeeb91fc2b1479f4aa49e02c1497baa5f"
+},
+{
+"path": "site/track-62.html",
+"size": 2817,
+"sha": "78ab0cff0aa24a9e0f576ab4a7f63368b393c70d"
+},
+{
+"path": "site/track-63.html",
+"size": 3920,
+"sha": "59bb98c9d97fca9907a44f839e6c9e8d88d412aa"
+},
+{
+"path": "site/track-64.html",
+"size": 4446,
+"sha": "a0eb2a524f650534d7fe5155026ef7e1023aa017"
+},
+{
+"path": "site/track-65.html",
+"size": 4719,
+"sha": "19dd09dfd21e23c947ce70f5e178f85bb361aec7"
+},
+{
+"path": "worklog.md",
+"size": 55367,
+"sha": "86f4ba67901b91b70c3707fcdc7ac9e35576b697"
+}
+]
+}

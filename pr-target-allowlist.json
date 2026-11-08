@@ -1,0 +1,6 @@
+{
+  "schema": "polimat-hub/pr-target-allowlist/v1",
+  "description": "Белый список осознанных pull_request_target (гейт П-72, polimat-hub#96). Каждая запись: repo - имя репо в rtynbirf, path - путь воркфлоу, reason - почему триггер осознан, added - дата добавления (YYYY-MM-DD). Всё, что не перечислено здесь, краснит гейт exit 1.",
+  "fields": ["repo", "path", "reason", "added"],
+  "entries": []
+}

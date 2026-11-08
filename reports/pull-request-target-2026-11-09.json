@@ -1,0 +1,48 @@
+{
+  "generated": "2026-11-08T22:09:05Z",
+  "owner": "rtynbirf",
+  "repos_scanned": 42,
+  "workflows_scanned": 156,
+  "pull_request_target_count": 0,
+  "pull_request_target": [],
+  "broken_branch_filter_count": 0,
+  "broken_branch_filters": [],
+  "missing_workflow_dispatch_count": 7,
+  "missing_workflow_dispatch": [
+    {
+      "repo": "commons",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "repo": "domovoy-tweaker",
+      "path": ".github/workflows/release.yml"
+    },
+    {
+      "repo": "markitdown",
+      "path": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "repo": "markitdown",
+      "path": ".github/workflows/tests.yml"
+    },
+    {
+      "repo": "revo",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "repo": "runtime-protocol",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "repo": "singulyar",
+      "path": ".github/workflows/pr_check.yml"
+    }
+  ],
+  "repos_without_workflows": [],
+  "gate": {
+    "allowlist": null,
+    "allowlisted": 0,
+    "violations": [],
+    "verdict": "гейт не запускался"
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "generated_at": "2026-11-08T22:01:46Z",
+  "owner": "rtynbirf",
+  "pool_500_bytes_limit": 524288000,
+  "cache_pool_bytes_limit": 10737418240,
+  "repos": [
+    {
+      "repo": ".github",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "agryp",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "cell-rs",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "cell-swarm",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "cell65-host",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "commons",
+      "artifact_bytes": 23793,
+      "artifact_count": 5,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 23793
+    },
+    {
+      "repo": "domovoy-tweaker",
+      "artifact_bytes": 72272,
+      "artifact_count": 6,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 72272
+    },
+    {
+      "repo": "edinyy-svod",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "github-runbook",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "global-video-platforms-registry",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "H-PE11-PHOENIX",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "karaoke-dream",
+      "artifact_bytes": 467989,
+      "artifact_count": 5,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 467989
+    },
+    {
+      "repo": "language-through-the-ages",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "markitdown",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "neutral-browser",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "nous",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "os-forge",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "polimat-hub",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "polimat-task174",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "polymath-atlas-v107",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "polymath-gen",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "polymath-os",
+      "artifact_bytes": 28126,
+      "artifact_count": 4,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 19,
+      "packages_bytes": 0,
+      "pool_bytes": 28126
+    },
+    {
+      "repo": "polymath-tools-atlas",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "red-thread-debt-audit",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "release-vault",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "rent-mechanism-q43",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "repo-doctrine",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "revo",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "rtynbirf",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "rtynbirf.github.io",
+      "artifact_bytes": 38774705,
+      "artifact_count": 6,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 38774705
+    },
+    {
+      "repo": "rumu",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "runtime-protocol",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "ruvson-lyrics",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "ruvson-rse2",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "singulyar",
+      "artifact_bytes": 128783613,
+      "artifact_count": 8,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 128783613
+    },
+    {
+      "repo": "singulyar-llm",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "task-graph-propagator",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "uace-pml",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "universal-agent",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "voice-atlas-llm",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "web-evolution-1991-2026",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    },
+    {
+      "repo": "windows-chronicle",
+      "artifact_bytes": 0,
+      "artifact_count": 0,
+      "artifact_expired": 0,
+      "cache_bytes": 0,
+      "cache_count": 0,
+      "packages_bytes": 0,
+      "pool_bytes": 0
+    }
+  ],
+  "packages": [],
+  "packages_unbound_bytes": 0,
+  "pool_bytes_total": 168150498
+}

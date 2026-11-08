@@ -1,0 +1,39 @@
+# П-72 (polimat-hub#96): гейт pull_request_target.
+# С 2026-12-02 платформа по умолчанию блокирует pull_request_target в публичных репо;
+# brownout-встряски 9 и 16 ноября. Свип по 16-м числам — контроль после brownout.
+name: pr-target-gate
+
+on:
+  schedule:
+    - cron: "0 3 16 * *" # 16-е число каждого месяца, 03:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wave5-pr-target
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    name: свип pull_request_target x41
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout (пин v4)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Самопроверка детекторов (без сети)
+        run: python3 tools/pull_request_target_sweep.py --selftest
+
+      - name: Живой свип + гейт по белому списку
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -o pipefail
+          set +e
+          python3 tools/pull_request_target_sweep.py --all --allowlist pr-target-allowlist.json --json inventory.json | tee inventory.md
+          code=$?
+          cat inventory.md >> "$GITHUB_STEP_SUMMARY" || true
+          exit $code

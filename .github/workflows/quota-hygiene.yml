@@ -1,0 +1,78 @@
+# Квотная гигиена polimat-hub: П-69 (#93) + П-70 (#94).
+# Артефакты Actions + Packages = общий пул 500 МБ, кэши = отдельные 10 ГБ на репо.
+# Свой concurrency-дом wave5-quota-hygiene, чтобы не пересекаться с другими воркфлоу.
+name: quota-hygiene
+
+on:
+  schedule:
+    - cron: "0 6 * * 6" # суббота 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wave5-quota-hygiene
+  cancel-in-progress: false
+
+jobs:
+  hygiene:
+    name: Трёхпуловый замер (артефакты / кэш / Packages)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Самопроверка без сети
+        run: python3 tools/three_pool_hygiene.py --all --selftest
+
+      - name: Живой замер трёх пулов
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/three_pool_hygiene.py --all --json pool.json | tee quota-table.md
+
+      - name: Таблица в шаг-сводку
+        if: always()
+        run: |
+          {
+            echo '### Трёхпуловая квотная гигиена: артефакты + Packages = пул 500 МБ, кэш = 10 ГБ на репо'
+            echo
+            if [ -f quota-table.md ]; then cat quota-table.md; else echo 'таблица не сформирована — см. лог шага выше'; fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  predictor:
+    name: Квота-предиктор «дней до 500 МБ»
+    needs: hygiene
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Самопроверка предиктора без сети
+        run: python3 tools/quota_predictor.py --selftest
+
+      - name: Свежий срез пула
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/three_pool_hygiene.py --all --json pool.json > /dev/null
+
+      - name: Прогноз по истории
+        run: python3 tools/quota_predictor.py --from-json pool.json | tee predict.md
+
+      - name: Прогноз и история в шаг-сводку
+        if: always()
+        run: |
+          {
+            echo '### Квота-предиктор'
+            echo
+            if [ -f predict.md ]; then cat predict.md; else echo 'прогноз не сформирован — см. лог шага выше'; fi
+            if [ -f reports/quota-history.jsonl ]; then
+              echo
+              echo 'История измерений после прогона (reports/quota-history.jsonl):'
+              echo '```'
+              cat reports/quota-history.jsonl
+              echo '```'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
