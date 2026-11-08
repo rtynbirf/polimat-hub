@@ -4,67 +4,127 @@
   {
    "repo": "singulyar",
    "private": false,
-   "size_kb": 1584191,
-   "pushed_at": "2026-11-07",
-   "branches": 4,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "Оракулы дома зелёные (sovereign check)"
-  },
-  {
-   "repo": "voice-atlas-llm",
-   "private": false,
-   "size_kb": 99217,
-   "pushed_at": "2026-11-07",
-   "branches": 7,
-   "open_prs": 5,
-   "ci": "success",
-   "ci_workflow": "CI"
-  },
-  {
-   "repo": "polymath-gen",
-   "private": false,
-   "size_kb": 8665,
-   "pushed_at": "2026-11-07",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "none",
-   "ci_workflow": ""
-  },
-  {
-   "repo": "rtynbirf.github.io",
-   "private": false,
-   "size_kb": 7177,
-   "pushed_at": "2026-11-07",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "Deploy корневого сайта"
-  },
-  {
-   "repo": "markitdown",
-   "private": false,
-   "size_kb": 6826,
-   "pushed_at": "2026-11-08",
-   "branches": 12,
-   "open_prs": 0,
-   "ci": "none",
-   "ci_workflow": ""
-  },
-  {
-   "repo": "polymath-os",
-   "private": false,
-   "size_kb": 2973,
+   "size_kb": 1584655,
    "pushed_at": "2026-11-08",
    "branches": 2,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "CodeQL"
+   "ci_workflow": "main-drift-watch"
+  },
+  {
+   "repo": "voice-atlas-llm",
+   "private": false,
+   "size_kb": 99133,
+   "pushed_at": "2026-11-08",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "polimat-hub",
+   "private": true,
+   "size_kb": 78190,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": "pulse-heart"
+  },
+  {
+   "repo": "ruvson-lyrics",
+   "private": true,
+   "size_kb": 35522,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "failure",
+   "ci_workflow": "Pages (ручной запуск)"
+  },
+  {
+   "repo": "H-PE11-PHOENIX",
+   "private": true,
+   "size_kb": 11946,
+   "pushed_at": "2026-11-08",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "polymath-gen",
+   "private": false,
+   "size_kb": 8678,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "red-thread-debt-audit",
+   "private": true,
+   "size_kb": 8400,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "rtynbirf.github.io",
+   "private": false,
+   "size_kb": 7208,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "github_actions in /. - Update #1687578364"
+  },
+  {
+   "repo": "polimat-task174",
+   "private": true,
+   "size_kb": 6779,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "markitdown",
+   "private": false,
+   "size_kb": 6649,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "Graph Update: pip in /packages/markitdown, /packages/markitdown-mcp, /packages/markitdown-ocr, /packages/markitdown-sample-plugin #1687401225"
+  },
+  {
+   "repo": "uace-pml",
+   "private": true,
+   "size_kb": 4637,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "polymath-os",
+   "private": false,
+   "size_kb": 3014,
+   "pushed_at": "2026-11-08",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
   },
   {
    "repo": "commons",
    "private": false,
-   "size_kb": 2689,
+   "size_kb": 2712,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -72,10 +132,30 @@
    "ci_workflow": "scorecard"
   },
   {
+   "repo": "rtynbirf",
+   "private": false,
+   "size_kb": 2481,
+   "pushed_at": "2026-11-08",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "generate snake"
+  },
+  {
+   "repo": "language-through-the-ages",
+   "private": true,
+   "size_kb": 2019,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
    "repo": "global-video-platforms-registry",
    "private": false,
-   "size_kb": 1950,
-   "pushed_at": "2026-11-07",
+   "size_kb": 1959,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
@@ -84,18 +164,18 @@
   {
    "repo": "cell65-host",
    "private": false,
-   "size_kb": 1518,
-   "pushed_at": "2026-11-07",
+   "size_kb": 1529,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "ci"
+   "ci_workflow": "selftest"
   },
   {
    "repo": "polymath-tools-atlas",
    "private": false,
-   "size_kb": 1469,
-   "pushed_at": "2026-11-07",
+   "size_kb": 1480,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
@@ -104,8 +184,8 @@
   {
    "repo": "neutral-browser",
    "private": false,
-   "size_kb": 1386,
-   "pushed_at": "2026-11-07",
+   "size_kb": 1388,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
@@ -114,7 +194,7 @@
   {
    "repo": "domovoy-tweaker",
    "private": false,
-   "size_kb": 1355,
+   "size_kb": 1317,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -124,99 +204,99 @@
   {
    "repo": "polymath-atlas-v107",
    "private": false,
-   "size_kb": 1113,
-   "pushed_at": "2026-11-07",
+   "size_kb": 1123,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
    "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
   },
   {
-   "repo": "rtynbirf",
-   "private": false,
-   "size_kb": 1014,
-   "pushed_at": "2026-11-08",
-   "branches": 2,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "generate snake"
-  },
-  {
-   "repo": "polimat-hub",
+   "repo": "web-evolution-1991-2026",
    "private": true,
-   "size_kb": 955,
+   "size_kb": 1090,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
-   "ci": "none",
-   "ci_workflow": ""
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
   },
   {
    "repo": "ruvson-rse2",
    "private": false,
-   "size_kb": 942,
-   "pushed_at": "2026-11-07",
+   "size_kb": 966,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "CI"
+   "ci_workflow": "pip in /scripts for numpy, scipy, soundfile, librosa, pyyaml, tqdm - Update #1687583711"
+  },
+  {
+   "repo": "cell-swarm",
+   "private": false,
+   "size_kb": 927,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "genome-reconcile"
   },
   {
    "repo": "os-forge",
    "private": false,
-   "size_kb": 899,
-   "pushed_at": "2026-11-07",
+   "size_kb": 913,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
    "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
   },
   {
-   "repo": "cell-swarm",
-   "private": false,
-   "size_kb": 896,
+   "repo": "edinyy-svod",
+   "private": true,
+   "size_kb": 868,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "metabolism"
-  },
-  {
-   "repo": ".github",
-   "private": false,
-   "size_kb": 829,
-   "pushed_at": "2026-11-07",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "none",
-   "ci_workflow": ""
-  },
-  {
-   "repo": "runtime-protocol",
-   "private": false,
-   "size_kb": 802,
-   "pushed_at": "2026-11-07",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "metabolism"
+   "ci_workflow": "ci"
   },
   {
    "repo": "agryp",
    "private": false,
-   "size_kb": 767,
+   "size_kb": 840,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
-   "ci": "none",
-   "ci_workflow": ""
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": ".github",
+   "private": false,
+   "size_kb": 835,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "github_actions in /. - Update #1687633050"
+  },
+  {
+   "repo": "runtime-protocol",
+   "private": false,
+   "size_kb": 808,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "blood"
   },
   {
    "repo": "rumu",
    "private": false,
-   "size_kb": 720,
+   "size_kb": 722,
    "pushed_at": "2026-11-08",
-   "branches": 2,
+   "branches": 1,
    "open_prs": 0,
    "ci": "none",
    "ci_workflow": ""
@@ -224,54 +304,116 @@
   {
    "repo": "cell-rs",
    "private": false,
-   "size_kb": 707,
-   "pushed_at": "2026-11-07",
+   "size_kb": 710,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
    "ci_workflow": "metabolism"
   },
   {
-   "repo": "karaoke-dream",
+   "repo": "singulyar-llm",
    "private": false,
-   "size_kb": 665,
-   "pushed_at": "2026-11-07",
+   "size_kb": 687,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "CI"
+   "ci_workflow": "github_actions in /. - Update #1687578352"
   },
   {
-   "repo": "singulyar-llm",
+   "repo": "karaoke-dream",
    "private": false,
-   "size_kb": 663,
-   "pushed_at": "2026-11-07",
+   "size_kb": 667,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "pages build and deployment"
+  },
+  {
+   "repo": "release-vault",
+   "private": false,
+   "size_kb": 631,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
    "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
   },
   {
-   "repo": "release-vault",
-   "private": false,
-   "size_kb": 622,
-   "pushed_at": "2026-11-07",
+   "repo": "rent-mechanism-q43",
+   "private": true,
+   "size_kb": 566,
+   "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "vault-integrity — сверка шифротекстов"
+   "ci_workflow": "guardian-tripwire"
   },
   {
    "repo": "universal-agent",
    "private": false,
-   "size_kb": 540,
+   "size_kb": 551,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
    "ci_workflow": "ci"
+  },
+  {
+   "repo": "nous",
+   "private": true,
+   "size_kb": 490,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "forge-linux"
+  },
+  {
+   "repo": "windows-chronicle",
+   "private": true,
+   "size_kb": 238,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "repo-doctrine",
+   "private": true,
+   "size_kb": 146,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "github-runbook",
+   "private": true,
+   "size_kb": 107,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "bundle-backup"
+  },
+  {
+   "repo": "task-graph-propagator",
+   "private": true,
+   "size_kb": 58,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
   }
  ],
- "wounds": [],
- "open_prs_total": 5
+ "wounds": [
+  "ruvson-lyrics (Pages (ручной запуск) 2026-11-08)"
+ ],
+ "open_prs_total": 0
 }
