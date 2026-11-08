@@ -1,0 +1,39 @@
+name: "root-oracle — оракул корня (П-23)"
+
+# П-23 (polimat-hub#41): единый диагноз из логов для массовых красных.
+# Цели — 6 репо tripwire (карта W-AUD-02). Если все зелёные — честный ноль.
+# Артефакт tripwire-root-cause.json — доказательство для волны.
+
+on:
+  schedule:
+    - cron: "41 3 * * 4"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: root-oracle
+  cancel-in-progress: false
+
+jobs:
+  oracle:
+    name: Диагноз хвостов логов
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - name: Оракул корня
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
+          OWNER: rtynbirf
+          ROOT_CAUSE_JSON: tripwire-root-cause.json
+        run: python3 scripts/tripwire_root_cause.py
+      - name: Артефакт диагноза
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: tripwire-root-cause
+          path: tripwire-root-cause.json
+          if-no-files-found: ignore
