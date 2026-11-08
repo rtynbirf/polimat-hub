@@ -1,0 +1,26 @@
+# scripts/leukocyte-ignore.txt · П-40 (polimat-hub#61) · волна ×5-финал (issue #102)
+# Формат строки: путь:regex-имя
+#   путь      — подстрока полного пути проверяемого файла ИЛИ glob (*, ?);
+#               матчится и по относительному пути от --root, и по абсолютному;
+#   regex-имя — канон-имя из PATTERNS сканера scripts/secret_leukocyte.py:
+#               github_pat_classic | github_pat_short | github_pat_fine |
+#               aws_access_key | slack_token | openai_key | google_api_key |
+#               pem_private_key
+#   # — комментарий. Механизм аддитивен к старому .secret-immunity-ignore
+#   (регэксп на строку в корне репо) — оба работают одновременно.
+
+# nous/docs/genesis/sintez-public-repo-synthesis.md:89 — Google API key AIzaSyAO…qcW8:
+# публичный INNERTUBE_API_KEY веб-клиента YouTube — публичная константа,
+# 894+ публичных файла на GitHub, не секрет; решение зафиксировано в issue #102.
+nous/docs/genesis/sintez-public-repo-synthesis.md:google_api_key
+
+# polymath-os/runtime/{src/decree_signing.py:207, tests/test_decree_signing.py:71,162}
+# — PEM «находки» локального скана ×5-финал: это ЗАГОЛОВОЧНЫЕ ЛИТЕРАЛЫ
+# «-----BEGIN/END OPENSSH PRIVATE KEY-----» в валидаторе и тестах (ключевого
+# материала нет: тело ключа синтезируется из os.urandom + RFC 8032 Ed25519
+# ПУБЛИЧНЫХ тест-векторов 9d61b19d…/d75a9801…; в самом polymath-os это
+# задокументировано: «has caused false audit findings», DLP маскирует литерал
+# в выводе инструментов). Файлы polymath-os не трогаем (чужая волна) — глушим
+# правилом здесь, прозрачно.
+polymath-os/runtime/src/decree_signing.py:pem_private_key
+polymath-os/runtime/tests/test_decree_signing.py:pem_private_key
