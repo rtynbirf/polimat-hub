@@ -29,7 +29,7 @@ jobs:
 
       - name: Живой замер трёх пулов
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python3 tools/three_pool_hygiene.py --all --json pool.json | tee quota-table.md
 
       - name: Таблица в шаг-сводку
@@ -55,7 +55,7 @@ jobs:
 
       - name: Свежий срез пула
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: python3 tools/three_pool_hygiene.py --all --json pool.json > /dev/null
 
       - name: Прогноз по истории
