@@ -1,0 +1,80 @@
+{
+  "schema": "polimat-hub/p72-pr-target-audit/v1",
+  "generated": "2026-11-09",
+  "brownout_window": "2026-11-09 (rehearsal, бесплатно); контрольный — 2026-11-16; дедлайн платформы — 2026-12-02",
+  "scope": "все репо аккаунта rtynbirf (/user/repos), воркфлоу .github/workflows/*.yml|yaml на default-ветках",
+  "method": [
+    "движок: tools/pull_request_target_sweep.py (живой прогон гейта pr-target-gate, run 42536627485 = ЗЕЛЁНЫЙ; повторный локальный прогон 2026-11-08T23:51:59Z)",
+    "независимая перекрёстная проверка: contents API + raw + git/trees ground-truth; ручное чтение кириллического файла через contents API (base64)"
+  ],
+  "totals": {
+    "repos_checked": 42,
+    "workflows_checked": 169,
+    "pull_request_target_triggers": 0,
+    "broken_ain_filters": 0,
+    "risk_high": 0,
+    "risk_medium": 0,
+    "risk_low": 0,
+    "risk_info": 1
+  },
+  "canon_risk": {
+    "высокий": "pull_request_target + секреты в среде шага + checkout PR-кода (ref: refs/pull)",
+    "средний": "pull_request_target + секреты без чекаута PR-кода",
+    "низкий": "pull_request_target без секретов",
+    "инфо": "упоминание строки pull_request_target без триггера"
+  },
+  "findings": [
+    {
+      "repo": "polimat-hub",
+      "file": ".github/workflows/pr-target-gate.yml",
+      "lines": [
+        1,
+        2,
+        3,
+        20,
+        28,
+        36
+      ],
+      "job_step": "имя job'а «свип pull_request_target x41» (стр.20); run selftest (стр.28) и run sweep (стр.36); комментарии шапки (стр.1-3)",
+      "essence": "только диагностические упоминания строки pull_request_target в name/run/комментариях; триггеров on: — schedule(0 3 16 * *) + workflow_dispatch; checkout PR-кода (refs/pull) отсутствует; секрет GH_PAT в env шага, но job не активируется PR-событием — пути эксфильтрации нет",
+      "risk": "инфо",
+      "recommendation": "оставить как есть; запись задокументирована в pr-target-allowlist.json (сам-свип гейта)"
+    }
+  ],
+  "no_workflow_dispatch": [
+    {
+      "repo": "commons",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "repo": "domovoy-tweaker",
+      "path": ".github/workflows/release.yml"
+    },
+    {
+      "repo": "markitdown",
+      "path": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "repo": "markitdown",
+      "path": ".github/workflows/tests.yml"
+    },
+    {
+      "repo": "revo",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "repo": "runtime-protocol",
+      "path": ".github/workflows/ci.yml"
+    },
+    {
+      "repo": "singulyar",
+      "path": ".github/workflows/pr_check.yml"
+    }
+  ],
+  "notes": [
+    "последние находки pr-target 08.11 22:10-22:20 UTC были ложными (детектор матчил собственные диагностические строки гейта); починено волной ×5 коммитом 6d7edc94 (только триггеры в on:) — вердикт гейта честный",
+    "ground-truth 169 воркфлоу по git/trees сошёлся с contents API и живым свипом; кириллические имена файлов (singulyar/такт_гейт.yml) движок гейта обрабатывает корректно (urllib.parse.quote)",
+    "верификация того, что audit-скрипты не теряют файлы: ручное чтение такт_гейт.yml через contents API base64 — pull_request_target отсутствует, workflow_dispatch есть"
+  ],
+  "verdict": "аккаунт готов к brownout 09.11 и блокировке pull_request_target 02.12: триггеров 0, переписывать нечего; контрольный прогон — 16.11"
+}
