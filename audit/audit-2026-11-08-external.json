@@ -1,0 +1,2906 @@
+{
+ "date": "2026-11-08",
+ "source": "external auditor session",
+ "repos_total": 41,
+ "method": "GitHub REST API + raw HTTP + PIL",
+ "repos": [
+  {
+   "name": "rtynbirf",
+   "full_name": "rtynbirf/rtynbirf",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Полимат-универсум: 39 репозиториев, 2600+ коммитов с 2022 года. СИНГУЛЯР · РОЙ · Атласы · Windows-инструменты",
+   "homepage": "https://rtynbirf.github.io",
+   "topics": [
+    "polymath",
+    "portfolio",
+    "profile-readme",
+    "russian",
+    "singularity"
+   ],
+   "pushed_at": "2026-11-08T00:00:03Z",
+   "created_at": "2026-11-07T22:18:59Z",
+   "size_kb": 1014,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 6579,
+   "readme_head": "<div align=\"center\">\n  <img src=\"banner.png\" width=\"100%\" alt=\"rtynbirf — 39 worlds, one organism\">\n</div>\n\n# rtynbirf · AUTONOMOUS SYSTEMS LAB\n\n**Autonomous agents · Generative media · Offline sovereignty.**\n«Строю то, что работает без интернета и без разрешений.»\n\n[![Public repos](https://img.shields.io/badge/public%20repos-25-2E2540?style=flat-square)](https://github.com/rtynbirf?tab=repositories)\n[![Commits](https://img.shields.io/badge/commits-2600%2B%20since%202022-2E2540?style=flat-square)](https://github.com/rtynbirf)\n[![Showcase](https://img.shields.io/badge/showcase-rtynbirf.github.i",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "generate snake",
+     "path": ".github/workflows/generate-snake.yml",
+     "state": "active"
+    },
+    {
+     "name": "generate snake",
+     "path": ".github/workflows/snake.yml",
+     "state": "active"
+    },
+    {
+     "name": "SWARM-SYNC (сверка со средой)",
+     "path": ".github/workflows/swarm-sync.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "rtynbirf.github.io",
+   "full_name": "rtynbirf/rtynbirf.github.io",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "MEGA-PLAYER SINGULYAR: universal autopilot video player",
+   "homepage": "",
+   "topics": [
+    "github-pages",
+    "javascript",
+    "media-player",
+    "offline-first",
+    "pwa",
+    "ruvson",
+    "streaming",
+    "video-player",
+    "webtorrent"
+   ],
+   "pushed_at": "2026-11-07T23:59:50Z",
+   "created_at": "2026-10-24T17:53:02Z",
+   "size_kb": 7177,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "HTML",
+   "has_readme": true,
+   "readme_size": 2127,
+   "readme_head": "# ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"rtynbirf.github.io\" width=\"100%\"></p>\n\n\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![PWA](https://img.shields.io/badge/PWA-offline%20mode-8A2BE2)](https://rtynbirf.github.io/) [![P2P](https://img.shields.io/badge/streaming-WebTorrent-00b8d9)](https://rtynbirf.github.io/) [![▶ Live](https://img.shields.io/badge/%E2%96%B6_open-lacornia-success)](https://rtynbirf.github.io/)\n\nОдностраничный PWA-плеер сайта-профиля `rtynbirf.github.io`: универсальный\nавтопилот-в",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "Deploy корневого сайта",
+     "path": ".github/workflows/pages.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "pages-build-deployment",
+     "path": "dynamic/pages/pages-build-deployment",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": ".github",
+   "full_name": "rtynbirf/.github",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Дефолтные community health files аккаунта: issue-формы, PR-шаблон, SUPPORT, ACCESSIBILITY, CODE_OF_CONDUCT",
+   "homepage": "",
+   "topics": [
+    "meta-tools"
+   ],
+   "pushed_at": "2026-11-07T23:59:46Z",
+   "created_at": "2026-11-06T14:41:00Z",
+   "size_kb": 829,
+   "default_branch": "main",
+   "stars": 0,
+   "language": null,
+   "has_readme": true,
+   "readme_size": 768,
+   "readme_head": "# .github — дефолтные community health files\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\".github\" width=\"100%\"></p>\n\n\nПубличный репозиторий-носитель дефолтных файлов сообщества аккаунта `rtynbirf`.\nФайлы отсюда наследуются всеми репозиториями аккаунта там, где у репо нет собственной версии\n(механизм default community health files, docs.github.com). README и LICENSE не наследуются —\nу каждого репо свои.\n\nСостав: `ISSUE_TEMPLATE/` (bug + feature формы, config), `pull_request_template.md`,\n`CODE_OF_CONDUCT.md`, `SUPPORT.md`, `ACCESSIBILITY.md`.\n",
+   "branches": [],
+   "workflows": [],
+   "github_dir": [
+    "social-preview.png"
+   ]
+  },
+  {
+   "name": "markitdown",
+   "full_name": "rtynbirf/markitdown",
+   "private": false,
+   "fork": true,
+   "archived": false,
+   "description": "Python tool for converting files and office documents to Markdown.",
+   "homepage": "",
+   "topics": [
+    "docx",
+    "file-conversion",
+    "fork",
+    "markdown",
+    "ocr",
+    "office",
+    "pdf",
+    "python",
+    "xlsx"
+   ],
+   "pushed_at": "2026-11-07T23:59:42Z",
+   "created_at": "2026-11-07T18:17:49Z",
+   "size_kb": 6826,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 21510,
+   "readme_head": "# MarkItDown\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"markitdown\" width=\"100%\"></p>\n\n\n[![PyPI](https://img.shields.io/pypi/v/markitdown.svg)](https://pypi.org/project/markitdown/)\n![PyPI - Downloads](https://img.shields.io/pypi/dd/markitdown)\n\n> [!IMPORTANT]\n> MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest `convert_*` function needed for your use case (e.g., `convert_stream()`, or `convert_lo",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "pre-commit",
+     "path": ".github/workflows/pre-commit.yml",
+     "state": "active"
+    },
+    {
+     "name": "tests",
+     "path": ".github/workflows/tests.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "actions",
+    "constraints.txt",
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "release-vault",
+   "full_name": "rtynbirf/release-vault",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Encrypted off-site archive (AES-256-CBC/PBKDF2-600k) of release assets from private repos. Filenames are neutralized; manifests are encrypted. Key held only by the owner. Created 2026-11-07.",
+   "homepage": "",
+   "topics": [
+    "system-layer"
+   ],
+   "pushed_at": "2026-11-07T23:59:38Z",
+   "created_at": "2026-11-07T13:15:09Z",
+   "size_kb": 622,
+   "default_branch": "main",
+   "stars": 0,
+   "language": null,
+   "has_readme": true,
+   "readme_size": 1967,
+   "readme_head": "# release-vault — Шифрованное хранилище релизных ассетов\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"release-vault\" width=\"100%\"></p>\n\n\nАвтономный офсайт-архив релизных ассетов приватных репозиториев `rtynbirf`.\nСоздан 07.11.2026 в рамках волны «Зелёный Сингуляр» для освобождения\nActions-storage квоты приватных репо (лимит 500 МБ был переполнен ×50).\n\n## Схема\n- Каждый ассет зашифрован: **AES-256-CBC, PBKDF2-SHA1, 600 000 итераций** (openssl enc).\n- Имена файлов нейтрализованы (`rXaYY.enc`) — публичная сторона не раскрывает содержимое.\n- `__MANIFEST.enc` — зашифрованный маниф",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "vault-integrity — сверка шифротекстов",
+     "path": ".github/workflows/vault-integrity.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "agryp",
+   "full_name": "rtynbirf/agryp",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "PID1-подобный супервизор AI-агентов: один файл C, ноль зависимостей, файл-как-API (agrypctl), самоверифицирующийся NDJSON-журнал",
+   "homepage": "",
+   "topics": [
+    "agent-infrastructure",
+    "ai-agents",
+    "c",
+    "cgroups",
+    "init-system",
+    "ndjson",
+    "pid1",
+    "posix",
+    "process-manager",
+    "supervisor",
+    "system-layer"
+   ],
+   "pushed_at": "2026-11-07T23:59:35Z",
+   "created_at": "2026-11-06T18:26:17Z",
+   "size_kb": 752,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "C",
+   "has_readme": true,
+   "readme_size": 31998,
+   "readme_head": "# agryp — неспящий супервизор агентов уровня PID 1\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"agryp\" width=\"100%\"></p>\n\n\n**Агенты умирают в закрытых терминалах. agryp — не спит.**\n\n`agryp` — минимальный init-супервизор, который запускает AI-агентов как процессы\nпервого класса: с политикой перезапуска, бюджетом попытки и graceful shutdown.\nОдин файл C, только libc, ноль зависимостей — этика LFS: собрано с нуля,\nничьего чужого.\n\n## Почему имя — agryp: урок «идиота»\n\nПодсказка заказчика: «посмотри, как занято слово ἰδιώτης». Проверили —\nзанято даже на PyPI (пакет `idiotes`, 202",
+   "branches": [],
+   "workflows": [],
+   "github_dir": [
+    "social-preview.png"
+   ]
+  },
+  {
+   "name": "universal-agent",
+   "full_name": "rtynbirf/universal-agent",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "UniversalAgent (TsUA) - single-brain holistic agent: one LLM core, closed perception-action loop, four-layer memory, sandboxed tools. Pure stdlib.",
+   "homepage": "",
+   "topics": [
+    "swarm-agents"
+   ],
+   "pushed_at": "2026-11-07T23:59:31Z",
+   "created_at": "2026-11-06T22:33:22Z",
+   "size_kb": 540,
+   "default_branch": "main",
+   "stars": 1,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 12435,
+   "readme_head": "# UniversalAgent (ЦУА) — Универсальный Целостный Агент\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"universal-agent\" width=\"100%\"></p>\n\n\n![CI](https://github.com/rtynbirf/universal-agent/actions/workflows/ci.yml/badge.svg)\n![Python](https://img.shields.io/badge/python-3.10%2B-blue)\n![License](https://img.shields.io/badge/license-MIT-green)\n![Tests](https://img.shields.io/badge/tests-36%2F36-brightgreen)\n\nНе система склеенных частей, а **одна сущность**: один мозг, четыре контура памяти,\nруки-инструменты, внутренний цикл воли и автономный демон. Только стандартная\nбиблиотека Py",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ci",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "PULL_REQUEST_TEMPLATE.md",
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "domovoy-tweaker",
+   "full_name": "rtynbirf/domovoy-tweaker",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "ДОМОВОЙ / MEGA=TWEAKER — Windows tweaker as a state, not an event: change ledger, drift sentinel, per-feature undo, effect verification. PowerShell prototype.",
+   "homepage": "",
+   "topics": [
+    "debloat",
+    "drift-detection",
+    "ledger",
+    "powershell",
+    "privacy",
+    "system-layer",
+    "telemetry",
+    "tweaker",
+    "undo",
+    "windows",
+    "windows-11"
+   ],
+   "pushed_at": "2026-11-07T23:59:28Z",
+   "created_at": "2026-11-01T21:27:51Z",
+   "size_kb": 1355,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "PowerShell",
+   "has_readme": true,
+   "readme_size": 15632,
+   "readme_head": "# ДОМОВОЙ · МЕГА=ТВИКЕР\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"domovoy-tweaker\" width=\"100%\"></p>\n\n\n> Твикер Windows как **состояние**, а не **событие**. Прототип на PowerShell.\n\n![CI](https://github.com/rtynbirf/domovoy-tweaker/actions/workflows/ci.yml/badge.svg)\n![License](https://img.shields.io/badge/license-MIT-blue)\n![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey)\n![PowerShell](https://img.shields.io/badge/PowerShell-5.1%20%7C%207%2B-5391FE)\n\n## Что это\n\nОбычные твикеры — и все «учителя», у которых мы учились, — работают как **событие**",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "Release",
+     "path": ".github/workflows/release.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "dependabot.yml",
+    "pull_request_template.md",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "os-forge",
+   "full_name": "rtynbirf/os-forge",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "OS-FORGE v0.1.1 — самодостаточный автономный батник: карта среды (железо+ОС по фактам) → решение → сеть (репозиторий пунктов) → сборка актуальной ОС → готовый ISO с манифестом. Windows (cmd+PowerShell) и Linux (bash+xorriso). Ноль прав администратора.",
+   "homepage": "",
+   "topics": [
+    "iso-builder",
+    "linux-iso",
+    "offline-first",
+    "russian",
+    "supply-chain-security",
+    "system-layer",
+    "windows-iso",
+    "xorriso"
+   ],
+   "pushed_at": "2026-11-07T23:59:24Z",
+   "created_at": "2026-10-28T21:44:49Z",
+   "size_kb": 899,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Shell",
+   "has_readme": true,
+   "readme_size": 11037,
+   "readme_head": "# OS-FORGE v0.1.1\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"os-forge\" width=\"100%\"></p>\n\n\n**БАТНИК — самодостаточный автономный алгоритм:** при активации распознаёт\nсвою среду (железо + ОС, карта по фактам), решает, по какому алгоритму и с\nкакими ядрами действовать, идёт в сеть в репозиторий пунктов и собирает\nактуальную на момент запуска ОС, выводя полный готовый ISO в место,\nуказанное запускающим, — с пунктами, оптимально настроенными под его\nконкретную конфигурацию.\n\n> Канон: карта=территория · пункт фиксируется с «почему только так» ·\n> опасное пассивно · честные русски",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "PULL_REQUEST_TEMPLATE.md",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "polymath-os",
+   "full_name": "rtynbirf/polymath-os",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Personal sovereign media-OS. 5-layer LFS-style self-bootstrapping repo. SINGULYAR Emergent Intent Runtime v0.6. 35 ADRs. make verify 33/33. 290 tests green.",
+   "homepage": "",
+   "topics": [
+    "ai-workflows",
+    "ci-cd",
+    "devex",
+    "emergent",
+    "human-governed",
+    "intent-preservation",
+    "local-first",
+    "mcp",
+    "monorepo",
+    "mutation-testing",
+    "nix-flakes",
+    "oidc",
+    "open-source",
+    "opentofu",
+    "second-brain",
+    "singulyar",
+    "slsa",
+    "sovereignty",
+    "supply-chain-security",
+    "system-layer"
+   ],
+   "pushed_at": "2026-11-07T23:59:21Z",
+   "created_at": "2026-10-16T09:35:30Z",
+   "size_kb": 2973,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 29516,
+   "readme_head": "# Polymath OS\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"polymath-os\" width=\"100%\"></p>\n\n\n> **Open-source ideal repository.** Clone it. Run `make verify`. Every claim in this repo is reproducible by that one command. If it exits 0 — every claim holds. If non-zero — the claim that failed is shown.\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)\n[![Verify](https://img.shields.io/badge/make%20verify-33%2F33%20PASS-brightgreen)](./scripts/check.py)\n[![SINGULYAR EIR v0.6](https://img.shields.io/badge/runtime-SINGULYAR%20EIR%20v0.6-blue)](./runti",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "blood",
+     "path": ".github/workflows/blood.yml",
+     "state": "active"
+    },
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "CodeQL",
+     "path": ".github/workflows/codeql.yml",
+     "state": "active"
+    },
+    {
+     "name": "Cross-Repo Governance",
+     "path": ".github/workflows/cross-repo-governance.yml",
+     "state": "active"
+    },
+    {
+     "name": "Triage labels",
+     "path": ".github/workflows/labels.yml",
+     "state": "active"
+    },
+    {
+     "name": "LLM Integration",
+     "path": ".github/workflows/llm-integration.yml",
+     "state": "active"
+    },
+    {
+     "name": "publish-garden",
+     "path": ".github/workflows/publish-garden.yml",
+     "state": "active"
+    },
+    {
+     "name": "Release",
+     "path": ".github/workflows/release.yml",
+     "state": "active"
+    },
+    {
+     "name": "OpenSSF Scorecard",
+     "path": ".github/workflows/scorecard.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Sovereignty Drill",
+     "path": ".github/workflows/sovereignty_drill.yml",
+     "state": "active"
+    },
+    {
+     "name": "tofu",
+     "path": ".github/workflows/tofu.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "CODEOWNERS",
+    "FUNDING.yml",
+    "ISSUE_TEMPLATE",
+    "PULL_REQUEST_TEMPLATE.md",
+    "dependabot.yml",
+    "labeler.yml",
+    "labels.yml",
+    "renovate.json",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "cell-swarm",
+   "full_name": "rtynbirf/cell-swarm",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик, семя",
+   "homepage": "https://rtynbirf.github.io",
+   "topics": [
+    "agent-framework",
+    "autonomy",
+    "distributed-systems",
+    "emergent-behavior",
+    "json",
+    "multi-agent-systems",
+    "orchestration",
+    "python",
+    "self-organization",
+    "swarm-agents",
+    "swarm-intelligence"
+   ],
+   "pushed_at": "2026-11-07T23:59:20Z",
+   "created_at": "2026-11-04T20:49:05Z",
+   "size_kb": 893,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 4375,
+   "readme_head": "# CELL-SWARM — рой клеток Человека\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"cell-swarm\" width=\"100%\"></p>\n\n\n\n[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](./LICENSE) [![Genome](https://img.shields.io/badge/genome-swarm.json-orange)](./swarm.json) [![Bootstrap](https://img.shields.io/badge/enzyme-bootstrap.sh-success)](./bootstrap.sh) [![Offline](https://img.shields.io/badge/clone%E2%86%92make-%E2%9C%94%20offline-brightgreen)](./README.md)\n\n> Сингулярная эмерджентная архитектура: пять законов, один геном, связь с организмом COMMONS по п",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "blood-genome",
+     "path": ".github/workflows/blood-genome.yml",
+     "state": "active"
+    },
+    {
+     "name": "metabolism",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "genome-reconcile",
+     "path": ".github/workflows/genome-reconcile.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "polymath-atlas-v107",
+   "full_name": "rtynbirf/polymath-atlas-v107",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "POLYMATH-ATLAS v107.1-FINAL — honest evidence-audit framework in Lean 4. VERIFIED ENGINEERING FRAMEWORK (prototype), not a theorem prover. Open verification protocol in README.",
+   "homepage": "",
+   "topics": [
+    "atlas",
+    "engineering-framework",
+    "evidence-audit",
+    "formal-methods",
+    "lean",
+    "lean4",
+    "mathlib",
+    "research-verification",
+    "verification"
+   ],
+   "pushed_at": "2026-11-07T23:59:16Z",
+   "created_at": "2026-11-04T12:53:02Z",
+   "size_kb": 1113,
+   "default_branch": "main",
+   "stars": 1,
+   "language": "Lean",
+   "has_readme": true,
+   "readme_size": 4366,
+   "readme_head": "# POLYMATH-ATLAS v107.1-FINAL\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"polymath-atlas-v107\" width=\"100%\"></p>\n\n\n**Категория: VERIFIED ENGINEERING FRAMEWORK (прототип). НЕ теорем-проверитель. НЕ математическая система.**\n\nКанонический вердикт: `EVIDENCE-READY / CORE-VERIFIED / NOT-MATHEMATICAL`\n\n---\n\n## Что это\n\nФреймворк аудита доказательности для формальных систем:\n\n- **`CanonicalStatus`** — 15-значная схема статусов (замена конфликтным булевым флагам)\n- **`EvidenceVector`** — 8 независимых измерений доказательности вместо одномерного \"Proven\"\n- **`TerminalGate`** — компо",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "global-video-platforms-registry",
+   "full_name": "rtynbirf/global-video-platforms-registry",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Верифицированный реестр 1071 видеоплатформ (1032 активных) — окт 2026. CSV/JSON/XLSX/PDF + методология + evidence",
+   "homepage": "",
+   "topics": [
+    "dataset",
+    "open-data",
+    "ott",
+    "registry",
+    "research-verification",
+    "streaming",
+    "verification",
+    "video-platforms"
+   ],
+   "pushed_at": "2026-11-07T23:59:12Z",
+   "created_at": "2026-10-25T01:13:43Z",
+   "size_kb": 1950,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 13276,
+   "readme_head": "# Глобальный реестр видеоплатформ 2026 / Global Video Platforms Registry\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"global-video-platforms-registry\" width=\"100%\"></p>\n\n\n![Records](https://img.shields.io/badge/records-1071-2c7fb8)\n![Active](https://img.shields.io/badge/active-1032-41ab5d)\n![Verified](https://img.shields.io/badge/verified-2026--10--25-f5a623)\n![License](https://img.shields.io/badge/license-CC_BY_4.0-blue)\n![CI](https://github.com/rtynbirf/global-video-platforms-registry/actions/workflows/validate.yml/badge.svg)\n![Version](https://img.shields.io/badge/version-v",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "validate",
+     "path": ".github/workflows/validate.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "cell65-host",
+   "full_name": "rtynbirf/cell65-host",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "«Антицензор» MV3: Chrome-расширение обхода блокировок (PAC/DNR/WebRTC/auth-прокси) + sovereign-node (sing-box, PAC-сервер, Windows-скрипты). Без телеметрии. Человеком для человека.",
+   "homepage": "",
+   "topics": [
+    "adblock",
+    "anti-censorship",
+    "chrome-extension",
+    "dnr",
+    "mv3",
+    "pac",
+    "privacy",
+    "proxy",
+    "sing-box",
+    "sovereign-node",
+    "system-layer",
+    "webrtc"
+   ],
+   "pushed_at": "2026-11-07T23:59:07Z",
+   "created_at": "2026-09-30T06:34:33Z",
+   "size_kb": 1518,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "JavaScript",
+   "has_readme": true,
+   "readme_size": 15413,
+   "readme_head": "# cell65-host\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"cell65-host\" width=\"100%\"></p>\n\n\nЛичный инфраструктурный хост. В репозитории — три независимые линии:\n\n1. **[sovereign-node/](sovereign-node/)** — СУВЕРЕННЫЙ УЗЕЛ: личный anti-censorship\n   комплект «настроил и забыл». Один бинарь sing-box на Windows 11, один VPS,\n   лестница из трёх независимых транспортов (VLESS+Reality / VLESS+WS за Cloudflare\n   CDN / Hysteria2) с авторотацией, развязка RU/не-RU. Архитектура, модель угроз\n   и быстрый старт — в [sovereign-node/README.md](sovereign-node/README.md).\n2. **[anticensorm",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "bundle-backup",
+     "path": ".github/workflows/bundle-backup.yml",
+     "state": "active"
+    },
+    {
+     "name": "ci",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "release",
+     "path": ".github/workflows/release.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "selftest",
+     "path": ".github/workflows/selftest.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "commons",
+   "full_name": "rtynbirf/commons",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "COMMONS — один организм из лучших открытых проектов: геном-спеки, синапсы MCP, кровь событий, иммунитет-лицензии. Органы остаются на upstream — единым становится обмен. ЦЕЛОЕ = ЧЕЛОВЕК > суммы частей. Провенанс: здесь нет ни байта чужого (REUSE 3.3).",
+   "homepage": "",
+   "topics": [
+    "ai-agents",
+    "architecture-decision-records",
+    "commons",
+    "governance",
+    "mcp",
+    "ontology",
+    "organism",
+    "reuse",
+    "spdx",
+    "spec-driven-development",
+    "swarm-agents",
+    "systems-theory",
+    "upstream-first"
+   ],
+   "pushed_at": "2026-11-07T23:59:03Z",
+   "created_at": "2026-11-01T14:16:30Z",
+   "size_kb": 2689,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 88758,
+   "readme_head": "# COMMONS\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"commons\" width=\"100%\"></p>\n\n\n> **Один организм из лучших открытых проектов человечества.**\n> Органы остаются живыми ветками upstream — единым становится обмен: геном, синапсы, кровь, метаболизм, иммунитет.\n\n[![ci](https://github.com/rtynbirf/commons/actions/workflows/ci.yml/badge.svg)](https://github.com/rtynbirf/commons/actions/workflows/ci.yml)\n![license](https://img.shields.io/badge/license-Apache--2.0-blue)\n![REUSE](https://img.shields.io/badge/REUSE-3.3--compliant-blueviolet)\n![provenance](https://img.shields.io/badge",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ci",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "fleas",
+     "path": ".github/workflows/fleas.yml",
+     "state": "active"
+    },
+    {
+     "name": "scorecard",
+     "path": ".github/workflows/scorecard.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "runtime-protocol",
+   "full_name": "rtynbirf/runtime-protocol",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Клетка роя cell-swarm: исполнимая модель динамики узла (уравнение ρ̇, GENESIS_EXEC, VOLATILE_META, CANCER_FILTER). stdlib-only, офлайн.",
+   "homepage": "",
+   "topics": [
+    "swarm-agents"
+   ],
+   "pushed_at": "2026-11-07T23:58:59Z",
+   "created_at": "2026-11-06T18:57:35Z",
+   "size_kb": 802,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 5876,
+   "readme_head": "# RUNTIME-PROTOCOL — клетка роя cell-swarm\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"runtime-protocol\" width=\"100%\"></p>\n\n\n> Исполнимая модель динамики узла: уравнение ρ̇, фазовая машина GENESIS_EXEC,\n> волатильный мета-слой, рак-фильтр. stdlib-only, офлайн.\n\n## Что это\n\nКлетка реализует формальную модель из сессии «Железо · Стек · Рантайм»\n(спецификация: `rtynbirf/nous`, ветка `agents/execution`, `docs/genesis/runtime-protocol.md`):\n\n```\nρ̇ = MΛ·[α(1−ρ)ρc² + ρ²] − (1−κMΛ)·βρ − Ωₐ·pΘ·(ρc−ρ),  при ρ > 0\n```\n\n- генератор смысла `MΛ[α(1−ρ)ρc² + ρ²]`\n- демпфер долга `(1−κMΛ)·βρ",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "blood",
+     "path": ".github/workflows/blood.yml",
+     "state": "active"
+    },
+    {
+     "name": "metabolism",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "rust-trail",
+     "path": ".github/workflows/rust-trail.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "cell-rs",
+   "full_name": "rtynbirf/cell-rs",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь. Кровь одна во всех телах.",
+   "homepage": "",
+   "topics": [
+    "swarm-agents"
+   ],
+   "pushed_at": "2026-11-07T23:58:53Z",
+   "created_at": "2026-11-07T17:35:42Z",
+   "size_kb": 707,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Rust",
+   "has_readme": true,
+   "readme_size": 2506,
+   "readme_head": "# cell-rs — первая Rust-клетка роя\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"cell-rs\" width=\"100%\"></p>\n\n\nЯдро контура сверки на Rust, без единой зависимости: клетка сама себе хеш.\n\n## Что внутри (v0.1, честные границы)\n\n- `Tolerance` + `reconcile()` — двухступенчатый допуск (deadband/eps), та же\n  семантика, что у Python-ядра `runtime-protocol/blood.py` (приёмки гоняют\n  ОДНИ И ТЕ ЖЕ векторы: 0.505→Nominal, 0.53→Nominal, 0.60→Drift).\n- `sha256` с нуля (FIPS 180-4) — векторы NIST в приёмках.\n- Байт-цепь `seal_line`/`verify_chain`: `seq|payload|prev_hash|hash`,\n  генезис = 6",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "metabolism",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "karaoke-dream",
+   "full_name": "rtynbirf/karaoke-dream",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный коридор — тональность подстраивается под певца. Vanilla JS + WebAudio, zero-dependency.",
+   "homepage": "",
+   "topics": [
+    "dsp",
+    "enhanced-lrc",
+    "karaoke",
+    "lrc",
+    "music",
+    "neon",
+    "pitch-detection",
+    "ruvson",
+    "singing",
+    "vanilla-js",
+    "web-app",
+    "webaudio",
+    "yin"
+   ],
+   "pushed_at": "2026-11-07T23:58:49Z",
+   "created_at": "2026-10-28T13:59:39Z",
+   "size_kb": 665,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "JavaScript",
+   "has_readme": true,
+   "readme_size": 9753,
+   "readme_head": "<div align=\"center\">\n\n<img src=\"public/logo.svg\" alt=\"KARAOKE DREAM 2.0 — Неоновый вектор\" width=\"100%\">\n\n# KARAOKE DREAM 2.0\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"karaoke-dream\" width=\"100%\"></p>\n\n\n**Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и «Зелёный коридор» — среда подстраивается под певца, а не певец под среду.**\n\n[![CI](https://github.com/rtynbirf/karaoke-dream/actions/workflows/ci.yml/badge.svg)](https://github.com/rtynbirf/karaoke-dream/actions/workflows/ci.yml)\n[![License: MIT](https://img.shields.io/badge/License-MIT-22d3ee.s",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "PULL_REQUEST_TEMPLATE.md",
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "singulyar-llm",
+   "full_name": "rtynbirf/singulyar-llm",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Локальная модель СИНГУЛЯРА: Qwen2.5-0.5B-Instruct GGUF частями + инструкционный слой (ОБУЧЕНИЕ). Веса Apache-2.0, генерация — в браузере человека.",
+   "homepage": "",
+   "topics": [
+    "gguf",
+    "inference",
+    "local-llm",
+    "offline",
+    "qwen",
+    "ruvson",
+    "voice-assistant",
+    "wasm"
+   ],
+   "pushed_at": "2026-11-07T23:58:46Z",
+   "created_at": "2026-10-02T16:06:30Z",
+   "size_kb": 663,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 7782,
+   "readme_head": "# singulyar-llm — локальная модель СИНГУЛЯРА\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"singulyar-llm\" width=\"100%\"></p>\n\n\nВеса + инструкционный слой для голосового управления СИНГУЛЯРОМ RUVSON.\nМодель живёт у человека в браузере (wllama / llama.cpp → WebAssembly),\nданные не покидают устройство.\n\n## Состав\n\n| Путь | Что это |\n|------|---------|\n| `MODELS/*.part-XX-of-06.bin` | Qwen2.5-0.5B-Instruct GGUF (q4_k_m), 6 частей ≤ 100 МБ (лимит git) |\n| `ОБУЧЕНИЕ/ПРАВИЛА_СИНГУЛЯРА.txt` | системный промпт: язык, честность, границы, формат ответа |\n| `ОБУЧЕНИЕ/ПРИМЕРЫ_КОМАНД.jsonl` |",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "ruvson-rse2",
+   "full_name": "rtynbirf/ruvson-rse2",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "RUVSON SINGULARITY ENGINE v2 (RSE-2): станок одной песни Шаг 0-6 на мировых трендах 2023-2026 (Mel-Band RoFormer, Seed-VC, OpenVoice+петля, kNN-VC, CREPE-судья). Голос RUVSON.",
+   "homepage": "",
+   "topics": [
+    "audio-processing",
+    "audio-watermarking",
+    "demucs",
+    "karaoke",
+    "lufs",
+    "music",
+    "pipeline",
+    "python",
+    "ruvson"
+   ],
+   "pushed_at": "2026-11-07T23:58:42Z",
+   "created_at": "2026-10-28T13:14:38Z",
+   "size_kb": 942,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 1895,
+   "readme_head": "# RUVSON SINGULARITY ENGINE v2 (RSE-2)\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"ruvson-rse2\" width=\"100%\"></p>\n\n\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![Pipeline](https://img.shields.io/badge/steps-0%E2%86%926%20master-blue)](./04_%D0%90%D0%A0%D0%A5%D0%98%D0%A2%D0%95%D0%9A%D0%A2%D0%A3%D0%A0%D0%90_%D0%A8%D0%90%D0%930-6.md) [![Trends](https://img.shields.io/badge/trends-2023%E2%86%922026-green)](./03_%D0%A2%D0%A0%D0%95%D0%9D%D0%94%D0%AB_%D0%9F%D0%95%D0%A0%D0%92%D0%9E%D0%98%D0%A1%D0%A2%D0%9E%D0%A7%D0%9D%D0%98%D0%9A%D0%98.md) [![Vo",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "rumu",
+   "full_name": "rtynbirf/rumu",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "⚡ СИНГУЛЯР РУМУ — Sovereign BL/GL Streaming. P2P+autopilot, NO corporate. 249 тайтлов. Держатель имени; код — веткой rumu в singulyar. (Восстановлен Полиматом из пломбы polimat-vault 2026-11-08)",
+   "homepage": "",
+   "topics": [
+    "anime",
+    "autopilot",
+    "offline-first",
+    "p2p",
+    "pwa",
+    "russian",
+    "sovereign",
+    "streaming",
+    "webtorrent"
+   ],
+   "pushed_at": "2026-11-07T23:58:39Z",
+   "created_at": "2026-11-07T20:42:07Z",
+   "size_kb": 720,
+   "default_branch": "main",
+   "stars": 0,
+   "language": null,
+   "has_readme": true,
+   "readme_size": 780,
+   "readme_head": "# СИНГУЛЯР РУМУ — честная заглушка\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"rumu\" width=\"100%\"></p>\n\n\nКод РУМУ (Sovereign BL/GL Streaming: P2P+autopilot, 249 тайтлов из bldub API)\nживёт **веткой `rumu` в репозитории [singulyar](https://github.com/rtynbirf/singulyar/tree/rumu)**\n(`cinema.html`, `catalog.js`, `cord.js`, `autopilot_client.js`).\n\nЭтот репозиторий — держатель имени. Контента здесь пока нет;\nперенос кода ветки в самостоятельный репозиторий — отдельный такт.\n\n- Ветка-источник: https://github.com/rtynbirf/singulyar/tree/rumu\n- Владелец: rtynbirf\n",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "polimat-hub",
+   "full_name": "rtynbirf/polimat-hub",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "POLIMAT-HUB: место сверок мультиагента-архитектора. Архитектура, журнал операций, пломбы, stdlib-инструменты.",
+   "homepage": "",
+   "topics": [
+    "meta-tools"
+   ],
+   "pushed_at": "2026-11-07T23:49:57Z",
+   "created_at": "2026-11-07T19:59:28Z",
+   "size_kb": 767,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 2639,
+   "readme_head": "# POLIMAT-HUB · место сверок мультиагента\n\n> «Найдёшь себе место для сверок, вклинишь своё для хранения» — мандат Хозяина, 2026-11-08.\n\nПОЛИМАТ — мультиагент-архитектор аккаунта `rtynbirf`. Этот репозиторий — его рабочее место:\nсверки, пломбы, журнал операций, архитектура и инструменты на Python.\n\n## Принципы (унаследованы от конституции аккаунта)\n\n1. **Ничего не удалять без пломбы.** Каждый артефакт перед операцией — git-бандл + SHA256 в `polimat-vault`.\n2. **Проверяй строкой, не смыслом.** Каждый статус подтверждается машинным выводом API, а не обещанием.\n3. **UNKNOWN ≠ FALSE.** Непроверяемо",
+   "branches": [],
+   "workflows": [],
+   "github_dir": []
+  },
+  {
+   "name": "polymath-gen",
+   "full_name": "rtynbirf/polymath-gen",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "ПОЛИМАТ-ГЕН: автономный медиа-агент — задание человека -> промпт -> изображение/видео -> самокритика -> доработка. LLM-мозг + open-source руки (ComfyUI/FLUX/Wan2.2)",
+   "homepage": "https://rtynbirf.github.io",
+   "topics": [
+    "ai-agent",
+    "autonomous-agents",
+    "comfyui",
+    "flux",
+    "image-generation",
+    "ollama",
+    "polymath",
+    "prompt-engineering",
+    "russian",
+    "stable-diffusion",
+    "video-generation",
+    "wan22"
+   ],
+   "pushed_at": "2026-11-07T23:44:42Z",
+   "created_at": "2026-11-07T23:00:15Z",
+   "size_kb": 8665,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 9614,
+   "readme_head": "# ПОЛИМАТ-ГЕН 🧠→🎨→👁→✨\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"polymath-gen\" width=\"100%\"></p>\n\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](pyproject.toml) [![Tests](https://img.shields.io/badge/tests-9%2F9%20PASS-brightgreen)](tests/) [![Backends](https://img.shields.io/badge/backends-zai%20%C2%B7%20comfy%20%C2%B7%20a1111%20%C2%B7%20ffmpeg-6C3BFF)](polymath_gen/backends/) [![Evolution](https://img.shields.io/badge/self%20learning-evolve.py-FF8C3B)](polymath_gen/evolve.py)\n\n**",
+   "branches": [],
+   "workflows": [],
+   "github_dir": [
+    "social-preview.png"
+   ]
+  },
+  {
+   "name": "neutral-browser",
+   "full_name": "rtynbirf/neutral-browser",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "neutral-browser: user-owned browser engine from scratch (Rust, zero deps) — HTML->DOM->CSS->STYLE->LAYOUT->PAINT->PNG; HUMAN_FIRST norms built in",
+   "homepage": "https://rtynbirf.github.io",
+   "topics": [
+    "browser-engine",
+    "from-scratch",
+    "minimalism",
+    "privacy",
+    "rendering",
+    "rust",
+    "system-layer",
+    "web-browser",
+    "zero-dependencies"
+   ],
+   "pushed_at": "2026-11-07T23:44:05Z",
+   "created_at": "2026-11-04T13:03:49Z",
+   "size_kb": 1386,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Rust",
+   "has_readme": true,
+   "readme_size": 58016,
+   "readme_head": "# Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"neutral-browser\" width=\"100%\"></p>\n\n\nИнструмент пользователя: `USER → BROWSER → WEB`. Без обязательного корпоративного\nпосредника, аккаунта, облака, телеметрии и рекламы. Спецификация — МАСТЕР-ПРОМПТ\n(`docs/MASTER_PROMPT.md`). Правило проекта: **каждый статус подтверждается машинным\nвыводом, а не обещанием**.\n\nТекущая версия: **0.11.0 / STAGE10_VARS**\n\n## Фундамент: ЧЕЛОВЕК ПРЕВЫШЕ ВСЕГО\n\nЦвет, шрифт, оформление — для человека, созданы человеком, а не людьми; забота\nо его зрении и",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "voice-atlas-llm",
+   "full_name": "rtynbirf/voice-atlas-llm",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "Атлас-LLM: модель-эксперт по клонированию голоса (дизентанглмент, TTS/VC/SVC/SVS) — LoRA-обучение на корпусе атласа 2026, RAG, гейты качества",
+   "homepage": "https://rtynbirf.github.io",
+   "topics": [
+    "audio",
+    "fine-tuning",
+    "llm",
+    "lora",
+    "python",
+    "qwen",
+    "rag",
+    "ruvson",
+    "speech",
+    "voice-cloning"
+   ],
+   "pushed_at": "2026-11-07T23:43:59Z",
+   "created_at": "2026-10-26T09:00:00Z",
+   "size_kb": 99217,
+   "default_branch": "main",
+   "stars": 1,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 10540,
+   "readme_head": "# Атлас-LLM · voice-atlas-llm\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"voice-atlas-llm\" width=\"100%\"></p>\n\n\n\n[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](./LICENSE) [![Model](https://img.shields.io/badge/model-voice%20clone%20expert-9146FF)](./README.md) [![Corpus](https://img.shields.io/badge/corpus-Voice%20Atlas%202026-FF6EB4)](./README.md) [![Audit](https://img.shields.io/badge/audit-Voice%20Audit%20Pack%200.1.1-success)](./README.md)\n\n**LLM-эксперт по клонированию голоса, обученный на Техническом атласе 2026.**\nМодель, которая зна",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "polymath-tools-atlas",
+   "full_name": "rtynbirf/polymath-tools-atlas",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "ПОЛИМАТ · TOOLS-ATLAS — каталог 665 AI-инструментов по контракту ГОЛОГРАММА v1 (6 слоёв, 3 статуса, закон цепочек). 147 local vs 151 cloud. 3 конфигурации железа. 12 софт-компонентов. Пломбы SHA256. Проверяй строкой, не смыслом.",
+   "homepage": "https://rtynbirf.github.io",
+   "topics": [
+    "ai-tools",
+    "catalog",
+    "directory",
+    "json",
+    "llm",
+    "machine-readable",
+    "research-verification",
+    "tools"
+   ],
+   "pushed_at": "2026-11-07T23:43:52Z",
+   "created_at": "2026-11-05T07:25:11Z",
+   "size_kb": 1469,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "HTML",
+   "has_readme": true,
+   "readme_size": 11012,
+   "readme_head": "# ПОЛИМАТ · TOOLS-ATLAS — каталог 665 AI-инструментов по контракту ГОЛОГРАММА v1\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"polymath-tools-atlas\" width=\"100%\"></p>\n\n\n\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE) [![Tools](https://img.shields.io/badge/AI%20tools-665%20%5B%D0%92%5D-orange)](./catalog.json) [![Contract](https://img.shields.io/badge/contract-GOLOGRAMMA%20v1-6C3BFF)](./README.md) [![Evidence](https://img.shields.io/badge/verdicts-string%20verified-success)](./court-log.json)\n\n**Инвариант:** «проверяй строкой, не смыслом». Верд",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "validate",
+     "path": ".github/workflows/validate.yml",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "singulyar",
+   "full_name": "rtynbirf/singulyar",
+   "private": false,
+   "fork": false,
+   "archived": false,
+   "description": "СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 64 песни × 200 языков · ОРКЕСТРАТОР ·15 · хаб + 45 дверей · PWA (офлайн, без слежки)",
+   "homepage": "https://rtynbirf.github.io",
+   "topics": [
+    "accessibility",
+    "fsrs",
+    "html",
+    "javascript",
+    "karaoke",
+    "lyrics",
+    "music",
+    "offline-first",
+    "opfs",
+    "phonetics",
+    "privacy",
+    "pwa",
+    "russian",
+    "ruvson",
+    "service-worker",
+    "spaced-repetition",
+    "speech-recognition",
+    "transcription",
+    "web-audio",
+    "webgpu"
+   ],
+   "pushed_at": "2026-11-07T23:43:48Z",
+   "created_at": "2026-10-01T16:50:34Z",
+   "size_kb": 1584191,
+   "default_branch": "rumu",
+   "stars": 0,
+   "language": "HTML",
+   "has_readme": true,
+   "readme_size": 107974,
+   "readme_head": "# СИНГУЛЯР — офлайн-вселенная караоке RUVSON\n\n<p align=\"center\"><img src=\".github/social-preview.png\" alt=\"singulyar\" width=\"100%\"></p>\n\n\nОфлайн-ядро караоке-вселенной RUVSON: **64 песни · флагман «Когда теряем» на 157 языках (конвейер: 197) · ОРКЕСТРАТОР ·15 · ОС из 17 модулей · PWA**.\nОдин HTML-файл = офлайн-ядро. Межустройственная связь — по явному жесту, через внешние рельсы. Скачал — открыл — поёшь.\n\n**Живой сайт (PWA):** https://rtynbirf.github.io/singulyar/\n\n<!--СНГ:АТЛАС-ПРАВДА--> Исторические числа дверей в абзацах ниже (18/19/21/22/23) — летопись своего такта; истина — здесь и в `dat",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "Lighthouse CI",
+     "path": ".github/workflows/lighthouse.yml",
+     "state": "active"
+    },
+    {
+     "name": "Оракулы дома зелёные (sovereign check)",
+     "path": ".github/workflows/oracle-rumu.yml",
+     "state": "active"
+    },
+    {
+     "name": "Deploy СИНГУЛЯР РУМУ to Pages",
+     "path": ".github/workflows/pages.yml",
+     "state": "active"
+    },
+    {
+     "name": "Pull Request Conformance Checks",
+     "path": ".github/workflows/pr_check.yml",
+     "state": "active"
+    },
+    {
+     "name": "OpenSSF Scorecard",
+     "path": ".github/workflows/scorecard.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Такт-гейт (доказательство выпуска)",
+     "path": ".github/workflows/такт_гейт.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "pages-build-deployment",
+     "path": "dynamic/pages/pages-build-deployment",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "dependabot.yml",
+    "social-preview.png",
+    "workflows"
+   ]
+  },
+  {
+   "name": "language-through-the-ages",
+   "full_name": "rtynbirf/language-through-the-ages",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "Язык сквозь эпохи — автономная HTML-экспозиция: семь способов мыслить язык (7 эпох × 7 гарнитур, эпистемические комментарии)",
+   "homepage": "",
+   "topics": [
+    "dark-theme",
+    "essay",
+    "exposition",
+    "html",
+    "linguistics",
+    "offline-first",
+    "single-file",
+    "typography"
+   ],
+   "pushed_at": "2026-11-07T21:44:04Z",
+   "created_at": "2026-11-06T20:40:14Z",
+   "size_kb": 2003,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "HTML",
+   "has_readme": true,
+   "readme_size": 9563,
+   "readme_head": "# Язык сквозь эпохи\n\nАвтономная HTML-экспозиция: семь способов мыслить язык — от логоса к телесному предсказанию.\nОдин файл, ноль внешних запросов. Сиблинг по жанру — `rtynbirf/web-evolution-1991-2026`.\n\n**Артефакт:** `language-through-the-ages-v2.html` — 548532 Б, SHA256\n`c30ab945346aedd674581bb9fa8befffbdcc63fcbde00b099ab81e7e100a8a84`.\nРезерв — `language-through-the-ages.zip` (406346 Б, deflate -9).\nПервая редакция — `language-through-the-ages-v1.html` (38529 Б, архивная, без эпистемических комментариев).\n\n## Что внутри\n\n- **7 эпох, 7 голосов** — каждая эпоха говорит своей гарнитурой:\n  I А",
+   "branches": [],
+   "workflows": [],
+   "github_dir": []
+  },
+  {
+   "name": "edinyy-svod",
+   "full_name": "rtynbirf/edinyy-svod",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "ЕДИНЫЙ СВОД архива rtynbirf: 37 репозиториев — каталог, 8 кластеров, конституции, программы, инварианты, дыры. Автономная HTML-экспозиция: один файл, ноль внешних запросов.",
+   "homepage": "",
+   "topics": [
+    "archive",
+    "catalog",
+    "classification",
+    "exposition",
+    "html",
+    "inventory",
+    "offline-first",
+    "synthesis"
+   ],
+   "pushed_at": "2026-11-07T20:53:30Z",
+   "created_at": "2026-11-07T05:15:19Z",
+   "size_kb": 314,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "HTML",
+   "has_readme": true,
+   "readme_size": 5884,
+   "readme_head": "# ЕДИНЫЙ СВОД\n\nАвтономная HTML-экспозиция: весь архив `rtynbirf` — 37 репозиториев (17 приватных,\n20 публичных) — разобран, изучен, каталогизирован, классифицирован, упорядочен и\nсинтезирован в один файл. Сиблинг по жанру — `rtynbirf/language-through-the-ages`\nи `rtynbirf/web-evolution-1991-2026`. Мандат Хозяина: «приват и паблик изучи,\nинтегрируй своё в репо» (исходная задача чата: «разобрать весь архив… свести в\nединый свод… формат .html… не выдумывать стиль»).\n\n**Артефакт:** `edinyy-svod-v1.html` — 210197 Б, SHA256\n`479b85c2b8864149cbc228785101bab5c11517eca21af64b76f8cfd92cd82e74`.\nРезерв —",
+   "branches": [],
+   "workflows": [],
+   "github_dir": []
+  },
+  {
+   "name": "ruvson-lyrics",
+   "full_name": "rtynbirf/ruvson-lyrics",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP",
+   "homepage": "",
+   "topics": [
+    "archive",
+    "karaoke",
+    "lyrics",
+    "music",
+    "poetry",
+    "russian",
+    "ruvson",
+    "song-texts"
+   ],
+   "pushed_at": "2026-11-07T20:50:08Z",
+   "created_at": "2026-10-27T17:29:34Z",
+   "size_kb": 526389,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "JavaScript",
+   "has_readme": true,
+   "readme_size": 10785,
+   "readme_head": "# RUVSON — тексты 65 треков\n\nЭталон — записи с YouTube-канала @ruvson_music. Субтитры и сайты-транскрипты — только черновик.\nФинальная сверка всегда на слух.\n\n## КАРАОКЕ МЕЧТЫ 2.0\n\nДомашнее караоке по текстам RUVSON: `karaoke/index.html` — статическое\nприложение без сборки и зависимостей (PWA: ставится и работает офлайн).\nПять слоёв: контентный движок (63 песни ЧИСТОВИК — весь корпус с текстами\n(№1–5 — эталон, сверка на слух; №6–65 — чистовик-структура алгоритмом\nпо команде автора, слова черновиков не тронуты) + минус из файла или\nвстроенный синт + свои песни через вставку текста), голосовой к",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "Pages (ручной запуск)",
+     "path": ".github/workflows/pages.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "windows-chronicle",
+   "full_name": "rtynbirf/windows-chronicle",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "Полная хроника Microsoft Windows 1985-2026: все версии, боли пользователей, продвижение, рейтинг двух полюсов",
+   "homepage": "",
+   "topics": [
+    "history",
+    "microsoft",
+    "os-history",
+    "reference",
+    "timeline",
+    "windows",
+    "windows-canon"
+   ],
+   "pushed_at": "2026-11-07T20:43:23Z",
+   "created_at": "2026-10-30T21:11:19Z",
+   "size_kb": 230,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "JavaScript",
+   "has_readme": true,
+   "readme_size": 5326,
+   "readme_head": "# 🪟 Windows Chronicle (1985–2026)\n\nПолная систематизированная хроника операционных систем Microsoft Windows: **все поколения за 41 год**, каталог болей пользователей, каталог активного продвижения и главный рейтинг «между двумя полюсами».\n\n- **Составлено:** 31 октября 2026\n- **Метод:** веб-верификация ключевых фактов (Microsoft Learn / Lifecycle, support.microsoft.com, StatCounter, BleepingComputer, Windows Central, PCMag, блог Windows Server); исторические даты сверены со справочными источниками. Всё, что не подтверждено напрямую, помечено словами «по сообщениям», «оценка», «≈».\n- **Принцип:*",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "H-PE11-PHOENIX",
+   "full_name": "rtynbirf/H-PE11-PHOENIX",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии. Правила ведения — в rtynbirf/repo-doctrine.",
+   "homepage": "",
+   "topics": [
+    "operations",
+    "phoenix",
+    "system-layer",
+    "windows-11",
+    "winpe",
+    "worklog"
+   ],
+   "pushed_at": "2026-11-07T18:43:07Z",
+   "created_at": "2026-10-20T16:52:30Z",
+   "size_kb": 14034,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "PowerShell",
+   "has_readme": true,
+   "readme_size": 7344,
+   "readme_head": "# ФЕНИКС-11 // PHOENIX-11\n\n![PHOENIX-11](brand/PHOENIX-11_wallpaper.png)\n\n**Встаёт из пепла. Поднимает другие.**\n\nPHOENIX-11 (внутренний каркас H-PE11) — оригинальная многофункциональная сборка\nWinPE 11 («БОМБА»), собранная без ADK/DISM: **wimlib 1.14.4 + pycdlib**, на базе\nофициального `boot.wim` Microsoft Windows 11 26H2 x64 ru-RU (26300.9457).\nЗаписи BIOS+UEFI — подлинные файлы MS (`etfsboot.com` + `efisys.bin`).\n\n## Миссия репы с 2026-10-25: ВНЕШНЯЯ ПАМЯТЬ\nПесочницы агента периодически умирают (worklog гибли дважды, скрипты FIX13 стёрты).\nТеперь вся память живёт здесь (private):\n- **[MEMOR",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "nous",
+   "full_name": "rtynbirf/nous",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "НОУС — эмерджентное сингулярное репо: конституция для человека и агентов, ТЗ форжа ISO, дорожная карта, контур исполнения",
+   "homepage": "",
+   "topics": [
+    "agents-md",
+    "ai-agents",
+    "debian",
+    "github-actions",
+    "iso-builder",
+    "reproducible-builds",
+    "russian",
+    "safe-defaults",
+    "supply-chain-security",
+    "swarm-agents",
+    "ubuntu",
+    "windows-iso"
+   ],
+   "pushed_at": "2026-11-07T18:41:41Z",
+   "created_at": "2026-10-28T21:49:34Z",
+   "size_kb": 445,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 7999,
+   "readme_head": "# НОУС\n\n> **Репо — не склад файлов, а машина, порождающая истину.**\n> НОУС (греч. Νοῦς — мировой Разум): порядок, вносимый в хаос. Здесь порядок вносится контуром\n> «контракт → исполнение → верификация → память».\n\n**Статус:** приватное репо-конституция + живая территория форжа · ветка исполнения: `agents/execution` · версия: `0.5.0`\n**Проверено:** 2026-10-29 · все внешние пины — в [`manifests/pins.yaml`](manifests/pins.yaml) · генеалогия гейта — [`docs/genesis/revision-0.md`](docs/genesis/revision-0.md)\n\n---\n\n## Что это\n\nНОУС — эталонная архитектура репозитория, построенная на шести аксиомах (",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "ci",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "forge-linux",
+     "path": ".github/workflows/forge.yml",
+     "state": "active"
+    },
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "release",
+     "path": ".github/workflows/release.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "CODEOWNERS",
+    "ISSUE_TEMPLATE",
+    "PULL_REQUEST_TEMPLATE.md",
+    "copilot-instructions.md",
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "repo-doctrine",
+   "full_name": "rtynbirf/repo-doctrine",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита веток, токены, конвенции агентов, аварийные процедуры, карта аккаунта.",
+   "homepage": "",
+   "topics": [
+    "agents",
+    "checklists",
+    "doctrine",
+    "documentation",
+    "github",
+    "meta-tools",
+    "security"
+   ],
+   "pushed_at": "2026-11-07T17:52:14Z",
+   "created_at": "2026-10-31T20:04:52Z",
+   "size_kb": 147,
+   "default_branch": "main",
+   "stars": 0,
+   "language": null,
+   "has_readme": true,
+   "readme_size": 6905,
+   "readme_head": "# ДОКТРИНА РЕПОЗИТОРИЕВ — человеком для человека\n\nПриватная доктрина аккаунта `rtynbirf`. Написана 2026-11-01 по мандату Хозяина.\nЗадача доктрины одна: чтобы **любой** — Хозяин или агент — за 15 минут понимал,\nкак тут всё устроено, где что лежит и какие правила игры.\n\n---\n\n## ЕСЛИ ТЫ АГЕНТ И ЧИТАЕШЬ ЭТО — НАЧНИ ОТСЮДА\n\n1. Аккаунт **общий**: на нём работают несколько агентов. Ты не один.\n2. Твоя орбита указана Хозяином в мандате. Чужие репозитории **не трогать**:\n   ни код, ни описания, ни настройки. Смотри карту: `06-карта-аккаунта.md`.\n3. Правило аддитивности: добавлять можно, удалять и переп",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "red-thread-debt-audit",
+   "full_name": "rtynbirf/red-thread-debt-audit",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "КРАСНАЯ НИТЬ — аудит динамики суверенного долга: долговая яма = рента. Канон v8.0, матрица переходов 230×17 (10 кейсов), кросс-слой R10 (VA1–VA5, PB1–PB6), движок КОЛЬЦО-1 v1–v8. FACT/CALCULATED/MODEL/UNKNOWN разведены. Наблюдательное исследование.",
+   "homepage": "",
+   "topics": [
+    "audit",
+    "default",
+    "evidence-audit",
+    "falsifiability",
+    "macro",
+    "python",
+    "red-thread",
+    "rent",
+    "research-verification",
+    "sovereign-debt",
+    "world-bank"
+   ],
+   "pushed_at": "2026-11-07T17:50:34Z",
+   "created_at": "2026-11-04T20:45:57Z",
+   "size_kb": 8388,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 12215,
+   "readme_head": "# КРАСНАЯ НИТЬ — аудит динамики суверенного долга\n\n**Долговая яма = рента.** Шесть граней одной точки границы:\n`A_crit = λ=1 = r−g=0 = i = m·(1−ρ)` (+ в v8.0: `i_eff = m·ρ^(−0.45)·(1−ρ)` с полом λ_F и дренажом φ_G).\n\n**Статус:** канон v8.0 закрыт (Раунд 15); кросс-слой R10 исполнен и верифицирован с обеих сторон.\nИсследование наблюдательное: ни один вывод здесь не является инвестиционной, юридической или политической рекомендацией.\n\n---\n\n## Что это\n\nМногоагентная исследовательская программа: аудит динамики суверенного долга на реальных рядах\n(корпус 10 кейсов × 2001–2023, WB API v2 / datamappe",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "github-runbook",
+   "full_name": "rtynbirf/github-runbook",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "Ранбук: настройка GitHub-репозитория человеком для человека — все флаги Settings, ветки и защита (Free vs Pro), безопасность, проверенная API-шпаргалка, журнал верификации",
+   "homepage": "",
+   "topics": [
+    "documentation",
+    "git",
+    "github",
+    "meta-tools",
+    "repo-settings",
+    "runbook",
+    "security"
+   ],
+   "pushed_at": "2026-11-07T17:50:20Z",
+   "created_at": "2026-10-31T20:11:38Z",
+   "size_kb": 98,
+   "default_branch": "main",
+   "stars": 0,
+   "language": null,
+   "has_readme": true,
+   "readme_size": 3975,
+   "readme_head": "# GitHub-ранбук: настройка репозитория человеком для человека\n\n> Принцип: **не «нажми сюда», а «вот зачем это нужно»**. Каждый флаг объяснён по-человечески,\n> каждая команда — проверена живым запросом к API (журнал верификации — в `SOURCES.md`).\n> Всё, что помечено «проверено live», реально исполнено на аккаунте `rtynbirf` 01.11.2026.\n\n## Зачем этот ранбук\n\nGitHub после создания репозитория предлагает ~40 переключателей. Документация объясняет\n*что* делает каждый, но не *зачем* и *что выбрать*. Этот мануал закрывает разрыв:\nполный обход флагов Settings с решениями «человека» — владельца личног",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "bundle-backup",
+     "path": ".github/workflows/bundle-backup.yml",
+     "state": "active"
+    },
+    {
+     "name": "ci",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС-1 — корневая кардиограмма аккаунта",
+     "path": ".github/workflows/pulse-aggregator.yml",
+     "state": "active"
+    },
+    {
+     "name": "release",
+     "path": ".github/workflows/release.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "ISSUE_TEMPLATE",
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "uace-pml",
+   "full_name": "rtynbirf/uace-pml",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "UACE x PML — Universal AI Chat Exporter (Evidence First, PML-PANEL 1.0 / PML-STRUCT canon). Final: v29.0.1-evidence",
+   "homepage": "",
+   "topics": [
+    "ai-chat",
+    "archiving",
+    "chat-exporter",
+    "evidence",
+    "provenance",
+    "research-verification",
+    "tool"
+   ],
+   "pushed_at": "2026-11-07T17:50:09Z",
+   "created_at": "2026-11-04T13:46:24Z",
+   "size_kb": 4617,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "JavaScript",
+   "has_readme": true,
+   "readme_size": 2647,
+   "readme_head": "# UACE × PML — Universal AI Chat Exporter\n\nUserscript-экспортёр диалогов ИИ (36 платформ: ChatGPT, Claude, Gemini, DeepSeek,\nKimi, Qwen, Grok, Copilot и др.) по канонам **PML-PANEL 1.0** и **PML-STRUCT r1+r2**.\n\nГлавный принцип — **Evidence First**: каждый результат несёт\n`{value, evidence, confidence, source, strategy}`; «не уверен» → `unknown`, догадки запрещены.\n\n## Текущий финал\n\n| Сборка | Файл | md5 | Проверки |\n|---|---|---|---|\n| **v29.0.1-evidence** (HOTFIX H1–H13) | `download/uace-pml-v29.0.1-evidence.user.js` | `8e267bf454c08cdaabf183aa24d0d7ad` | node --check PASS · core 195/195 · ",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "web-evolution-1991-2026",
+   "full_name": "rtynbirf/web-evolution-1991-2026",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "Эволюция Веба 1991→2026 — автономная HTML-экспозиция: 5 эпох, таймлайн, WCAG+APCA, один файл 267 КБ, ноль внешних запросов",
+   "homepage": "",
+   "topics": [
+    "css",
+    "dark-theme",
+    "exhibition",
+    "exposition",
+    "html",
+    "javascript",
+    "offline-first",
+    "single-file",
+    "typography",
+    "wcag",
+    "web-history"
+   ],
+   "pushed_at": "2026-11-06T23:41:21Z",
+   "created_at": "2026-11-06T19:14:08Z",
+   "size_kb": 1083,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "HTML",
+   "has_readme": true,
+   "readme_size": 3940,
+   "readme_head": "# Эволюция Веба 1991→2026\n\nАвтономная HTML-экспозиция: 35 лет веб-дизайна в одном файле.\nОткрыл файл — работает. Без сети, без сервера, без внешних запросов.\n\n**Артефакт:** `evolution-web-1991-2026.html` — 267 КБ (273 323 Б), SHA256\n`18611ca3b2990324a82e5cbaec2eac9c503c5308c95d32188729dcb5ed39ec81`.\nРезерв — `evolution-web-1991-2026.zip` (157 КБ, deflate -9).\n\n## Что внутри\n\n- **Машина времени** — 5 эпох на одной странице, каждая воссоздана вживую:\n  1991 (гипертекст CERN) → 1996 (tables) → 2005 (Web 2.0) → 2013 (flat) → 2026 (глассморфизм/бенто);\n- **Таймлайн** — 8 верифицированных вех (кажда",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "task-graph-propagator",
+   "full_name": "rtynbirf/task-graph-propagator",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "Task Graph Engine: один пропагатор — все функции структуры графа задач (полукольца, Кана, критпуть, резервы, надёжность, крэшинг)",
+   "homepage": "",
+   "topics": [
+    "dependency-graph",
+    "engine",
+    "graph",
+    "library",
+    "propagation",
+    "python",
+    "research-verification",
+    "task-graph"
+   ],
+   "pushed_at": "2026-11-06T23:34:30Z",
+   "created_at": "2026-11-04T14:34:21Z",
+   "size_kb": 49,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 8095,
+   "readme_head": "# Task Graph Engine · ПРОПАГАТОР\n\n[![ci](https://github.com/rtynbirf/task-graph-propagator/actions/workflows/ci.yml/badge.svg)](https://github.com/rtynbirf/task-graph-propagator/actions/workflows/ci.yml)\n![license](https://img.shields.io/badge/license-Apache--2.0-blue)\n![deps](https://img.shields.io/badge/dependencies-stdlib%20only-brightgreen)\n![version](https://img.shields.io/badge/version-1.1.0-orange)\n\n**Один алгоритм — все функции структуры графа задач.**\nЯдро — пропагатор (функция Грина на графе):\n\n```\nK(v) = ν_v( φ(v) ⊕ Σ_{u→v} ε_uv(K(u)) )      — в полукольце S\n```\n\n## Вывод\n\n1. Пропаг",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "CI",
+     "path": ".github/workflows/ci.yml",
+     "state": "active"
+    },
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    },
+    {
+     "name": "Dependency Graph",
+     "path": "dynamic/dependabot/update-graph",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "rent-mechanism-q43",
+   "full_name": "rtynbirf/rent-mechanism-q43",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "Рентный механизм: ядро Q43 v2, шесть законов L1-L6, инвариант I_K. Машинная программа R11-R49 (наблюдение -> атака -> патч).",
+   "homepage": "",
+   "topics": [
+    "analysis",
+    "canon",
+    "debt",
+    "economics",
+    "research",
+    "research-verification",
+    "sovereignty"
+   ],
+   "pushed_at": "2026-11-06T23:34:09Z",
+   "created_at": "2026-11-04T19:12:14Z",
+   "size_kb": 557,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 8887,
+   "readme_head": "# РЕНТНЫЙ МЕХАНИЗМ — ПРОГРАММА R11–R49\n\n**Статус: SOLVED_WITH_CAVEATS.** Ядро Q43 v2, шесть законов L1–L6, инвариант I_K″.\nМетод: реальность → наблюдаемые элементы → связи → операции → воспроизводство → механизм → формализация. Протокол HYPOTHESIS → TASK GRAPH → EVIDENCE → ATTACK → UPDATE. **UNKNOWN ≠ FALSE.**\n\n---\n\n## Структура\n\n```\ndocs/\n  FINALNIY_PROMPT_V8.0_INTEGRATSIYA_YADRA.md   # канон: ядро, законы, инвариант, честный лист\n  R11_RENT_MECHANISM_VERDICT.md                # первый машинный вердикт программы\n  R20_COUNTERFACTUAL_ATTACK_VERDICT.md         # контрфактическая атака, якорь-кр",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  },
+  {
+   "name": "polimat-task174",
+   "full_name": "rtynbirf/polimat-task174",
+   "private": true,
+   "fork": false,
+   "archived": false,
+   "description": "ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 приёмка чужаком. Канон v5.1.2 [В]; «ключ внутри» [О]; «протокол работает» [Н]. Прогон 3 — связка красной нити.",
+   "homepage": "",
+   "topics": [
+    "b25",
+    "epistemics",
+    "polimat",
+    "protocol",
+    "red-thread",
+    "research-verification",
+    "sha256",
+    "verification"
+   ],
+   "pushed_at": "2026-11-06T23:33:41Z",
+   "created_at": "2026-11-04T21:22:49Z",
+   "size_kb": 6766,
+   "default_branch": "main",
+   "stars": 0,
+   "language": "Python",
+   "has_readme": true,
+   "readme_size": 25922,
+   "readme_head": "# ПОЛИМАТ · TASK174 — протокол проверки канона по строкам\n\n**Инвариант:** «проверяй строкой, не смыслом». Вердикты однословные: **[В]** проверено / **[О]** частично, с дырами / **[Н]** непроверяемо (+ **[ОПРОВЕРГНУТО]** для опровергнутого).\n**Объект:** канон POLIMAT (документ-прибор) и два тезиса о нём: **В5 «ключ внутри»** (документ проверяем по одному себе) и **В2 «протокол работает»**.\n**Статус:** канон **v5.1.2 стабилизирован [В]** (`9384b44a…80dc7`, FROZEN, аудит-след полный); «ключ внутри» **[О]**; «протокол работает» **[Н]** — прогонов меньше порогов.\n\n---\n\n## Что это\n\nЭпистемологически",
+   "branches": [],
+   "workflows": [
+    {
+     "name": "guardian-tripwire",
+     "path": ".github/workflows/guardian-tripwire.yml",
+     "state": "active"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "path": ".github/workflows/self-audit.yml",
+     "state": "active"
+    },
+    {
+     "name": "Dependabot Updates",
+     "path": "dynamic/dependabot/dependabot-updates",
+     "state": "active"
+    }
+   ],
+   "github_dir": [
+    "dependabot.yml",
+    "workflows"
+   ]
+  }
+ ],
+ "verify": {
+  "rtynbirf/rtynbirf": {
+   "branches": [
+    "main",
+    "output"
+   ],
+   "cover_raw": "200 861475B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "generate snake",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "generate snake",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "generate snake",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/rtynbirf.github.io": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 547108B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "Deploy корневого сайта",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "Deploy корневого сайта",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "Deploy корневого сайта",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/.github": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 838529B PNG 1280x640",
+   "last_runs": []
+  },
+  "rtynbirf/markitdown": {
+   "branches": [
+    "add-python-3.15-support",
+    "dependabot/github_actions/actions/setup-python-7.1.0",
+    "gagb/add-github-issue-conversion",
+    "joshbradley/add-file-input-support",
+    "kennyzhang/add-file-object-support",
+    "main",
+    "office_eval",
+    "onenote",
+    "resubmit/html-docx-escape-table-pipes",
+    "resubmit/ipynb-accepts-notebook-structure",
+    "v0.0.X",
+    "zip_formats"
+   ],
+   "cover_raw": "200 822274B PNG 1280x640",
+   "last_runs": []
+  },
+  "rtynbirf/release-vault": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 615345B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "vault-integrity — сверка шифротекстов",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "vault-integrity — сверка шифротекстов",
+     "status": "completed",
+     "conclusion": "failure",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "vault-integrity — сверка шифротекстов",
+     "status": "completed",
+     "conclusion": "failure",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/agryp": {
+   "branches": [
+    "main",
+    "tool-catalog"
+   ],
+   "cover_raw": "200 319637B PNG 1280x640",
+   "last_runs": []
+  },
+  "rtynbirf/universal-agent": {
+   "branches": [
+    "dependabot/github_actions/actions/checkout-7.0.1",
+    "dependabot/github_actions/actions/setup-python-7.1.0",
+    "main"
+   ],
+   "cover_raw": "200 445751B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "ci",
+     "status": "completed",
+     "conclusion": "failure",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "Graph Update: pip in /. #1686933002",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "ci",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/domovoy-tweaker": {
+   "branches": [
+    "ci-report",
+    "main"
+   ],
+   "cover_raw": "200 703218B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/os-forge": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 827410B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "ПУЛЬС — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/polymath-os": {
+   "branches": [
+    "gh-pages",
+    "main"
+   ],
+   "cover_raw": "200 673503B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "CodeQL",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "failure",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "OpenSSF Scorecard",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/cell-swarm": {
+   "branches": [
+    "genome/cell-agryp",
+    "main"
+   ],
+   "cover_raw": "200 735258B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "genome-reconcile",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "metabolism",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "metabolism",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/polymath-atlas-v107": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 1006397B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "ПУЛЬС — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/global-video-platforms-registry": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 938680B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "validate",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "validate",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "validate",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "dependabot/github_actions/actions/setup-python-7",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/cell65-host": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 911368B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "ci",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "ci",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "selftest",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/commons": {
+   "branches": [
+    "main",
+    "wave33-peer-registry",
+    "wave34-consent-grant"
+   ],
+   "cover_raw": "200 728400B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "scorecard",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "ci",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "scorecard",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/runtime-protocol": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 711731B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "metabolism",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "blood",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "blood",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/cell-rs": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 706458B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "metabolism",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "metabolism",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "metabolism",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    }
+   ]
+  },
+  "rtynbirf/karaoke-dream": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 590720B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/singulyar-llm": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 602339B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    },
+    {
+     "name": "ПУЛЬС — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/ruvson-rse2": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 736260B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/rumu": {
+   "branches": [
+    "main",
+    "membrane-2026-11-05"
+   ],
+   "cover_raw": "200 715387B PNG 1280x640",
+   "last_runs": []
+  },
+  "rtynbirf/polymath-gen": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 700133B PNG 1280x640",
+   "last_runs": []
+  },
+  "rtynbirf/neutral-browser": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 918259B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "cargo in /. - Update #1686123266",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/voice-atlas-llm": {
+   "branches": [
+    "dependabot/pip/numpy-gte-2.5.4",
+    "dependabot/pip/pyyaml-gte-6.0.3",
+    "dependabot/pip/scikit-learn-gte-1.9.1",
+    "dependabot/pip/torch-2.15.0",
+    "dependabot/pip/transformers-5.22.1",
+    "main",
+    "proven-recipes"
+   ],
+   "cover_raw": "200 618717B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "CI",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/polymath-tools-atlas": {
+   "branches": [
+    "main"
+   ],
+   "cover_raw": "200 910509B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "validate",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "validate",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "ПУЛЬС v2 — еженедельный самоаудит",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "main",
+     "date": "2026-11-06"
+    }
+   ]
+  },
+  "rtynbirf/singulyar": {
+   "branches": [
+    "latka-c141-wip",
+    "main",
+    "minus-fond",
+    "rumu"
+   ],
+   "cover_raw": "200 584429B PNG 1280x640",
+   "last_runs": [
+    {
+     "name": "Deploy СИНГУЛЯР РУМУ to Pages",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "rumu",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "Оракулы дома зелёные (sovereign check)",
+     "status": "completed",
+     "conclusion": "failure",
+     "branch": "rumu",
+     "date": "2026-11-07"
+    },
+    {
+     "name": "OpenSSF Scorecard",
+     "status": "completed",
+     "conclusion": "success",
+     "branch": "rumu",
+     "date": "2026-11-07"
+    }
+   ]
+  }
+ },
+ "open_prs_issues": {
+  "rtynbirf/rtynbirf": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/rtynbirf.github.io": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/.github": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/markitdown": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/release-vault": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/agryp": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/universal-agent": {
+   "open_prs": 2,
+   "open_issues": 0
+  },
+  "rtynbirf/domovoy-tweaker": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/os-forge": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/polymath-os": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/cell-swarm": {
+   "open_prs": 1,
+   "open_issues": 0
+  },
+  "rtynbirf/polymath-atlas-v107": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/global-video-platforms-registry": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/cell65-host": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/commons": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/runtime-protocol": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/cell-rs": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/karaoke-dream": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/singulyar-llm": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/ruvson-rse2": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/rumu": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/polymath-gen": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/neutral-browser": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/voice-atlas-llm": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/polymath-tools-atlas": {
+   "open_prs": 0,
+   "open_issues": 0
+  },
+  "rtynbirf/singulyar": {
+   "open_prs": 0,
+   "open_issues": 0
+  }
+ }
+}
