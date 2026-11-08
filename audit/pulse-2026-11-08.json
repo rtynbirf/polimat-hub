@@ -1,6 +1,277 @@
 {
  "date": "2026-11-08",
- "repos": [],
+ "repos": [
+  {
+   "repo": "singulyar",
+   "private": false,
+   "size_kb": 1584191,
+   "pushed_at": "2026-11-07",
+   "branches": 4,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "Оракулы дома зелёные (sovereign check)"
+  },
+  {
+   "repo": "voice-atlas-llm",
+   "private": false,
+   "size_kb": 99217,
+   "pushed_at": "2026-11-07",
+   "branches": 7,
+   "open_prs": 5,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "polymath-gen",
+   "private": false,
+   "size_kb": 8665,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": ""
+  },
+  {
+   "repo": "rtynbirf.github.io",
+   "private": false,
+   "size_kb": 7177,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "Deploy корневого сайта"
+  },
+  {
+   "repo": "markitdown",
+   "private": false,
+   "size_kb": 6826,
+   "pushed_at": "2026-11-08",
+   "branches": 12,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": ""
+  },
+  {
+   "repo": "polymath-os",
+   "private": false,
+   "size_kb": 2973,
+   "pushed_at": "2026-11-08",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CodeQL"
+  },
+  {
+   "repo": "commons",
+   "private": false,
+   "size_kb": 2689,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "scorecard"
+  },
+  {
+   "repo": "global-video-platforms-registry",
+   "private": false,
+   "size_kb": 1950,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "validate"
+  },
+  {
+   "repo": "cell65-host",
+   "private": false,
+   "size_kb": 1518,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "polymath-tools-atlas",
+   "private": false,
+   "size_kb": 1469,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "validate"
+  },
+  {
+   "repo": "neutral-browser",
+   "private": false,
+   "size_kb": 1386,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "domovoy-tweaker",
+   "private": false,
+   "size_kb": 1355,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "polymath-atlas-v107",
+   "private": false,
+   "size_kb": 1113,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
+  },
+  {
+   "repo": "rtynbirf",
+   "private": false,
+   "size_kb": 1014,
+   "pushed_at": "2026-11-08",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "generate snake"
+  },
+  {
+   "repo": "polimat-hub",
+   "private": true,
+   "size_kb": 955,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": ""
+  },
+  {
+   "repo": "ruvson-rse2",
+   "private": false,
+   "size_kb": 942,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "os-forge",
+   "private": false,
+   "size_kb": 899,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
+  },
+  {
+   "repo": "cell-swarm",
+   "private": false,
+   "size_kb": 896,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "metabolism"
+  },
+  {
+   "repo": ".github",
+   "private": false,
+   "size_kb": 829,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": ""
+  },
+  {
+   "repo": "runtime-protocol",
+   "private": false,
+   "size_kb": 802,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "metabolism"
+  },
+  {
+   "repo": "agryp",
+   "private": false,
+   "size_kb": 767,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": ""
+  },
+  {
+   "repo": "rumu",
+   "private": false,
+   "size_kb": 720,
+   "pushed_at": "2026-11-08",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": ""
+  },
+  {
+   "repo": "cell-rs",
+   "private": false,
+   "size_kb": 707,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "metabolism"
+  },
+  {
+   "repo": "karaoke-dream",
+   "private": false,
+   "size_kb": 665,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "singulyar-llm",
+   "private": false,
+   "size_kb": 663,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
+  },
+  {
+   "repo": "release-vault",
+   "private": false,
+   "size_kb": 622,
+   "pushed_at": "2026-11-07",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "vault-integrity — сверка шифротекстов"
+  },
+  {
+   "repo": "universal-agent",
+   "private": false,
+   "size_kb": 540,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  }
+ ],
  "wounds": [],
- "open_prs_total": 0
+ "open_prs_total": 5
 }
