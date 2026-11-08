@@ -44,6 +44,18 @@ def main():
             break
         repos.extend(batch)
         page += 1
+    if not repos:
+        # GITHUB_TOKEN в Actions — installation-токен: /user/repos пуст.
+        # Честный fallback: /installation/repositories (все репо установки приложения).
+        page = 1
+        while True:
+            batch = api(f"{API}/installation/repositories?per_page=100&page={page}")
+            if not isinstance(batch, dict) or not batch.get("repositories"):
+                break
+            repos.extend(batch["repositories"])
+            page += 1
+    if len(repos) < 5:
+        sys.exit(f"СЕРДЦЕ СЛЕПО: обход увидел {len(repos)} репо — пишу отказ, не пустой пульс (UNKNOWN ≠ FALSE)")
     rows, wounds, total_pr = [], [], 0
     for r in repos:
         full = r["full_name"]
