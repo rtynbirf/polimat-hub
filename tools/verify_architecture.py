@@ -13,6 +13,8 @@ CANON = {
     "H-PE11-PHOENIX": "A", "domovoy-tweaker": "A", "cell65-host": "A", "release-vault": "A",
     "nous": "B", "cell-swarm": "B", "runtime-protocol": "B", "cell-rs": "B",
     "universal-agent": "B", "commons": "B",
+    # polymath-gen добавлен (волна 2026-11-08, W-AUD-06): медиа-агент роя
+    "polymath-gen": "B",
     "singulyar": "C", "ruvson-lyrics": "C", "ruvson-rse2": "C", "karaoke-dream": "C",
     "singulyar-llm": "C", "rtynbirf.github.io": "C", "voice-atlas-llm": "C", "rumu": "C",
     "red-thread-debt-audit": "D", "rent-mechanism-q43": "D", "polymath-atlas-v107": "D",
@@ -22,6 +24,8 @@ CANON = {
     "language-through-the-ages": "F", "web-evolution-1991-2026": "F", "edinyy-svod": "F",
     "repo-doctrine": "G", "github-runbook": "G", ".github": "G",
     "markitdown": "G", "polimat-vault": "G", "polimat-hub": "G",
+    # rtynbirf добавлен (волна 2026-11-08, W-AUD-06): профиль-репо аккаунта
+    "rtynbirf": "G",
 }
 
 # Запрещённые имена после реструктуризации (поглощены/удалены)
