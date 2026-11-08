@@ -10,6 +10,9 @@ import sys
 import urllib.request
 from datetime import date
 
+sys.path.insert(0, os.path.dirname(__file__))
+from gh_list import get_repos
+
 API = "https://api.github.com"
 
 
@@ -28,10 +31,14 @@ def api(url: str):
 
 
 def main() -> int:
-    me = api(f"{API}/user")
-    repos = api(f"{API}/user/repos?visibility=all&affiliation=owner&per_page=100&sort=pushed")
+    try:
+        me = api(f"{API}/user")          # пользовательский PAT
+    except Exception:
+        me = {}                          # installation-токен: /user недоступен — не врём, просто пусто
+    repos, source = get_repos()
     inventory = {
         "collected_at": date.today().isoformat(),
+        "source": source,
         "account": {
             "login": me.get("login"),
             "created": me.get("created_at"),
@@ -50,6 +57,8 @@ def main() -> int:
                 "pushed": r["pushed_at"][:10],
                 "archived": r["archived"],
                 "description": r["description"],
+                "topics": r.get("topics", []),
+                "homepage": r.get("homepage") or "",
             }
             for r in repos
         ],

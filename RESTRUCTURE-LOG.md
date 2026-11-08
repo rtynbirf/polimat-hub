@@ -241,3 +241,21 @@
 | 16 | STATUS | proposals ×15 | seed→planted с доказательствами в JSON |
 
 Ничего не удалено без пломбы. rumu удалён из списка живых только в смысле «архивирован».
+
+## Виток «КОСЯКИ» · 2026-11-08 (поздний) — полный нумерованный список недоделанного + правки
+
+| # | Оп | Объект | Свидетельство |
+|---|---|---|---|
+| 1 | SWEEP | 41 репо | tools/account_sweep.py → audit/sweep-2026-11-08-r8.json: 7 проблем на входе |
+| 2 | FIX-T | topics ×5 | PUT /topics: universal-agent, .github, release-vault, runtime-protocol, cell-rs → опись -r8b: topics<3 = НЕТ |
+| 3 | TOOL | repo_inventory.py | починка: поля topics/homepage раньше не собирались (пустые в старых описях — не верить); + gh_list.py (user→installation фоллбек, санити-щит) |
+| 4 | CREATE | account_sweep.py | здоровье дома живым API: ветки, CI, topics, homepage |
+| 5 | DELETE | 2 ветки-хвоста | github-runbook upload-artifact-7 (tip 5a9e3ef9eb), voice-atlas-llm numpy-gte-2.5.4 (tip 553f34e6cb) — оба HTTP 204; PR не было |
+| 6 | COUNTERS | витрина | index.html: 25→26, 2600+→2700+, 39→41 (коммит 583b141; живой HTTP: «41 WORLDS», «26 PUBLIC REPOS») |
+| 7 | COUNTERS | профиль | banner.png + assets/account-portrait.png + alt: «39 worlds»→«41 worlds» (коммит db12949) |
+| 8 | SEAL | 37 бандлов | vault/bundles-2026-11-08/: 41−4 (ярус B: singulyar 1625,8 МБ, voice-atlas-llm 101,5 МБ, ruvson-lyrics 514 МБ, H-PE11-PHOENIX 11,9 МБ); git bundle verify 0 битых; манифест 1:1; пломба партии в vault/MANIFEST.sha256 |
+| 9 | CREATE | inventory-weekly.yml | еженедельник описи (Пн 05:17 UTC) + make_bundles.py (пломбы батчем) |
+| 10 | DOC | KOSSYAKI-2026-11-08.md | полный нумерованный список: I-исправлено 12, II-косяки 12, III-блок Хозяина 10, IV-в работе роя 2, V-бэклог 155 issues |
+
+Ветка-хвост `rumu/membrane-2026-11-05` и dependabot-хвосты `nous` не тронуты:
+rumu — мембрана-пломба (не хвост), nous — правка без прямой команды Хозяина запрещена.

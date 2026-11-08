@@ -1,0 +1,41 @@
+# Еженедельная опись дома: inventory + sweep + сверка архитектуры, коммит в audit/.
+# Токен: secrets.GITHUB_TOKEN (installation) — gh_list.py сам переключает источник.
+name: inventory-weekly
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"   # понедельник, нечётное время против шаблонных кронов
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: inventory-weekly
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    name: Опись + сверка + свип
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Опись аккаунта
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 tools/repo_inventory.py "-weekly"
+          python3 tools/account_sweep.py "-weekly"
+          python3 tools/verify_architecture.py "$(ls audit/inventory-*-weekly.json | tail -1)"
+      - name: Коммит описи
+        run: |
+          git config user.name "polimat-inventory"
+          git config user.email "polimat-inventory@users.noreply.github.com"
+          git add audit/
+          if git diff --cached --quiet; then
+            echo "ОПИСЬ БЕЗ ИЗМЕНЕНИЙ"
+          else
+            git commit -m "inventory: еженедельная опись дома ($(date -u +%F))"
+            git push
+          fi
