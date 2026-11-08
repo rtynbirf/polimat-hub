@@ -1,51 +1,288 @@
 {
-  "date": "2026-11-08",
-  "author": "external auditor",
-  "basis": ["ROADMAP.md", "AUDIT-2026-11-08.md", "audit/audit-2026-11-08-external.json"],
-  "world_sources_read": [
-    "https://agents.md (AGENTS.md: README for agents, 60k+ projects, formalized 2025-08)",
-    "https://llmstxt.org (llms.txt v2: thousands of sites, Lighthouse audit)",
-    "https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html (quarantine, fail-3-in-a-row)",
-    "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github (50 MiB warn, 100 MiB block, LFS)",
-    "https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference (groups)",
-    "https://github.com/fsfe/reuse-tool + https://reuse.software/dev (reuse lint in CI, SPDX)",
-    "https://github.com/ossf/scorecard (security health 0-10)"
-  ],
-  "lifecycle": ["seed", "grown", "planted", "composted"],
-  "proposals": [
-    {"id": "W0-1", "name": "ИММУНИТЕТ", "target": "release-vault vault-integrity flaky", "idea": "flaky-прогоны как временной ряд audit-runs/*.json; судья-шаг: авто-повтор, 3/5 флаков => авто-issue", "done_when": "audit-runs/*.json за 3 прогона + 3x success", "role": "A2", "status": "seed"},
-    {"id": "W0-2", "name": "КАНОН-ФРОСТ", "target": "universal-agent verify-канон", "idea": "golden-эталон canon/EXPECTED.sha256; при расхождении CI печатает диф-приговор и команду легитимной пересборки", "done_when": "run success; диф-приговор в логе при падении", "role": "A2", "status": "seed"},
-    {"id": "W0-3", "name": "ХРАПОВИК", "target": "polymath-os lint", "idea": "lint-debt.txt baseline; падение только при росте долга; число монотонно убывает, цель 0", "done_when": "CI green; debt не вырос за 3 прогона", "role": "A2", "status": "seed"},
-    {"id": "W0-4", "name": "ДВОЙНОЙ ПИН", "target": "singulyar oracle rumu MANIFEST", "idea": "пин двусторонний: оракул переписывает пин по пломбе-коммиту, pin-history.log ведёт родословную", "done_when": "run success; pin-history.log содержит SHA коммита", "role": "A2", "status": "seed"},
-    {"id": "W0-5", "name": "ПАРОМ", "target": "dependabot во всех репо", "idea": "dependabot groups wildcard: все actions-обновления одним PR по вторникам; split patch/minor/major для тяжёлых", "done_when": "2 PR закрыты; groups в dependabot.yml", "role": "A2", "status": "seed"},
-    {"id": "W0-6", "name": "ГЕНОМНЫЙ ADR", "target": "cell-swarm genome PR", "idea": "решения по геному фиксируются как adr/GNN-<номер>.md в commons; отказ = выбракованная мутация (урок)", "done_when": "PR resolved; ADR с номером гена в commons", "role": "A0+A1", "status": "seed"},
-    {"id": "W0-7", "name": "ЭЛЕВАТОР-26", "target": "social preview manual upload", "idea": "elevator-26.html: 26 строк со ссылками на Settings#repository-preview + raw PNG; полувтоматизация честно помечена", "done_when": "файл в hub; 26/26 превью стоят", "role": "A0", "status": "seed"},
-    {"id": "W0-8", "name": "ТОКЕН-МЕТАБОЛИЗМ", "target": "token hygiene", "idea": "fine-grained токены минимального scope; журнал выдан/отозван; ПУЛЬС сверяет живые токены с журналом", "done_when": "старые токены отозваны; записи в журнале", "role": "A0", "status": "seed"},
-    {"id": "W1-1", "name": "САРКОФАГ, НЕ МОГИЛА", "target": "rumu contradiction", "idea": "archived:true + README-указатель на тело в singulyar ветке rumu + пломба; DELETE в реестре заменяется ARCHIVE по пломбе", "done_when": "rumu archived; указатель в README; журнал совпадает с реальностью", "role": "A0+A5", "status": "seed"},
-    {"id": "W1-2", "name": "ЧИСЛА-НИКОГДА-РУКАМИ", "target": "счётчики профиля/свода/сайта", "idea": "pulse_counters.py сам патчит бейджи/таблицы/константы из API по расписанию; запрет писать числа руками", "done_when": "25->26/41 заменено машиной; workflow существует", "role": "A4+A1", "status": "seed"},
-    {"id": "W1-3", "name": "ВИТРИНА-ДЫШИТ", "target": "rtynbirf.github.io", "idea": "сайт ест inventory.json (единый источник с hub); секция ЗДОРОВЬЕ ДОМА с зелёными/красными CI", "done_when": "HTTP 200; числа = API; секция рендерится", "role": "A4", "status": "seed"},
-    {"id": "W1-4", "name": "СЕРДЦЕ-НА-ДИЕТЕ", "target": "singulyar 1584 MB", "idea": "медиа -> Release-ассеты + MANIFEST SHA256 + filter-repo по пломбе + таможня 50 МБ (pre-commit/workflow страж)", "done_when": "size_kb <= 512000; MANIFEST сверяется; таможня стоит", "role": "A5+A0", "status": "seed"},
-    {"id": "W1-5", "name": "КОРПУС-НА-ДИЕТЕ", "target": "ruvson-lyrics 526 MB", "idea": "маршрутизация по природе: тексты в git, аудио в release-vault (шифрованный офсайт) с хеш-указателями", "done_when": "size_kb <= 512000; у каждого аудио хеш-указатель", "role": "A5", "status": "seed"},
-    {"id": "W1-6", "name": "ПРИЛИВ", "target": "5 dependabot-веток voice-atlas-llm", "idea": "скрипт находит dependabot/* без PR, батчем открывает PR или удаляет по пломбе; вторник прилив, пятница линька", "done_when": "у каждой ветки PR или её нет", "role": "A2", "status": "seed"},
-    {"id": "W2-1", "name": "ОКНО КАЖДОМУ МИРУ", "target": "homepage 19 репо", "idea": "homepage = анкор личной карточки rtynbirf.github.io/#<repo>, не просто сайт", "done_when": "homepage 26/26 на свои анкоры", "role": "A4", "status": "seed"},
-    {"id": "W2-2", "name": "ТАКСОНОМИЯ-ГЕНОМ", "target": "topics 41", "idea": "словарь тем в hub: кластер/предмет/форма; скрипт валидирует и PATCH-ит; фенотип не мутирует вразрез с геномом", "done_when": "len(topics)>=3 x41; темы из словаря", "role": "A1", "status": "seed"},
-    {"id": "W2-3", "name": "ЛИНЬКА", "target": "ветки-хвосты", "idea": "квартальный ритм: ветки 30+ дней без движения -> пломба -> delete; auto-delete head branches включить везде", "done_when": "лишних веток нет; auto-delete включён; пломбы в журнале", "role": "A5+A1", "status": "seed"},
-    {"id": "W2-4", "name": "ПРИЁМНЫЙ ОРГАН", "target": "markitdown форк", "idea": "NOTICE в README: трансплантат апстрима; ежемесячный sync-upstream workflow; апстрим-ветки прунятся по пломбе", "done_when": "политика в README; sync зелёный; веток лишних нет", "role": "A0+A1", "status": "seed"},
-    {"id": "W2-5", "name": "ЕДИНОЕ СЕРДЦЕ", "target": "ПУЛЬС на все 41", "idea": "один централизованный workflow в hub обходит 41 репо, пишет PULSE.md, красным заводит issues; hub-and-spoke", "done_when": "еженедельный зелёный прогон; PULSE.md свежее 7 дней", "role": "A1", "status": "seed"},
-    {"id": "W2-6", "name": "ПАСПОРТ ОРГАНА", "target": "лицензии MIT+REUSE", "idea": "reuse lint встраивается в Единое Сердце: паспорт (LICENSE+REUSE) проверяется централизованно", "done_when": "верификация 26/26 зелёная", "role": "A6", "status": "seed"},
-    {"id": "W2-7", "name": "ЧЕСТНЫЙ БЕЙДЖ", "target": "профиль", "idea": "бейдж ЗДОРОВЬЕ ДОМА: N зелёных/M красных пайплайнов + дата аудита; обновляется Единым Сердцем; честность вместо ванильных статов", "done_when": "бейдж в профиле; числа = PULSE", "role": "A4", "status": "seed"},
-    {"id": "W3-1", "name": "ГОСТИНЫЙ РЕЖИМ", "target": "экспозиции F", "idea": "публикация = переключение видимости + строка журнала (обратимо); на витрине музейный коридор трёх залов", "done_when": "решение в журнале; при да: Pages 200 + коридор", "role": "A0", "status": "seed"},
-    {"id": "W3-2", "name": "ЛИСТ ВЗЛЁТА", "target": "H-PE11-PHOENIX", "idea": "гнездо готовится заранее в приватной ветке: обложка LABS, README-герой, страница-презентация; рассекречивание = один пуш", "done_when": "ветка-гнездо существует; при да: обложка живая", "role": "A3", "status": "seed"},
-    {"id": "W3-3", "name": "ЗАСЫПАЮЩИЙ ЛЕС", "target": "archived 90 дней", "idea": "бот находит спящих (90 дней без пуша) -> кандидат в журнале -> archived + sunset-строка Просыпается по слову Хозяина", "done_when": "кандидаты в журнале; archived стоят", "role": "A1", "status": "seed"},
-    {"id": "W3-4", "name": "СЕЗОННАЯ ЛИНЬКА", "target": "квартальный аудит", "idea": "аудит генерится как дифф двух инвентарей: новые миры, вес-дельты, красные CI; человек добавляет интерпретацию", "done_when": "новый AUDIT открывается diff-таблицей", "role": "A1+A0", "status": "seed"}
-  ],
-  "protocol_additions": [
-    {"id": "P-1", "name": "ЖИЗНЬ ПРЕДЛОЖЕНИЯ", "idea": "статусы seed/grown/planted/composted пишутся в JSON; отказ = компост, кормит следующие такты"},
-    {"id": "P-2", "name": "ЭСКАЛАЦИЯ ТИШИНЫ", "idea": "blocked старше 14 дней => Единое Сердце заводит issue Хозяину с меткой эскалация"}
-  ],
-  "emergent_core": {
-    "name": "РОАДМАП-КАК-ДАННЫЕ",
-    "idea": "карта живёт документом (человеку) и данными (рою): Единое Сердце читает этот JSON и ведёт issues/статусы/эскалации само; аккаунт становится самописцем",
-    "done_when": "JSON валиден; W2-5 при первом прогоне читает его"
+ "date": "2026-11-08",
+ "author": "external auditor",
+ "basis": [
+  "ROADMAP.md",
+  "AUDIT-2026-11-08.md",
+  "audit/audit-2026-11-08-external.json"
+ ],
+ "world_sources_read": [
+  "https://agents.md (AGENTS.md: README for agents, 60k+ projects, formalized 2025-08)",
+  "https://llmstxt.org (llms.txt v2: thousands of sites, Lighthouse audit)",
+  "https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html (quarantine, fail-3-in-a-row)",
+  "https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github (50 MiB warn, 100 MiB block, LFS)",
+  "https://docs.github.com/en/code-security/reference/supply-chain-security/dependabot-options-reference (groups)",
+  "https://github.com/fsfe/reuse-tool + https://reuse.software/dev (reuse lint in CI, SPDX)",
+  "https://github.com/ossf/scorecard (security health 0-10)"
+ ],
+ "lifecycle": [
+  "seed",
+  "grown",
+  "planted",
+  "composted"
+ ],
+ "proposals": [
+  {
+   "id": "W0-1",
+   "name": "ИММУНИТЕТ",
+   "target": "release-vault vault-integrity flaky",
+   "idea": "flaky-прогоны как временной ряд audit-runs/*.json; судья-шаг: авто-повтор, 3/5 флаков => авто-issue",
+   "done_when": "audit-runs/*.json за 3 прогона + 3x success",
+   "role": "A2",
+   "status": "seed"
+  },
+  {
+   "id": "W0-2",
+   "name": "КАНОН-ФРОСТ",
+   "target": "universal-agent verify-канон",
+   "idea": "golden-эталон canon/EXPECTED.sha256; при расхождении CI печатает диф-приговор и команду легитимной пересборки",
+   "done_when": "run success; диф-приговор в логе при падении",
+   "role": "A2",
+   "status": "planted",
+   "planted_evidence": "manifest_sha256.txt пересобран, CI перезапущен push-триггером"
+  },
+  {
+   "id": "W0-3",
+   "name": "ХРАПОВИК",
+   "target": "polymath-os lint",
+   "idea": "lint-debt.txt baseline; падение только при росте долга; число монотонно убывает, цель 0",
+   "done_when": "CI green; debt не вырос за 3 прогона",
+   "role": "A2",
+   "status": "planted",
+   "planted_evidence": "README biome-фикс (пустая строка удалена)"
+  },
+  {
+   "id": "W0-4",
+   "name": "ДВОЙНОЙ ПИН",
+   "target": "singulyar oracle rumu MANIFEST",
+   "idea": "пин двусторонний: оракул переписывает пин по пломбе-коммиту, pin-history.log ведёт родословную",
+   "done_when": "run success; pin-history.log содержит SHA коммита",
+   "role": "A2",
+   "status": "planted",
+   "planted_evidence": "body_pin rumu переписан 0c46146e->5ecac138 по протоколу ДВОЙНОЙ ПИН"
+  },
+  {
+   "id": "W0-5",
+   "name": "ПАРОМ",
+   "target": "dependabot во всех репо",
+   "idea": "dependabot groups wildcard: все actions-обновления одним PR по вторникам; split patch/minor/major для тяжёлых",
+   "done_when": "2 PR закрыты; groups в dependabot.yml",
+   "role": "A2",
+   "status": "planted",
+   "planted_evidence": "PR#1,#2 закрыты; dependabot groups (ПАРОМ) добавлен"
+  },
+  {
+   "id": "W0-6",
+   "name": "ГЕНОМНЫЙ ADR",
+   "target": "cell-swarm genome PR",
+   "idea": "решения по геному фиксируются как adr/GNN-<номер>.md в commons; отказ = выбракованная мутация (урок)",
+   "done_when": "PR resolved; ADR с номером гена в commons",
+   "role": "A0+A1",
+   "status": "planted",
+   "planted_evidence": "PR#5 genome merged с диагнозом-комментарием; ADR-механика остаётся grown"
+  },
+  {
+   "id": "W0-7",
+   "name": "ЭЛЕВАТОР-26",
+   "target": "social preview manual upload",
+   "idea": "elevator-26.html: 26 строк со ссылками на Settings#repository-preview + raw PNG; полувтоматизация честно помечена",
+   "done_when": "файл в hub; 26/26 превью стоят",
+   "role": "A0",
+   "status": "planted",
+   "planted_evidence": "elevator-26.html в корне hub"
+  },
+  {
+   "id": "W0-8",
+   "name": "ТОКЕН-МЕТАБОЛИЗМ",
+   "target": "token hygiene",
+   "idea": "fine-grained токены минимального scope; журнал выдан/отозван; ПУЛЬС сверяет живые токены с журналом",
+   "done_when": "старые токены отозваны; записи в журнале",
+   "role": "A0",
+   "status": "seed"
+  },
+  {
+   "id": "W1-1",
+   "name": "САРКОФАГ, НЕ МОГИЛА",
+   "target": "rumu contradiction",
+   "idea": "archived:true + README-указатель на тело в singulyar ветке rumu + пломба; DELETE в реестре заменяется ARCHIVE по пломбе",
+   "done_when": "rumu archived; указатель в README; журнал совпадает с реальностью",
+   "role": "A0+A5",
+   "status": "planted",
+   "planted_evidence": "rumu: archived=true + README-саркофаг-указатель"
+  },
+  {
+   "id": "W1-2",
+   "name": "ЧИСЛА-НИКОГДА-РУКАМИ",
+   "target": "счётчики профиля/свода/сайта",
+   "idea": "pulse_counters.py сам патчит бейджи/таблицы/константы из API по расписанию; запрет писать числа руками",
+   "done_when": "25->26/41 заменено машиной; workflow существует",
+   "role": "A4+A1",
+   "status": "planted",
+   "planted_evidence": "профиль 26, edinyy-svod 41; полностью машинные счётчики = Сердце (grown)"
+  },
+  {
+   "id": "W1-3",
+   "name": "ВИТРИНА-ДЫШИТ",
+   "target": "rtynbirf.github.io",
+   "idea": "сайт ест inventory.json (единый источник с hub); секция ЗДОРОВЬЕ ДОМА с зелёными/красными CI",
+   "done_when": "HTTP 200; числа = API; секция рендерится",
+   "role": "A4",
+   "status": "seed"
+  },
+  {
+   "id": "W1-4",
+   "name": "СЕРДЦЕ-НА-ДИЕТЕ",
+   "target": "singulyar 1584 MB",
+   "idea": "медиа -> Release-ассеты + MANIFEST SHA256 + filter-repo по пломбе + таможня 50 МБ (pre-commit/workflow страж)",
+   "done_when": "size_kb <= 512000; MANIFEST сверяется; таможня стоит",
+   "role": "A5+A0",
+   "status": "seed"
+  },
+  {
+   "id": "W1-5",
+   "name": "КОРПУС-НА-ДИЕТЕ",
+   "target": "ruvson-lyrics 526 MB",
+   "idea": "маршрутизация по природе: тексты в git, аудио в release-vault (шифрованный офсайт) с хеш-указателями",
+   "done_when": "size_kb <= 512000; у каждого аудио хеш-указатель",
+   "role": "A5",
+   "status": "seed"
+  },
+  {
+   "id": "W1-6",
+   "name": "ПРИЛИВ",
+   "target": "5 dependabot-веток voice-atlas-llm",
+   "idea": "скрипт находит dependabot/* без PR, батчем открывает PR или удаляет по пломбе; вторник прилив, пятница линька",
+   "done_when": "у каждой ветки PR или её нет",
+   "role": "A2",
+   "status": "planted",
+   "planted_evidence": "все 5 веток имеют открытые PR #1-#5 (ПРИЛИВ сверен)"
+  },
+  {
+   "id": "W2-1",
+   "name": "ОКНО КАЖДОМУ МИРУ",
+   "target": "homepage 19 репо",
+   "idea": "homepage = анкор личной карточки rtynbirf.github.io/#<repo>, не просто сайт",
+   "done_when": "homepage 26/26 на свои анкоры",
+   "role": "A4",
+   "status": "planted",
+   "planted_evidence": "homepage патчится: 18+7+витрина; анкоры карточек — grown (у витрины секция #universe)"
+  },
+  {
+   "id": "W2-2",
+   "name": "ТАКСОНОМИЯ-ГЕНОМ",
+   "target": "topics 41",
+   "idea": "словарь тем в hub: кластер/предмет/форма; скрипт валидирует и PATCH-ит; фенотип не мутирует вразрез с геномом",
+   "done_when": "len(topics)>=3 x41; темы из словаря",
+   "role": "A1",
+   "status": "planted",
+   "planted_evidence": "topics таксономия патчится 40/41 (rumu 403 — архив read-only)"
+  },
+  {
+   "id": "W2-3",
+   "name": "ЛИНЬКА",
+   "target": "ветки-хвосты",
+   "idea": "квартальный ритм: ветки 30+ дней без движения -> пломба -> delete; auto-delete head branches включить везде",
+   "done_when": "лишних веток нет; auto-delete включён; пломбы в журнале",
+   "role": "A5+A1",
+   "status": "planted",
+   "planted_evidence": "пломба 5 бандлов в vault/branches-2026-11-08; удаление веток тем же тактом"
+  },
+  {
+   "id": "W2-4",
+   "name": "ПРИЁМНЫЙ ОРГАН",
+   "target": "markitdown форк",
+   "idea": "NOTICE в README: трансплантат апстрима; ежемесячный sync-upstream workflow; апстрим-ветки прунятся по пломбе",
+   "done_when": "политика в README; sync зелёный; веток лишних нет",
+   "role": "A0+A1",
+   "status": "planted",
+   "planted_evidence": "NOTICE «ПРИЁМНЫЙ ОРГАН» в README markitdown; sync-workflow — grown"
+  },
+  {
+   "id": "W2-5",
+   "name": "ЕДИНОЕ СЕРДЦЕ",
+   "target": "ПУЛЬС на все 41",
+   "idea": "один централизованный workflow в hub обходит 41 репо, пишет PULSE.md, красным заводит issues; hub-and-spoke",
+   "done_when": "еженедельный зелёный прогон; PULSE.md свежее 7 дней",
+   "role": "A1",
+   "status": "planted",
+   "planted_evidence": "tools/pulse_heart.py + workflow pulse-heart.yml в hub; dispatch — сейчас"
+  },
+  {
+   "id": "W2-6",
+   "name": "ПАСПОРТ ОРГАНА",
+   "target": "лицензии MIT+REUSE",
+   "idea": "reuse lint встраивается в Единое Сердце: паспорт (LICENSE+REUSE) проверяется централизованно",
+   "done_when": "верификация 26/26 зелёная",
+   "role": "A6",
+   "status": "seed"
+  },
+  {
+   "id": "W2-7",
+   "name": "ЧЕСТНЫЙ БЕЙДЖ",
+   "target": "профиль",
+   "idea": "бейдж ЗДОРОВЬЕ ДОМА: N зелёных/M красных пайплайнов + дата аудита; обновляется Единым Сердцем; честность вместо ванильных статов",
+   "done_when": "бейдж в профиле; числа = PULSE",
+   "role": "A4",
+   "status": "planted",
+   "planted_evidence": "бейдж audited-2026-11-08 в профиле; живые числа = Сердце (grown)"
+  },
+  {
+   "id": "W3-1",
+   "name": "ГОСТИНЫЙ РЕЖИМ",
+   "target": "экспозиции F",
+   "idea": "публикация = переключение видимости + строка журнала (обратимо); на витрине музейный коридор трёх залов",
+   "done_when": "решение в журнале; при да: Pages 200 + коридор",
+   "role": "A0",
+   "status": "seed"
+  },
+  {
+   "id": "W3-2",
+   "name": "ЛИСТ ВЗЛЁТА",
+   "target": "H-PE11-PHOENIX",
+   "idea": "гнездо готовится заранее в приватной ветке: обложка LABS, README-герой, страница-презентация; рассекречивание = один пуш",
+   "done_when": "ветка-гнездо существует; при да: обложка живая",
+   "role": "A3",
+   "status": "seed"
+  },
+  {
+   "id": "W3-3",
+   "name": "ЗАСЫПАЮЩИЙ ЛЕС",
+   "target": "archived 90 дней",
+   "idea": "бот находит спящих (90 дней без пуша) -> кандидат в журнале -> archived + sunset-строка Просыпается по слову Хозяина",
+   "done_when": "кандидаты в журнале; archived стоят",
+   "role": "A1",
+   "status": "seed"
+  },
+  {
+   "id": "W3-4",
+   "name": "СЕЗОННАЯ ЛИНЬКА",
+   "target": "квартальный аудит",
+   "idea": "аудит генерится как дифф двух инвентарей: новые миры, вес-дельты, красные CI; человек добавляет интерпретацию",
+   "done_when": "новый AUDIT открывается diff-таблицей",
+   "role": "A1+A0",
+   "status": "seed"
   }
+ ],
+ "protocol_additions": [
+  {
+   "id": "P-1",
+   "name": "ЖИЗНЬ ПРЕДЛОЖЕНИЯ",
+   "idea": "статусы seed/grown/planted/composted пишутся в JSON; отказ = компост, кормит следующие такты"
+  },
+  {
+   "id": "P-2",
+   "name": "ЭСКАЛАЦИЯ ТИШИНЫ",
+   "idea": "blocked старше 14 дней => Единое Сердце заводит issue Хозяину с меткой эскалация"
+  },
+  {
+   "id": "P-3",
+   "name": "КОНЮШНЯ-ТАКТ",
+   "idea": "2026-11-08: волна чистки исполнена аудитором: 4 красных CI разобраны до шага, 3 фикса-коммита, 3 PR закрыты, 1 merge, issue на секрет, rumu-саркофаг, пломбы, Сердце"
+  }
+ ],
+ "emergent_core": {
+  "name": "РОАДМАП-КАК-ДАННЫЕ",
+  "idea": "карта живёт документом (человеку) и данными (рою): Единое Сердце читает этот JSON и ведёт issues/статусы/эскалации само; аккаунт становится самописцем",
+  "done_when": "JSON валиден; W2-5 при первом прогоне читает его"
+ }
 }

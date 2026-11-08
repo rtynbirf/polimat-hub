@@ -216,3 +216,28 @@
    имени среди свежих коммитов (гонка имён = вторая гонка после режимов файлов).
 7. **Ничего не удалено, карты не тронуты** — предложения поверх, аддитивно. Канонизация
    предложений в задачи — за Хозяином/волной; топ-10 по эффекту — раздел V документа.
+
+## 2026-11-08 · Волна аудитора: АВГЕЕВЫ КОНЮШНИ
+
+Мандат Хозяина: чистка реальная, не докладная. Все операции — машинные свидетельства в тексте коммитов и API.
+
+| # | Операция | Объект | Свидетельство |
+|---|---|---|---|
+| 1 | FIX | universal-agent `release/manifest_sha256.txt` | пересборка: README.md c451d378→a8fef3a4; check.py integrity зелёный |
+| 2 | FIX | polymath-os `README.md` | biome: пустая строка между hero и цитатой удалена |
+| 3 | PIN | rumu `MANIFEST.json` | body_pin 0c46146e→5ecac138 (head singulyar:rumu), ДВОЙНОЙ ПИН |
+| 4 | CLOSE | universal-agent PR#1, #2 | закрыты; dependabot groups «ПАРОМ» добавлен в dependabot.yml |
+| 5 | MERGE | cell-swarm PR#5 | геном-клетка agryp; чек cell красный по протухшему секрету (issue #8) |
+| 6 | ISSUE | cell-swarm #8 | РАНА: CELL_SWARM_DISPATCH_TOKEN 401×3 — обновить (только Хозяин) |
+| 7 | SARCOPHAGUS | rumu | archived=true + README-указатель на тело в singulyar:rumu |
+| 8 | SEAL | 5 веток-хвостов | бандлы+SHA256 в vault/branches-2026-11-08/ (agryp, domovoy, commons×2, rumu) |
+| 9 | DELETE | 4 ветки | tool-catalog, ci-report, wave33, wave34 — после пломбы |
+| 10 | PATCH | topics ×40 | таксономия кластер/предмет/форма; rumu 403 (архив read-only) |
+| 11 | PATCH | homepage ×18+7+витрина | rtynbirf.github.io/#universe |
+| 12 | COUNTERS | профиль, edinyy-svod | 25→26, 37→41; бейдж audited-2026-11-08 |
+| 13 | NOTICE | markitdown README | «ПРИЁМНЫЙ ОРГАН» — форк-декларация |
+| 14 | CREATE | Единое Сердце | tools/pulse_heart.py + .github/workflows/pulse-heart.yml (cron Пн 04:00) |
+| 15 | CREATE | elevator-26.html | полувтоматизация W0-7 для Хозяина |
+| 16 | STATUS | proposals ×15 | seed→planted с доказательствами в JSON |
+
+Ничего не удалено без пломбы. rumu удалён из списка живых только в смысле «архивирован».

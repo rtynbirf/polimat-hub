@@ -1,0 +1,38 @@
+# Единое Сердце дома rtynbirf: один обход 41 репо в неделю вместо ботов в каждом.
+# Пишет PULSE.md + audit/pulse-<дата>.json и коммитит их. Красные — в РАНЫ.
+name: pulse-heart
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"   # понедельник 04:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse-heart
+  cancel-in-progress: false
+
+jobs:
+  beat:
+    name: Обход дома + PULSE.md
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Удар сердца (обход всех репо)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/pulse_heart.py
+      - name: Коммит пульса
+        run: |
+          git config user.name "polimat-heart"
+          git config user.email "polimat-heart@users.noreply.github.com"
+          git add PULSE.md audit/pulse-*.json
+          if git diff --cached --quiet; then
+            echo "ПУЛЬС БЕЗ ИЗМЕНЕНИЙ"
+          else
+            git commit -m "pulse: еженедельный обход дома ($(date -u +%F))"
+            git push
+          fi
