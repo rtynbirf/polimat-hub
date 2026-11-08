@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: pulse-heart
+  group: dom-obhod
   cancel-in-progress: false
 
 jobs:
