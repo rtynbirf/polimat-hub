@@ -4,19 +4,19 @@
   {
    "repo": "singulyar",
    "private": false,
-   "size_kb": 1584655,
+   "size_kb": 1584675,
    "pushed_at": "2026-11-08",
    "branches": 2,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "main-drift-watch"
+   "ci_workflow": "Оракулы дома зелёные (sovereign check)"
   },
   {
    "repo": "voice-atlas-llm",
    "private": false,
-   "size_kb": 99133,
+   "size_kb": 99156,
    "pushed_at": "2026-11-08",
-   "branches": 2,
+   "branches": 1,
    "open_prs": 0,
    "ci": "success",
    "ci_workflow": "CI"
@@ -24,7 +24,7 @@
   {
    "repo": "polimat-hub",
    "private": true,
-   "size_kb": 78190,
+   "size_kb": 82976,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -34,27 +34,27 @@
   {
    "repo": "ruvson-lyrics",
    "private": true,
-   "size_kb": 35522,
+   "size_kb": 35712,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
-   "ci": "none",
-   "ci_workflow": "guardian-tripwire"
+   "ci": "success",
+   "ci_workflow": "CI"
   },
   {
    "repo": "H-PE11-PHOENIX",
    "private": true,
-   "size_kb": 11946,
+   "size_kb": 11972,
    "pushed_at": "2026-11-08",
    "branches": 2,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "guardian-tripwire"
+   "ci_workflow": "cra-sla"
   },
   {
    "repo": "polymath-gen",
    "private": false,
-   "size_kb": 8678,
+   "size_kb": 8686,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -64,7 +64,7 @@
   {
    "repo": "red-thread-debt-audit",
    "private": true,
-   "size_kb": 8400,
+   "size_kb": 8414,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -74,17 +74,17 @@
   {
    "repo": "rtynbirf.github.io",
    "private": false,
-   "size_kb": 7208,
+   "size_kb": 7231,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "github_actions in /. - Update #1687578364"
+   "ci_workflow": "agent-readiness"
   },
   {
    "repo": "polimat-task174",
    "private": true,
-   "size_kb": 6779,
+   "size_kb": 6791,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -94,17 +94,27 @@
   {
    "repo": "markitdown",
    "private": false,
-   "size_kb": 6649,
+   "size_kb": 6646,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "Graph Update: pip in /packages/markitdown, /packages/markitdown-mcp, /packages/markitdown-ocr, /packages/markitdown-sample-plugin #1687401225"
+   "ci_workflow": "fork-diff"
+  },
+  {
+   "repo": "revo",
+   "private": false,
+   "size_kb": 6484,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
   },
   {
    "repo": "uace-pml",
    "private": true,
-   "size_kb": 4637,
+   "size_kb": 4675,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -114,27 +124,27 @@
   {
    "repo": "polymath-os",
    "private": false,
-   "size_kb": 3014,
+   "size_kb": 3057,
    "pushed_at": "2026-11-08",
    "branches": 2,
    "open_prs": 0,
-   "ci": "success",
+   "ci": "none",
    "ci_workflow": "CI"
   },
   {
    "repo": "commons",
    "private": false,
-   "size_kb": 2712,
+   "size_kb": 2726,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "scorecard"
+   "ci_workflow": "mcp-session-audit"
   },
   {
    "repo": "rtynbirf",
    "private": false,
-   "size_kb": 2481,
+   "size_kb": 2500,
    "pushed_at": "2026-11-08",
    "branches": 2,
    "open_prs": 0,
@@ -142,19 +152,9 @@
    "ci_workflow": "generate snake"
   },
   {
-   "repo": "language-through-the-ages",
-   "private": true,
-   "size_kb": 2019,
-   "pushed_at": "2026-11-08",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "ci"
-  },
-  {
    "repo": "global-video-platforms-registry",
    "private": false,
-   "size_kb": 1959,
+   "size_kb": 2055,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -162,19 +162,29 @@
    "ci_workflow": "validate"
   },
   {
-   "repo": "cell65-host",
-   "private": false,
-   "size_kb": 1529,
+   "repo": "language-through-the-ages",
+   "private": true,
+   "size_kb": 2042,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "selftest"
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "cell65-host",
+   "private": false,
+   "size_kb": 1539,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
   },
   {
    "repo": "polymath-tools-atlas",
    "private": false,
-   "size_kb": 1480,
+   "size_kb": 1511,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -184,7 +194,7 @@
   {
    "repo": "neutral-browser",
    "private": false,
-   "size_kb": 1388,
+   "size_kb": 1401,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -194,9 +204,9 @@
   {
    "repo": "domovoy-tweaker",
    "private": false,
-   "size_kb": 1317,
+   "size_kb": 1374,
    "pushed_at": "2026-11-08",
-   "branches": 1,
+   "branches": 2,
    "open_prs": 0,
    "ci": "success",
    "ci_workflow": "CI"
@@ -204,17 +214,17 @@
   {
    "repo": "polymath-atlas-v107",
    "private": false,
-   "size_kb": 1123,
+   "size_kb": 1134,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
+   "ci_workflow": "anchors-verify (якоря-инварианты)"
   },
   {
    "repo": "web-evolution-1991-2026",
    "private": true,
-   "size_kb": 1090,
+   "size_kb": 1101,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -222,74 +232,84 @@
    "ci_workflow": "guardian-tripwire"
   },
   {
-   "repo": "ruvson-rse2",
-   "private": false,
-   "size_kb": 966,
+   "repo": "edinyy-svod",
+   "private": true,
+   "size_kb": 990,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "pip in /scripts for numpy, scipy, soundfile, librosa, pyyaml, tqdm - Update #1687583711"
+   "ci_workflow": "ci"
   },
   {
    "repo": "cell-swarm",
    "private": false,
-   "size_kb": 927,
+   "size_kb": 981,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "genome-reconcile"
+   "ci_workflow": "wave3-genome-pulse"
+  },
+  {
+   "repo": "ruvson-rse2",
+   "private": false,
+   "size_kb": 975,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
   },
   {
    "repo": "os-forge",
    "private": false,
-   "size_kb": 913,
+   "size_kb": 925,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
-  },
-  {
-   "repo": "edinyy-svod",
-   "private": true,
-   "size_kb": 868,
-   "pushed_at": "2026-11-08",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "ci"
+   "ci_workflow": "FORGE-DAG"
   },
   {
    "repo": "agryp",
    "private": false,
-   "size_kb": 840,
+   "size_kb": 876,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "ci"
+   "ci_workflow": "p37"
   },
   {
    "repo": ".github",
    "private": false,
-   "size_kb": 835,
+   "size_kb": 853,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "github_actions in /. - Update #1687633050"
+   "ci_workflow": "account-facade"
   },
   {
    "repo": "runtime-protocol",
    "private": false,
-   "size_kb": 808,
+   "size_kb": 821,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "blood"
+   "ci_workflow": "metabolism"
+  },
+  {
+   "repo": "cell-rs",
+   "private": false,
+   "size_kb": 722,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "metabolism"
   },
   {
    "repo": "rumu",
@@ -302,49 +322,39 @@
    "ci_workflow": ""
   },
   {
-   "repo": "cell-rs",
-   "private": false,
-   "size_kb": 710,
-   "pushed_at": "2026-11-08",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "metabolism"
-  },
-  {
    "repo": "singulyar-llm",
    "private": false,
-   "size_kb": 687,
+   "size_kb": 699,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "github_actions in /. - Update #1687578352"
+   "ci_workflow": "weights-integrity"
   },
   {
    "repo": "karaoke-dream",
    "private": false,
-   "size_kb": 667,
+   "size_kb": 677,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "pages build and deployment"
+   "ci_workflow": "CI"
   },
   {
    "repo": "release-vault",
    "private": false,
-   "size_kb": 631,
+   "size_kb": 674,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
+   "ci_workflow": "vault-integrity — сверка шифротекстов"
   },
   {
    "repo": "rent-mechanism-q43",
    "private": true,
-   "size_kb": 566,
+   "size_kb": 583,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -354,7 +364,7 @@
   {
    "repo": "universal-agent",
    "private": false,
-   "size_kb": 551,
+   "size_kb": 570,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -364,17 +374,27 @@
   {
    "repo": "nous",
    "private": true,
-   "size_kb": 490,
+   "size_kb": 541,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "forge-linux"
+   "ci_workflow": "ПУЛЬС v2 — еженедельный самоаудит"
+  },
+  {
+   "repo": "github-runbook",
+   "private": true,
+   "size_kb": 302,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "token-expiry-watch"
   },
   {
    "repo": "windows-chronicle",
    "private": true,
-   "size_kb": 238,
+   "size_kb": 259,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
@@ -384,27 +404,17 @@
   {
    "repo": "repo-doctrine",
    "private": true,
-   "size_kb": 146,
+   "size_kb": 241,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "guardian-tripwire"
-  },
-  {
-   "repo": "github-runbook",
-   "private": true,
-   "size_kb": 107,
-   "pushed_at": "2026-11-08",
-   "branches": 1,
-   "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "bundle-backup"
+   "ci_workflow": "wave3-immunity-sentry"
   },
   {
    "repo": "task-graph-propagator",
    "private": true,
-   "size_kb": 58,
+   "size_kb": 69,
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
