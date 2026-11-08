@@ -1,0 +1,24 @@
+файл | размер скачанного (bytes) | git hash-object | пломба из body релиза | совпало
+RUVSON_QUANTUM_v5.part1of5 | 89342035 | cda1c72e2225f9394c063cda98b1ab72998abbd7 | cda1c72e2225f9394c063cda98b1ab72998abbd7 | ДА
+RUVSON_QUANTUM_v5.part2of5 | 89342035 | 6e4a0a6b15637b5965e8d0f0edfb5dcd006a07d7 | 6e4a0a6b15637b5965e8d0f0edfb5dcd006a07d7 | ДА
+RUVSON_QUANTUM_v5.part3of5 | 89342035 | c0e480f515eee0573b4b07af1a23b97eb85c6f63 | c0e480f515eee0573b4b07af1a23b97eb85c6f63 | ДА
+RUVSON_QUANTUM_v5.part4of5 | 89342035 | c5e9839aadd2618ba00ec1eb66161c1c096367d3 | c5e9839aadd2618ba00ec1eb66161c1c096367d3 | ДА
+RUVSON_QUANTUM_v5.part5of5 | 89342039 | 11da60f5b8f12890e4b8220b3f5bb14a5f088775 | 11da60f5b8f12890e4b8220b3f5bb14a5f088775 | ДА
+
+Байтовое сравнение размеров (локальный файл = API-ассет = git-блоб) и hash-object = пломба:
+RUVSON_QUANTUM_v5.part1of5 | локальный=89342035 | API-ассет=89342035 | git-блоб=89342035 | size_ok=True hash_ok=False
+RUVSON_QUANTUM_v5.part2of5 | локальный=89342035 | API-ассет=89342035 | git-блоб=89342035 | size_ok=True hash_ok=False
+RUVSON_QUANTUM_v5.part3of5 | локальный=89342035 | API-ассет=89342035 | git-блоб=89342035 | size_ok=True hash_ok=False
+RUVSON_QUANTUM_v5.part4of5 | локальный=89342035 | API-ассет=89342035 | git-блоб=89342035 | size_ok=True hash_ok=False
+RUVSON_QUANTUM_v5.part5of5 | локальный=89342039 | API-ассет=89342039 | git-блоб=89342039 | size_ok=True hash_ok=False
+
+ВЕРДИКТ: ЕСТЬ НЕСОВПАДЕНИЕ
+
+ИТОГОВАЯ сверка (размеры байтово, hash-object vs пломба, git-блоб vs пломба):
+RUVSON_QUANTUM_v5.part1of5 | локальный=89342035 | API-ассет=89342035 | git-блоб size=89342035 | hash-object=cda1c72e2225f9394c063cda98b1ab72998abbd7 | пломба=cda1c72e2225f9394c063cda98b1ab72998abbd7 | size_ok=True hash_ok=True blob_ok=True
+RUVSON_QUANTUM_v5.part2of5 | локальный=89342035 | API-ассет=89342035 | git-блоб size=89342035 | hash-object=6e4a0a6b15637b5965e8d0f0edfb5dcd006a07d7 | пломба=6e4a0a6b15637b5965e8d0f0edfb5dcd006a07d7 | size_ok=True hash_ok=True blob_ok=True
+RUVSON_QUANTUM_v5.part3of5 | локальный=89342035 | API-ассет=89342035 | git-блоб size=89342035 | hash-object=c0e480f515eee0573b4b07af1a23b97eb85c6f63 | пломба=c0e480f515eee0573b4b07af1a23b97eb85c6f63 | size_ok=True hash_ok=True blob_ok=True
+RUVSON_QUANTUM_v5.part4of5 | локальный=89342035 | API-ассет=89342035 | git-блоб size=89342035 | hash-object=c5e9839aadd2618ba00ec1eb66161c1c096367d3 | пломба=c5e9839aadd2618ba00ec1eb66161c1c096367d3 | size_ok=True hash_ok=True blob_ok=True
+RUVSON_QUANTUM_v5.part5of5 | локальный=89342039 | API-ассет=89342039 | git-блоб size=89342039 | hash-object=11da60f5b8f12890e4b8220b3f5bb14a5f088775 | пломба=11da60f5b8f12890e4b8220b3f5bb14a5f088775 | size_ok=True hash_ok=True blob_ok=True
+
+ВЕРДИКТ: САРКОФАГ ПОДТВЕРЖДЁН 5/5
