@@ -259,3 +259,4 @@
 
 Ветка-хвост `rumu/membrane-2026-11-05` и dependabot-хвосты `nous` не тронуты:
 rumu — мембрана-пломба (не хвост), nous — правка без прямой команды Хозяина запрещена.
+| 11 | FIX | snake-гонка | дубль generate-snake.yml (SHA256 = snake.yml байт-в-байт) удалён из rtynbirf; concurrency-группа; коммит 5b4e7e0; свидетельство: пары прогонов 12:38/12:40, loser failure «Push to output branch» |
