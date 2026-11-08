@@ -11,9 +11,9 @@
 |---|---|---|---|---|---|---|
 | singulyar | пуб | 2 | 0 | ✅ Оракулы дома зелёные (so | 1584682 | 2026-11-08 |
 | voice-atlas-llm | пуб | 1 | 0 | ✅ CI | 99183 | 2026-11-08 |
-| polimat-hub | прив | 1 | 0 | — quota-hygiene | 83027 | 2026-11-08 |
+| polimat-hub | прив | 1 | 0 | — pulse-heart | 83027 | 2026-11-08 |
 | ruvson-lyrics | прив | 1 | 0 | ✅ CI | 35716 | 2026-11-08 |
-| H-PE11-PHOENIX | прив | 2 | 0 | ✅ cra-sla | 12165 | 2026-11-08 |
+| H-PE11-PHOENIX | прив | 2 | 0 | ✅ evidence-chain | 12165 | 2026-11-08 |
 | polymath-gen | пуб | 1 | 0 | ✅ ci | 8689 | 2026-11-08 |
 | red-thread-debt-audit | прив | 1 | 0 | ✅ guardian-tripwire | 8416 | 2026-11-08 |
 | rtynbirf.github.io | пуб | 1 | 0 | ✅ agent-readiness | 7245 | 2026-11-08 |
@@ -23,7 +23,7 @@
 | uace-pml | прив | 1 | 0 | ✅ guardian-tripwire | 4677 | 2026-11-08 |
 | polymath-os | пуб | 2 | 0 | ✅ blood | 3067 | 2026-11-08 |
 | commons | пуб | 1 | 0 | ✅ sbom | 2748 | 2026-11-08 |
-| rtynbirf | пуб | 2 | 0 | ✅ generate snake | 2505 | 2026-11-08 |
+| rtynbirf | пуб | 2 | 0 | — swarm-health (бейджи здо | 2505 | 2026-11-08 |
 | global-video-platforms-registry | пуб | 1 | 0 | ✅ validate | 2109 | 2026-11-08 |
 | language-through-the-ages | прив | 1 | 0 | ✅ ci | 2045 | 2026-11-08 |
 | cell65-host | пуб | 1 | 0 | ✅ ci | 1540 | 2026-11-08 |
@@ -32,8 +32,8 @@
 | domovoy-tweaker | пуб | 2 | 0 | ✅ CI | 1377 | 2026-11-08 |
 | polymath-atlas-v107 | пуб | 1 | 0 | ✅ anchors-verify (якоря-ин | 1135 | 2026-11-08 |
 | web-evolution-1991-2026 | прив | 1 | 0 | ✅ guardian-tripwire | 1103 | 2026-11-08 |
-| cell-swarm | пуб | 1 | 0 | ✅ genome-reconcile | 1027 | 2026-11-08 |
-| edinyy-svod | прив | 1 | 0 | ✅ ci | 1004 | 2026-11-08 |
+| cell-swarm | пуб | 1 | 0 | — blood-genome | 1027 | 2026-11-08 |
+| edinyy-svod | прив | 1 | 0 | — wave3-svod-catalog | 1004 | 2026-11-08 |
 | ruvson-rse2 | пуб | 1 | 0 | ✅ CI | 976 | 2026-11-08 |
 | os-forge | пуб | 1 | 0 | ✅ FORGE-DAG | 926 | 2026-11-08 |
 | agryp | пуб | 1 | 0 | ✅ p37 | 886 | 2026-11-08 |
@@ -48,6 +48,6 @@
 | universal-agent | пуб | 1 | 0 | ✅ ci | 577 | 2026-11-08 |
 | nous | прив | 1 | 0 | ✅ wave3-lease-guard | 548 | 2026-11-08 |
 | windows-chronicle | прив | 1 | 0 | ✅ guardian-tripwire | 261 | 2026-11-08 |
-| repo-doctrine | прив | 1 | 0 | — guardian-tripwire | 244 | 2026-11-08 |
+| repo-doctrine | прив | 1 | 0 | ✅ wave6-t17-manifest-fresh | 244 | 2026-11-08 |
 | github-runbook | прив | 1 | 0 | ✅ guardian-tripwire | 195 | 2026-11-08 |
 | task-graph-propagator | прив | 1 | 0 | ✅ guardian-tripwire | 71 | 2026-11-08 |

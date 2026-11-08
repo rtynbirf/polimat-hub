@@ -29,7 +29,7 @@
    "branches": 1,
    "open_prs": 0,
    "ci": "none",
-   "ci_workflow": "quota-hygiene"
+   "ci_workflow": "pulse-heart"
   },
   {
    "repo": "ruvson-lyrics",
@@ -49,7 +49,7 @@
    "branches": 2,
    "open_prs": 0,
    "ci": "success",
-   "ci_workflow": "cra-sla"
+   "ci_workflow": "evidence-chain"
   },
   {
    "repo": "polymath-gen",
@@ -148,8 +148,8 @@
    "pushed_at": "2026-11-08",
    "branches": 2,
    "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "generate snake"
+   "ci": "none",
+   "ci_workflow": "swarm-health (бейджи здоровья роя + retention output)"
   },
   {
    "repo": "global-video-platforms-registry",
@@ -238,8 +238,8 @@
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "genome-reconcile"
+   "ci": "none",
+   "ci_workflow": "blood-genome"
   },
   {
    "repo": "edinyy-svod",
@@ -248,8 +248,8 @@
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
-   "ci": "success",
-   "ci_workflow": "ci"
+   "ci": "none",
+   "ci_workflow": "wave3-svod-catalog"
   },
   {
    "repo": "ruvson-rse2",
@@ -398,8 +398,8 @@
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
-   "ci": "none",
-   "ci_workflow": "guardian-tripwire"
+   "ci": "success",
+   "ci_workflow": "wave6-t17-manifest-freshness"
   },
   {
    "repo": "github-runbook",
