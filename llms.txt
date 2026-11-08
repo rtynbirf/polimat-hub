@@ -1,0 +1,36 @@
+# polimat-hub
+> POLIMAT-HUB: место сверок мультиагента-архитектора. Архитектура, журнал операций, пломбы, stdlib-инструменты.
+
+Автоген 2026-11-08 · источник: живой GitHub API (номера и файлы не руками) · владелец rtynbirf · ветка `main`
+
+## Мембрана
+- README.md — для человека (POLIMAT-HUB · место сверок мультиагента)
+- AGENTS.md — есть
+- LICENSE — не указана
+- topics: meta-tools
+
+## Карта корня
+- .devcontainer/
+- .github/
+- .gitignore
+- AGENTS.md
+- ARCHITECTURE.md
+- AUDIT-2026-11-08.md
+- FEATURE-INTEGRATION-LOG.md
+- POLIMAT-PROPOSALS-2026-11-08.md
+- PROPOSALS-2026-11-08.md
+- PULSE.md
+- README.md
+- RESTRUCTURE-LOG.md
+- ROADMAP-2026-11-08.md
+- ROADMAP.md
+- SECURITY.md
+- … ещё 9
+
+## CI
+- workflow: pulse-heart
+
+## Ссылки
+- [GitHub](https://github.com/rtynbirf/polimat-hub)
+- [README](https://github.com/rtynbirf/polimat-hub/blob/main/README.md)
+- [raw llms.txt](https://raw.githubusercontent.com/rtynbirf/polimat-hub/main/llms.txt)
