@@ -38,8 +38,8 @@
    "pushed_at": "2026-11-08",
    "branches": 1,
    "open_prs": 0,
-   "ci": "failure",
-   "ci_workflow": "Pages (ручной запуск)"
+   "ci": "none",
+   "ci_workflow": "guardian-tripwire"
   },
   {
    "repo": "H-PE11-PHOENIX",
@@ -412,8 +412,6 @@
    "ci_workflow": "guardian-tripwire"
   }
  ],
- "wounds": [
-  "ruvson-lyrics (Pages (ручной запуск) 2026-11-08)"
- ],
+ "wounds": [],
  "open_prs_total": 0
 }

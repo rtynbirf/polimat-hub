@@ -4,7 +4,7 @@
 
 - Репозиториев: **41** (публичных 26, приватных 15)
 - Открытых PR: **0**
-- РАНЫ (красные CI): **1** — ruvson-lyrics (Pages (ручной запуск) 2026-11-08)
+- РАНЫ (красные CI): **0** — нет
 - Тяжеловесы >512 МБ: **1** — singulyar (1547 МБ)
 
 | Репо | Т | Ветки | PR | CI | Вес КБ | Пуш |
@@ -12,7 +12,7 @@
 | singulyar | пуб | 2 | 0 | ✅ main-drift-watch | 1584655 | 2026-11-08 |
 | voice-atlas-llm | пуб | 2 | 0 | ✅ CI | 99133 | 2026-11-08 |
 | polimat-hub | прив | 1 | 0 | — pulse-heart | 78190 | 2026-11-08 |
-| ruvson-lyrics | прив | 1 | 0 | 🔴 Pages (ручной запуск) | 35522 | 2026-11-08 |
+| ruvson-lyrics | прив | 1 | 0 | — guardian-tripwire | 35522 | 2026-11-08 |
 | H-PE11-PHOENIX | прив | 2 | 0 | ✅ guardian-tripwire | 11946 | 2026-11-08 |
 | polymath-gen | пуб | 1 | 0 | ✅ ci | 8678 | 2026-11-08 |
 | red-thread-debt-audit | прив | 1 | 0 | ✅ guardian-tripwire | 8400 | 2026-11-08 |
