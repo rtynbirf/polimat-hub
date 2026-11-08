@@ -1,0 +1,1742 @@
+{
+ "rtynbirf/rtynbirf": [
+  {
+   "wf": "generate snake",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "generate snake",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "generate snake",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "generate snake",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "generate snake",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "generate snake",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "generate snake",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "SWARM-SYNC (сверка со средой)",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/rtynbirf.github.io": [
+  {
+   "wf": "Deploy корневого сайта",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Deploy корневого сайта",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Deploy корневого сайта",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Deploy корневого сайта",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Deploy корневого сайта",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Deploy корневого сайта",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "Deploy корневого сайта",
+   "branch": "main",
+   "status": "completed",
+   "concl": "cancelled",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "pages build and deployment",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/.github": [],
+ "rtynbirf/markitdown": [],
+ "rtynbirf/release-vault": [
+  {
+   "wf": "vault-integrity — сверка шифротекстов",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "vault-integrity — сверка шифротекстов",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "vault-integrity — сверка шифротекстов",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "vault-integrity — сверка шифротекстов",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/agryp": [],
+ "rtynbirf/universal-agent": [
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Graph Update: pip in /. #1686933002",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "dependabot/github_actions/actions/setup-python-7.1.0",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "dependabot/github_actions/actions/checkout-7.0.1",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "dependabot/github_actions/actions/setup-python-7.1.0",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "dependabot/github_actions/actions/checkout-7.0.1",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "github_actions in /. - Update #168688484",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/domovoy-tweaker": [
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "cancelled",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-03"
+  }
+ ],
+ "rtynbirf/os-forge": [
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/polymath-os": [
+  {
+   "wf": "CodeQL",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "OpenSSF Scorecard",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "blood",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "blood",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "tofu",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CodeQL",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/cell-swarm": [
+  {
+   "wf": "genome-reconcile",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "blood-genome",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/polymath-atlas-v107": [
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/global-video-platforms-registry": [
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "validate",
+   "branch": "dependabot/github_actions/actions/setup-python-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "validate",
+   "branch": "dependabot/github_actions/actions/setup-python-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "validate",
+   "branch": "dependabot/github_actions/actions/setup-python-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "validate",
+   "branch": "dependabot/github_actions/actions/setup-python-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "github_actions in / for actions/setup-py",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/cell65-host": [
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "selftest",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "release",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "release",
+   "branch": "main",
+   "status": "completed",
+   "concl": "skipped",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "bundle-backup",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/commons": [
+  {
+   "wf": "scorecard",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "scorecard",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "scorecard",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/runtime-protocol": [
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "blood",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "blood",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "blood",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "blood",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "rust-trail",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/cell-rs": [
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "metabolism",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": ".github/workflows/ci.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/karaoke-dream": [
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-04"
+  }
+ ],
+ "rtynbirf/singulyar-llm": [
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/ruvson-rse2": [
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "Graph Update: pip in /scripts #166296084",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-10-29"
+  }
+ ],
+ "rtynbirf/rumu": [],
+ "rtynbirf/polimat-hub": [],
+ "rtynbirf/polymath-gen": [],
+ "rtynbirf/neutral-browser": [
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "cargo in /. - Update #1686123266",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/voice-atlas-llm": [
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/ci.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/polymath-tools-atlas": [
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "validate",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/singulyar": [
+  {
+   "wf": "Deploy СИНГУЛЯР РУМУ to Pages",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Оракулы дома зелёные (sovereign check)",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "OpenSSF Scorecard",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Deploy СИНГУЛЯР РУМУ to Pages",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Оракулы дома зелёные (sovereign check)",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "OpenSSF Scorecard",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Deploy СИНГУЛЯР РУМУ to Pages",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "Оракулы дома зелёные (sovereign check)",
+   "branch": "rumu",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/language-through-the-ages": [],
+ "rtynbirf/edinyy-svod": [],
+ "rtynbirf/ruvson-lyrics": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "media-vault",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/windows-chronicle": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/github-script-9.0.0",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7.0.1",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "github_actions in /. - Update #168659690",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/H-PE11-PHOENIX": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "github_actions in / for actions/checkout",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/nous": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "agents/forge-librarian/0016-llm-device-instruction",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "agents/forge-librarian/0016-llm-device-instruction",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "agents/forge-librarian/0016-llm-device-instruction",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "agents/forge-librarian/0016-llm-device-instruction",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "agents/forge-librarian/0016-llm-device-instruction",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "agents/forge-librarian/0016-llm-device-instruction",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/repo-doctrine": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "github_actions in / for actions/checkout",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/github-script-9",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "github_actions in / for actions/github-s",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/red-thread-debt-audit": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7.0.1",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "github_actions in /. - Update #168621981",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/guardian-tripwire.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/github-runbook": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "bundle-backup",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "bundle-backup",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "bundle-backup",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "bundle-backup",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "release",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "ci",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  }
+ ],
+ "rtynbirf/uace-pml": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7.0.1",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "github_actions in / for actions/checkout",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-07"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "github_actions in / for actions/checkout",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/guardian-tripwire.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "dependabot/github_actions/actions/checkout-7.0.1",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "github_actions in /. - Update #168597983",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/web-evolution-1991-2026": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/guardian-tripwire.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "github_actions in /. - Update #168600458",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "github_actions in /. - Update #168587141",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/task-graph-propagator": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/guardian-tripwire.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/ci.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "CI",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/rent-mechanism-q43": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/guardian-tripwire.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "github_actions in /. - Update #168541538",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ],
+ "rtynbirf/polimat-task174": [
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": ".github/workflows/guardian-tripwire.yml",
+   "branch": "main",
+   "status": "completed",
+   "concl": "failure",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС v2 — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "ПУЛЬС — еженедельный самоаудит",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  },
+  {
+   "wf": "guardian-tripwire",
+   "branch": "main",
+   "status": "completed",
+   "concl": "success",
+   "date": "2026-11-06"
+  }
+ ]
+}
