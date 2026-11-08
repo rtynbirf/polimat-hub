@@ -54,7 +54,7 @@ def take_token():
 def analyse_workflow_text(text):
     """Построчный разбор YAML воркфлоу (эвристика без yaml-библиотеки).
 
-    Возвращает dict: pr_target (строки с pull_request_target), triggers
+    Возвращает dict: pr_target (триггер pull_request_target в блоке on:), triggers
     (объявленные триггеры on:), broken_filters (строки с `ain]`).
 
     Эвристика блока `on:`: первая непустая строка после `on:` задаёт отступ
@@ -73,7 +73,8 @@ def analyse_workflow_text(text):
         if BROKEN_FILTER_RE.search(raw) and not stripped.startswith("#"):
             broken_filters.append({"line": idx, "text": stripped})
 
-        if "pull_request_target" in raw and not stripped.startswith("#"):
+        if (in_on_block and not stripped.startswith("#")
+                and stripped.split(":")[0].strip() == "pull_request_target"):
             pr_target.append({"line": idx, "text": stripped})
 
         on_match = ON_KEY_RE.match(raw)
@@ -86,8 +87,12 @@ def analyse_workflow_text(text):
                         name = chunk.strip().strip("\"'")
                         if name:
                             triggers.append(name)
+                            if name == "pull_request_target":
+                                pr_target.append({"line": idx, "text": stripped})
                 else:
                     triggers.append(inline.strip("\"'"))
+                    if inline.strip("\"'") == "pull_request_target":
+                        pr_target.append({"line": idx, "text": stripped})
                 in_on_block = False
             else:
                 in_on_block = True
