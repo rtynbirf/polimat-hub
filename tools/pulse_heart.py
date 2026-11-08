@@ -33,6 +33,16 @@ def api(url):
     except Exception as e:
         return {"__err": str(e)}
 
+def api_ret(url):
+    """как api, но возвращает (данные, статус) — для диагностики слепоты."""
+    req = urllib.request.Request(url, headers=H)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            b = r.read().decode()
+            return (json.loads(b) if b else {}), r.status
+    except Exception as e:
+        return {"__err": str(e)}, 0
+
 def main():
     if not TOKEN:
         sys.exit("НЕТ ТОКЕНА — сердце не бьётся вслепую (UNKNOWN ≠ FALSE)")
@@ -44,21 +54,40 @@ def main():
             break
         repos.extend(batch)
         page += 1
-    # GITHUB_TOKEN в Actions — installation-токен: /user/repos отдаёт не всё.
-    # Гибрид: добираем /installation/repositories и дедупим по id.
-    seen = {r.get("id") for r in repos}
+    # Источник 2: installation-репо (GITHUB_TOKEN в Actions — не пользовательский).
+    diag = {"user": len(repos)}
     page = 1
     while True:
-        batch = api(f"{API}/installation/repositories?per_page=100&page={page}")
+        batch, st = api_ret(f"{API}/installation/repositories?per_page=100&page={page}")
+        diag[f"installation_p{page}"] = f"st={st}"
         if not isinstance(batch, dict) or not batch.get("repositories"):
             break
         for item in batch["repositories"]:
-            if item.get("id") not in seen:
-                seen.add(item.get("id"))
+            if item.get("id") not in {r.get("id") for r in repos}:
                 repos.append(item)
         page += 1
+    # Источник 3: локальные снимки инвентаря в audit/ — дом помнит сам себя.
+    snap_names = []
+    for p in sorted((ROOT / "audit").glob("*.json")):
+        try:
+            data = json.loads(p.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        items = data.get("repos") if isinstance(data, dict) else (data if isinstance(data, list) else [])
+        for it in items or []:
+            fn = (it.get("full_name") or "").split("/")
+            if len(fn) == 2 and fn[0].lower() == "rtynbirf":
+                snap_names.append(fn[1])
+    diag["snapshots"] = len(set(snap_names))
+    known = {r.get("name") for r in repos}
+    for nm in sorted(set(snap_names)):
+        if nm not in known:
+            fresh = api(f"{API}/repos/rtynbirf/{nm}")
+            if isinstance(fresh, dict) and fresh.get("name"):
+                repos.append(fresh)
     if len(repos) < 5:
-        sys.exit(f"СЕРДЦЕ СЛЕПО: обход увидел {len(repos)} репо — пишу отказ, не пустой пульс (UNKNOWN ≠ FALSE)")
+        sys.exit(f"СЕРДЦЕ СЛЕПО: user={diag} — пишу отказ, не пустой пульс (UNKNOWN ≠ FALSE)")
+    print(f"ДИАГНОСТИКА обхода: {diag}")
     rows, wounds, total_pr = [], [], 0
     for r in repos:
         full = r["full_name"]
