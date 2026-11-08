@@ -35,7 +35,10 @@ jobs:
           # push отклоняется «fetch first». Догоняем tip main ДО коммита
           # и повторяем push с rebase до 5 раз.
           git fetch origin main
-          git rebase origin/main
+          # Волна ×5 (урок 42529470365): у обхода есть артефакты вне PULSE.md —
+          # rebase с грязным деревом ронял retry-луп «cannot rebase: unstaged changes».
+          # --autostash в обоих rebase.
+          git rebase --autostash origin/main
           git add PULSE.md audit/pulse-*.json
           if git diff --cached --quiet; then
             echo "ПУЛЬС БЕЗ ИЗМЕНЕНИЙ"
@@ -46,7 +49,7 @@ jobs:
               if git push; then ok=1; break; fi
               echo "push отклонён (гонка параллельных волн), попытка $i: rebase и повтор"
               git fetch origin main
-              git rebase origin/main || git rebase --abort
+              git rebase --autostash origin/main || git rebase --abort
             done
             if [ "$ok" != "1" ]; then
               echo "::error::push пульса не прошёл после 5 попыток rebase+push — на main продолжают писать параллельные волны"

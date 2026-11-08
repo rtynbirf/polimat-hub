@@ -1,6 +1,18 @@
 {
   "schema": "polimat-hub/pr-target-allowlist/v1",
   "description": "Белый список осознанных pull_request_target (гейт П-72, polimat-hub#96). Каждая запись: repo - имя репо в rtynbirf, path - путь воркфлоу, reason - почему триггер осознан, added - дата добавления (YYYY-MM-DD). Всё, что не перечислено здесь, краснит гейт exit 1.",
-  "fields": ["repo", "path", "reason", "added"],
-  "entries": []
+  "fields": [
+    "repo",
+    "path",
+    "reason",
+    "added"
+  ],
+  "entries": [
+    {
+      "repo": "polimat-hub",
+      "path": ".github/workflows/pr-target-gate.yml",
+      "reason": "сам-свип гейта (урок 42529766542): файл содержит СТРОКИ «pull_request_target» в name/run для диагностики; триггера pull_request_target сам workflow не имеет — только schedule/workflow_dispatch",
+      "added": "2026-11-09"
+    }
+  ]
 }
