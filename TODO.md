@@ -1,5 +1,29 @@
 # TODO · КОСЯКИ ДОМА — нумерованная помятка (живой документ)
 
+> Живой трекер-мемо Волны ×5 (2026-11-09). Полный реестр аккаунта: github-runbook → РЕЕСТР-НЕДОДЕЛАННОГО-2026-11-09.md · мастер-индекс: github-runbook#10.
+
+## 🔴 Волна ×5 · 2026-11-09 · субагент ×5-D «Хаб и стражи»
+
+### 1) Открытые issues polimat-hub (сводка, не перечислить 89 в лоб)
+- **89 открытых**: Э-1 волна П-01…П-75 ([#18](https://github.com/rtynbirf/polimat-hub/issues/18) — индекс волны предложений), Э-2 ([#58](https://github.com/rtynbirf/polimat-hub/issues/58) / [#60](https://github.com/rtynbirf/polimat-hub/issues/60)), W-AUD ([#2](https://github.com/rtynbirf/polimat-hub/issues/2), [#4](https://github.com/rtynbirf/polimat-hub/issues/4), [#8](https://github.com/rtynbirf/polimat-hub/issues/8), [#14](https://github.com/rtynbirf/polimat-hub/issues/14)–[#17](https://github.com/rtynbirf/polimat-hub/issues/17)), КОСЯКИ-трекеры ([#90](https://github.com/rtynbirf/polimat-hub/issues/90), [#92](https://github.com/rtynbirf/polimat-hub/issues/92), [#100](https://github.com/rtynbirf/polimat-hub/issues/100), [#101](https://github.com/rtynbirf/polimat-hub/issues/101)), П-53/П-74 — хозяину ([#74](https://github.com/rtynbirf/polimat-hub/issues/74), [#98](https://github.com/rtynbirf/polimat-hub/issues/98)).
+- Закон ×5-D: Э-1/Э-2 — ЧУЖИЕ живые волны, не реализуются субагентом ×5-D, их артефакты не тронуты (append-only).
+
+### 2) Сделано ×5-D сегодня
+- **pulse-heart починен**: красные 42466691086 / 42466954893 / 42500555202 — «push rejected (fetch first)»: checkout фиксирует SHA на момент диспатча, параллельный inventory-weekly/субагенты успевают запушить первым. Патч: `git fetch origin main && git rebase origin/main` до коммита + retry-петля push (до 5 раз с rebase). Деталь: KNOWN_ISSUES.md.
+- **pip-Dependabot 42480621320** — закрыт как невоспроизводимый: `dependency_file_not_found (No files found in /)` — pip-экосистема в dependabot.yml указывала на корень без pip-манифестов; в актуальном dependabot.yml осталась только github-actions (успешные dynamic-раны 42493141329 / 42493142929 в 15:06). Повтор невозможен.
+- **5 guardian-tripwire-красных от 11-06 23:28–23:30** (polimat-task174 / red-thread-debt-audit / rent-mechanism-q43 / task-graph-propagator / windows-chronicle) — общий корень найден: один шаблонный косяк пин-скрипта `# vXwith:` (без перевода строки перед `with:`) → «Invalid workflow file», 0 jobs. Уже вылечен Волной ×4 в каждом репо; ×5-D доказал зелёным диспатчем (run id в KNOWN_ISSUES.md каждого репо).
+
+### 3) Честные хвосты ⬜
+- ⬜ GH_PAT у pulse-heart: `secrets.GH_PAT || secrets.GITHUB_TOKEN` — жив; конверт токена (П-74, #98) — хозяину.
+- ⬜ #101 (КОСЯКИ-2) сознательно не комментировался — его ведёт координатор.
+- ⬜ Красные 09:19–09:23 morning-каскад polymath-gen и вечерний 19:50 — см. polymath-gen/KNOWN_ISSUES.md; у 42469067311 логи показали `pytest: command not found` (exit 127), у 42517011202 — шаг рубрикатора до checkout (exit 2); обе добиты коммитом d17f00a, зелёный 42517303989 на HEAD.
+
+### 4) Что делать следующей волне
+- Не трогать Э-1/Э-2 (их карты: #18, #58, #60) — по §3 реестра.
+- Проверить в понедельник живой cron pulse-heart (04:00 UTC) — первый естественный прогон нового retry-патча.
+- П-23/#41 «Оракул корня»: вшить в guardian-шаблон запрет `uses:`-строки без перевода строки перед `with:` (линтер yml), чтобы пин-скрипт больше не склеивал.
+
+
 > Замеры: живой GitHub API, 2026-11-08 (старт ~12:20 UTC, финиш ~14:3x UTC). Правило дома: **пункт закрывается только доказательством** (run id, raw 200, sha). Мембрана дома = README.md (человек) + AGENTS.md (агент) + llms.txt (машина) — три слоя во всех 41 репо.
 
 ---

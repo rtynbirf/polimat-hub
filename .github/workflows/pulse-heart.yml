@@ -29,10 +29,27 @@ jobs:
         run: |
           git config user.name "polimat-heart"
           git config user.email "polimat-heart@users.noreply.github.com"
+          # Урок красных 42466691086 / 42466954893 / 42500555202 (2026-11-08):
+          # checkout берёт SHA на момент диспатча, а параллельные волны
+          # (inventory-weekly, субагенты) успевают запушить первыми —
+          # push отклоняется «fetch first». Догоняем tip main ДО коммита
+          # и повторяем push с rebase до 5 раз.
+          git fetch origin main
+          git rebase origin/main
           git add PULSE.md audit/pulse-*.json
           if git diff --cached --quiet; then
             echo "ПУЛЬС БЕЗ ИЗМЕНЕНИЙ"
           else
             git commit -m "pulse: еженедельный обход дома ($(date -u +%F))"
-            git push
+            ok=0
+            for i in 1 2 3 4 5; do
+              if git push; then ok=1; break; fi
+              echo "push отклонён (гонка параллельных волн), попытка $i: rebase и повтор"
+              git fetch origin main
+              git rebase origin/main || git rebase --abort
+            done
+            if [ "$ok" != "1" ]; then
+              echo "::error::push пульса не прошёл после 5 попыток rebase+push — на main продолжают писать параллельные волны"
+              exit 1
+            fi
           fi
