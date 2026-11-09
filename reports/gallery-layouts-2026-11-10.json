@@ -1,0 +1,78 @@
+{
+  "series": "RTYNBIRF GALLERY · OBSIDIAN & MOLTEN GOLD",
+  "canon": "РЕВО/Reve: LAYOUT → RENDER → CRITIC",
+  "style_base": "Baroque chiaroscuro oil painting in the manner of Caravaggio, museum masterpiece, deep obsidian near-black background, volumetric smoke haze, rich oil paint texture with fine craquelure and engraved metalwork lines, dramatic single warm rim light from upper right, molten gold and liquid chrome details",
+  "style_tail": "Composition: the main object placed slightly right of center at about 65 percent of frame width, monumental and glowing, left third of the frame dissolves into deep darkness with faint drifting smoke, cinematic depth of field, single unified scene, no text, no letters, no words, no watermark, no signature, no frame",
+  "categories": {
+    "РОЙ":        "#7DD3FC",
+    "МЕДИА":      "#F0ABFC",
+    "СИСТЕМА":    "#93C5FD",
+    "АНАЛИТИКА":  "#FCD34D",
+    "ЭКСПОЗИЦИЯ": "#6EE7B7",
+    "ИНСТРУМЕНТ": "#C4B5FD",
+    "МЕТОД":      "#FDBA74"
+  },
+  "accent_words": {
+    "РОЙ": "one subtle electric cyan glow woven into the scene",
+    "МЕДИА": "one subtle magenta pink glow woven into the scene",
+    "СИСТЕМА": "one subtle cold cobalt blue glow woven into the scene",
+    "АНАЛИТИКА": "one subtle warm amber glow woven into the scene",
+    "ЭКСПОЗИЦИЯ": "one subtle emerald green glow woven into the scene",
+    "ИНСТРУМЕНТ": "one subtle violet glow woven into the scene",
+    "МЕТОД": "one subtle orange ember glow woven into the scene"
+  },
+  "avatar": [
+    {
+      "id": "avatar-phoenix-seal-a",
+      "prompt": "Circular golden medallion seal, relief profile of a phoenix head with rising flame crest, molten gold engraved on a deep obsidian black field, concentric border ring with fine engraved rays, baroque coin engraving style, dramatic rim light, oil paint texture, museum masterpiece, extremely bold silhouette readable at small size, no text, no letters, no watermark"
+    },
+    {
+      "id": "avatar-phoenix-seal-b",
+      "prompt": "Heraldic phoenix with spread wings made of molten gold and liquid chrome, rising from flames over a dark obsidian ground, engraved baroque ornament rays behind, deep black background with single warm golden glow, baroque chiaroscuro oil painting, bold iconic silhouette readable at small size, no text, no letters, no watermark"
+    }
+  ],
+  "banners": [
+    {"name": ".github", "cat": "СИСТЕМА", "tagline": "Community health аккаунта: issue-формы, PR-шаблоны, рамка", "object": "monumental dark citadel gates of engraved iron crowned with a golden heraldic seal, golden community banners hanging on both sides of the gate"},
+    {"name": "agryp", "cat": "РОЙ", "tagline": "PID1-подобный супервизор AI-агентов: один файл C, ноль зависимостей", "object": "colossal bronze keystone of an ancient arch glowing with molten gold veins, holding open a massive iron gate, thin golden threads flowing from the keystone down to a swarm of tiny glowing mechanical bees below"},
+    {"name": "cell-rs", "cat": "РОЙ", "tagline": "Первая Rust-клетка роя: ядро контура сверки", "object": "single giant luminous hexagonal honeycomb cell made of liquid chrome standing on a dark stone altar, pulsing molten golden core inside, fine engraved hexagon lattice"},
+    {"name": "cell-swarm", "cat": "РОЙ", "tagline": "РОЙ — сингулярная эмерджентная архитектура: клетки, не монорепо", "object": "thousands of tiny golden mechanical bees swirling upward and forming one giant translucent crystal hexagon in the air, emergent swarm pattern, trails of golden light"},
+    {"name": "cell65-host", "cat": "ИНСТРУМЕНТ", "tagline": "«Антицензор» MV3: обход блокировок без телеметрии. Человеком для человека", "object": "massive ornate brass key turning inside an iron lattice grate of a dark wall, beam of free light breaking through the opened grate from behind"},
+    {"name": "commons", "cat": "ИНСТРУМЕНТ", "tagline": "COMMONS — один организм из лучших открытых проектов: геном, волны, клетка", "object": "magnificent golden tree whose trunk is fused from gears, clockwork and microchips into one living organism, branches bearing glowing golden fruit"},
+    {"name": "domovoy-tweaker", "cat": "ИНСТРУМЕНТ", "tagline": "ДОМОВОЙ / MEGA=TWEAKER — Windows tweaker as a state, not a bag of scripts", "object": "warm brass domovoy house-spirit figurine with a ring of keys and a small screwdriver, sitting guardian of a dark wooden house interior near a fireplace ember glow"},
+    {"name": "edinyy-svod", "cat": "СИСТЕМА", "tagline": "ЕДИНЫЙ СВОД архива rtynbirf: 41 репозиторий — каталог и карта", "object": "endless dark baroque library hall vanishing into haze, rows of towering shelves, one single glowing golden tome open on a lectern in the foreground"},
+    {"name": "github-runbook", "cat": "СИСТЕМА", "tagline": "Ранбук: настройка GitHub-репозитория человеком для человека", "object": "dark navigator desk with an illuminated cartographic blueprint of an archipelago of small islands, antique brass astrolabe and golden quill pen resting on the map"},
+    {"name": "global-video-platforms-registry", "cat": "МЕДИА", "tagline": "Верифицированный реестр 1071 видеоплатформ (1032 активных)", "object": "colossal atlas globe built from hundreds of tiny glowing golden television screens and film frames, standing in darkness like a monument"},
+    {"name": "H-PE11-PHOENIX", "cat": "СИСТЕМА", "tagline": "PHOENIX-11: ворклог операций TH-* — журнал неповторимых результатов", "object": "majestic golden phoenix made of fire and fine drafting lines rising above scattered burnt paper logbooks, embers and glowing schematics in the air"},
+    {"name": "karaoke-dream", "cat": "МЕДИА", "tagline": "Браузерное караоке мечты: неон, гид-вокал, оценка голоса", "object": "vintage chrome microphone standing on a dark empty stage, wrapped by a glowing neon light tube, magenta and gold reflections, rain of tiny neon sparks in the dark club air"},
+    {"name": "language-through-the-ages", "cat": "ЭКСПОЗИЦИЯ", "tagline": "Язык сквозь эпохи — автономная HTML-экспозиция: семь способов сказать", "object": "grand ascending staircase of ancient stone slabs, each slab engraved with glowing letters and runes of a different alphabet, stairway rising into warm light"},
+    {"name": "markitdown", "cat": "ИНСТРУМЕНТ", "tagline": "Конвертер файлов и офисных документов в Markdown", "object": "alchemical brass funnel apparatus: paper scrolls and documents falling in from above, liquid molten gold letters pouring out below in a single stream"},
+    {"name": "neutral-browser", "cat": "ИНСТРУМЕНТ", "tagline": "Пользовательский браузерный движок с нуля (Rust)", "object": "monolithic rusty corten steel prism with a polished chrome core, splitting one white beam of light into many glowing streams, dark laboratory hall"},
+    {"name": "nous", "cat": "СИСТЕМА", "tagline": "НОУС — конституция для человека и роя", "object": "two monumental obsidian stone tablets with glowing golden engraved lines, hundreds of fine golden threads converging from the darkness above like a swarm to the tablets"},
+    {"name": "os-forge", "cat": "СИСТЕМА", "tagline": "OS-FORGE — самодостаточный автономный батник: карта, сборка, апгрейд", "object": "blacksmith forge glowing with heat, a molten golden blade held above the anvil, sparks flying upward and turning into streams of tiny glowing symbols"},
+    {"name": "polimat-hub", "cat": "СИСТЕМА", "tagline": "POLIMAT-HUB: место сверок мультиагента-архитектора", "object": "dark admiral cabin war room, round table with an illuminated map, a golden holographic constellation graph of connected nodes floating above the table"},
+    {"name": "polimat-task174", "cat": "АНАЛИТИКА", "tagline": "Протокол проверки канона по строкам", "object": "golden ruler of standard measure hovering above an unrolled scroll of fine glowing text lines, a single laser-thin thread of light scanning across the lines"},
+    {"name": "polymath-atlas-v107", "cat": "АНАЛИТИКА", "tagline": "Честный evidence-audit фреймворк — v107.1 FINAL", "object": "grand scales of justice made of chrome and gold, one cup holding a glowing open book, a giant magnifying lens shining like a sun behind the scales"},
+    {"name": "polymath-gen", "cat": "РОЙ", "tagline": "Автономный медиа-агент: задание человека → продукт", "object": "magnificent golden printing press machine consuming a paper scroll on one side and producing a stream of glowing film and printed pages on the other, clockwork brass gears alive"},
+    {"name": "polymath-os", "cat": "СИСТЕМА", "tagline": "Суверенная персональная media-OS: 5 слоёв, самосборка", "object": "monolithic dark stone obelisk motherboard with five ascending terrace layers growing from it like a hanging garden, each layer glowing with cobalt circuitry veins"},
+    {"name": "polymath-tools-atlas", "cat": "АНАЛИТИКА", "tagline": "Каталог 665 AI-инструментов по контурам", "object": "dark cabinet of curiosities wall covered with rows of brass instruments and tools, one magnificent golden draftsman compass glowing in the center like a star"},
+    {"name": "red-thread-debt-audit", "cat": "АНАЛИТИКА", "tagline": "КРАСНАЯ НИТЬ — аудит динамики суверенного долга", "object": "giant ball of scarlet crimson thread unwinding into a glowing map of continents across a dark chart table, the red thread drawing rising and falling mountain lines of debt"},
+    {"name": "release-vault", "cat": "СИСТЕМА", "tagline": "Зашифрованный оф-сайт архив: AES-256-CBC / PBKDF2 600k", "object": "massive bank vault door of polished chrome with a golden combination dial, faint glowing cipher glyphs floating in the dark air around the door"},
+    {"name": "rent-mechanism-q43", "cat": "АНАЛИТИКА", "tagline": "Рентный механизм: ядро Q43 v2, шесть законов L1–L6", "object": "monumental golden orrery mechanism with six nested rotating rings like planetary laws, crystal core glowing in the center, dark marble hall"},
+    {"name": "repo-doctrine", "cat": "СИСТЕМА", "tagline": "Доктрина настройки репозиториев: человеком для человека", "object": "unrolled golden-edged charter scroll with an octagonal golden wax seal, behind it a distant orderly row of small identical glowing houses on a dark plain"},
+    {"name": "revo", "cat": "МЕТОД", "tagline": "Метод Reve: сначала LAYOUT — потом RENDER · Серия LABS №26", "object": "grand two-part altarpiece: left half shows the bare golden wireframe skeleton of a scene on dark canvas, right half shows the very same scene painted in full rich oil color, a molten golden seam dividing the halves"},
+    {"name": "rtynbirf", "cat": "СИСТЕМА", "tagline": "Полимат-универсум: 41 репозиторий, 2700+ коммитов с 2022", "object": "golden phoenix with spread wings soaring above a dark celestial map of forty-one small glowing worlds connected by fine golden threads, universe chart atmosphere"},
+    {"name": "rtynbirf.github.io", "cat": "МЕДИА", "tagline": "MEGA-PLAYER SINGULYAR — универсальный видеоплеер на автопилоте", "object": "grand golden cinema projector firing a single volumetric beam of light through darkness and dust onto a monumental luminous screen like gates of light"},
+    {"name": "rumu", "cat": "МЕДИА", "tagline": "СИНГУЛЯР РУМУ — суверенный BL/GL-стриминг: P2P + автопилот", "object": "two luminous arched bridges of golden light crossing a dark misty canyon between two ancient towers, a river of glowing film strip flowing beneath"},
+    {"name": "runtime-protocol", "cat": "РОЙ", "tagline": "Клетка роя: исполнимая модель динамики узла", "object": "giant chrome metronome pendulum frozen mid-swing on a dark pedestal, orbits of golden light particles circling its tip like planetary rings"},
+    {"name": "ruvson-lyrics", "cat": "МЕДИА", "tagline": "Тексты 65 треков: черновики → пайплайн → финал", "object": "mechanical golden quill pen writing a single glowing line of script onto an unrolling ribbon, sixty-five small golden musical notes floating in the dark air around it"},
+    {"name": "ruvson-rse2", "cat": "МЕДИА", "tagline": "Станок одной песни — движок сингулярности v2", "object": "antique golden music box with its mechanism open, brass cylinder and comb, a rising wave of molten gold sound erupting from it like a luminous ocean wave"},
+    {"name": "singulyar", "cat": "МЕДИА", "tagline": "Офлайн-вселенная караоке RUVSON: 64 песни × 200 языков", "object": "giant golden vinyl record transforming into a glowing galactic vortex black hole, spiral of film strip and stardust drawn into its radiant core, fine concentric grooves"},
+    {"name": "singulyar-llm", "cat": "МЕДИА", "tagline": "Локальная модель СИНГУЛЯРА: Qwen2.5-0.5B в GGUF", "object": "tiny brilliant star of molten gold glowing inside an alchemist glass flask standing on a dark wooden workbench, faint constellation lines around the flask"},
+    {"name": "task-graph-propagator", "cat": "АНАЛИТИКА", "tagline": "Один пропагатор — все функции структуры графа", "object": "crystalline network of glass nodes and golden edges suspended in darkness, a pulse of light propagating from one radiant golden node outward through all edges"},
+    {"name": "uace-pml", "cat": "ИНСТРУМЕНТ", "tagline": "Universal AI Chat Exporter: Evidence First", "object": "antique printing press cliché stamping a glowing archival chronicle page, brass magnifying glass of an expert resting beside the printed evidence"},
+    {"name": "universal-agent", "cat": "РОЙ", "tagline": "Один целостный мозг-агент на одной LLM", "object": "anatomical golden brain fused with intricate clockwork gears and springs, displayed under a glass dome on a dark pedestal, single warm spotlight"},
+    {"name": "voice-atlas-llm", "cat": "МЕДИА", "tagline": "Атлас-LLM: модель-эксперт по клонированию голоса", "object": "monumental golden tuning fork standing on dark marble, concentric rings of golden sound waves rippling outward and turning into luminous oscilloscope waveforms"},
+    {"name": "web-evolution-1991-2026", "cat": "ЭКСПОЗИЦИЯ", "tagline": "Эволюция Веба 1991→2026 — автономная HTML-экспозиция: 5 эпох", "object": "dark museum corridor of time with five glass vitrines in a row, each vitrine glowing with a different era of screens from an old CRT monitor to a futuristic neon portal"},
+    {"name": "windows-chronicle", "cat": "ЭКСПОЗИЦИЯ", "tagline": "Полная хроника Microsoft Windows 1985–2026", "object": "majestic corridor of framed glowing windows of very different architectural eras from baroque palace window to futuristic porthole, each window shining with its own colored light onto dark marble floor"}
+  ]
+}
