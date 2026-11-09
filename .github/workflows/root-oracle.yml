@@ -30,8 +30,13 @@ jobs:
           OWNER: rtynbirf
           ROOT_CAUSE_JSON: tripwire-root-cause.json
         run: python3 scripts/tripwire_root_cause.py
+      # Артефакт — вспомогательное доказательство, не приговор оракула:
+      # при исчерпании квоты хранилища (лаг пересчёта 6-12 ч) загрузка падает,
+      # но диагноз уже напечатан в логе шага выше — честный ноль не должен
+      # красить latest-прогон (гигиена красного CI, волна x9, 2026-11-09).
       - name: Артефакт диагноза
         if: always()
+        continue-on-error: true
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: tripwire-root-cause
