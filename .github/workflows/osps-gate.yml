@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   selftest:
@@ -39,13 +39,20 @@ jobs:
         run: |
           latest=$(ls -t audit/osps-baseline-*.md 2>/dev/null | head -1)
           if [ -n "$latest" ]; then cat "$latest" >> "$GITHUB_STEP_SUMMARY"; fi
-      - name: 'Загрузка артефакта-матрицы'
+      - name: 'Коммит матрицы в audit/ (канон hub, самовыравнивание)'
         if: always()
-        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
-        with:
-          name: osps-baseline-matrix
-          path: |
-            audit/osps-baseline-*.json
-            audit/osps-baseline-*.md
-          if-no-files-found: warn
-          retention-days: 30
+        run: |
+          latest=$(ls -t audit/osps-baseline-*.md 2>/dev/null | head -1)
+          latest_json=$(ls -t audit/osps-baseline-*.json 2>/dev/null | head -1)
+          if [ -n "$latest" ]; then
+            git config user.name 'github-actions[bot]'
+            git config user.email 'github-actions[bot]@users.noreply.github.com'
+            git add "$latest" "$latest_json" 2>/dev/null
+            if git diff --cached --quiet; then
+              echo 'матрица без изменений — коммита нет'
+            else
+              git commit -m "osps-gate: свежая матрица [skip ci]" --quiet
+              git push --quiet
+              echo 'матрица закоммичена'
+            fi
+          fi

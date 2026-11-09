@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T20:12:43.099809+00:00",
+ "generated_at": "2026-11-09T20:20:32.427671+00:00",
  "baseline": "OSPS Baseline (OpenSSF) v2026.08.28 — по духу",
  "controls": [
   {
@@ -119,7 +119,24 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/cell65-host",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -132,35 +149,18 @@
    "notes": []
   },
   {
-   "repo": "rtynbirf/cell65-host",
-   "controls": {
-    "OSP-P-01": "yes",
-    "OSP-P-02": "yes",
-    "OSP-P-03": "no",
-    "OSP-P-04": "yes",
-    "OSP-P-05": "yes",
-    "OSP-P-06": "yes",
-    "OSP-P-07": "yes",
-    "OSP-P-08": "yes",
-    "OSP-P-09": "yes",
-    "OSP-P-10": "no",
-    "OSP-P-11": "yes"
-   },
-   "notes": []
-  },
-  {
    "repo": "rtynbirf/commons",
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "yes"
    },
    "notes": []
@@ -170,14 +170,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "pending",
     "OSP-P-11": "yes"
    },
    "notes": []
@@ -187,7 +187,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -204,14 +204,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -242,14 +242,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -261,7 +261,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -280,7 +280,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -299,7 +299,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -333,7 +333,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -352,7 +352,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -369,7 +369,7 @@
    "controls": {
     "OSP-P-01": "no",
     "OSP-P-02": "no",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "no",
@@ -395,7 +395,7 @@
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "yes",
+    "OSP-P-10": "pending",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -407,14 +407,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -426,14 +426,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -445,14 +445,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "yes"
    },
    "notes": []
@@ -462,14 +462,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "pending",
+    "OSP-P-10": "yes",
     "OSP-P-11": "yes"
    },
    "notes": []
@@ -479,7 +479,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -496,7 +496,7 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
@@ -515,14 +515,14 @@
    "controls": {
     "OSP-P-01": "yes",
     "OSP-P-02": "yes",
-    "OSP-P-03": "no",
+    "OSP-P-03": "yes",
     "OSP-P-04": "yes",
     "OSP-P-05": "yes",
     "OSP-P-06": "yes",
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "yes"
    },
    "notes": []
