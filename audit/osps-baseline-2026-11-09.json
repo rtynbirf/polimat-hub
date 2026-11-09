@@ -1,0 +1,531 @@
+{
+ "generated_at": "2026-11-09T20:12:43.099809+00:00",
+ "baseline": "OSPS Baseline (OpenSSF) v2026.08.28 — по духу",
+ "controls": [
+  {
+   "id": "OSP-P-01",
+   "name": "Механизм принуждения на primary (active branch ruleset)",
+   "osps_analog": "OSPS-AC-3.01"
+  },
+  {
+   "id": "OSP-P-02",
+   "name": "Security contacts (SECURITY.md на месте)",
+   "osps_analog": "OSPS-VM-02.01"
+  },
+  {
+   "id": "OSP-P-03",
+   "name": "CODEOWNERS (ответственные за дерево)",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-04",
+   "name": "README с описанием и границами",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-05",
+   "name": "License-файл (SPDX-определённый)",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-06",
+   "name": "Dependabot активен (мембрана)",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-07",
+   "name": "AGENTS.md канона роя (шесть секций, Always/Ask first/Never)",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-08",
+   "name": "llms.txt машинный контракт",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-09",
+   "name": "Actions пинованы SHA-каноном (uses …@<40-hex>)",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-10",
+   "name": "Живой зелёный последний прогон CI (закон §5)",
+   "osps_analog": "—"
+  },
+  {
+   "id": "OSP-P-11",
+   "name": "Release-гигиена: latest релиз не пуст (notes/assets)",
+   "osps_analog": "—"
+  }
+ ],
+ "rows": [
+  {
+   "repo": "rtynbirf/.github",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "yes",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/agryp",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "yes",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/cell-rs",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "yes",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/cell-swarm",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/cell65-host",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/commons",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/domovoy-tweaker",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/global-video-platforms-registry",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/karaoke-dream",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/markitdown",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "yes",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/neutral-browser",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/os-forge",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/polymath-atlas-v107",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/polymath-gen",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/polymath-os",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "yes",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/polymath-tools-atlas",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/release-vault",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/revo",
+   "controls": {
+    "OSP-P-01": "no",
+    "OSP-P-02": "no",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "no",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/rtynbirf",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "yes",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/rtynbirf.github.io",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/runtime-protocol",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/ruvson-rse2",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/singulyar",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "pending",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/singulyar-llm",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  },
+  {
+   "repo": "rtynbirf/universal-agent",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "yes",
+    "OSP-P-11": "n/a"
+   },
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
+  },
+  {
+   "repo": "rtynbirf/voice-atlas-llm",
+   "controls": {
+    "OSP-P-01": "yes",
+    "OSP-P-02": "yes",
+    "OSP-P-03": "no",
+    "OSP-P-04": "yes",
+    "OSP-P-05": "yes",
+    "OSP-P-06": "yes",
+    "OSP-P-07": "yes",
+    "OSP-P-08": "yes",
+    "OSP-P-09": "yes",
+    "OSP-P-10": "no",
+    "OSP-P-11": "yes"
+   },
+   "notes": []
+  }
+ ]
+}

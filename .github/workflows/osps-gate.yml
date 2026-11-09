@@ -1,0 +1,51 @@
+name: 'osps-gate · OSPS-Baseline матрица (evaluate)'
+
+on:
+  schedule:
+    # вторник 05:47 UTC — свободное окно против шаблонных кронов (гигиена кронов, урок У-5)
+    - cron: "47 5 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    name: 'Самопроверка без сети (канон мембраны)'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 # v6.1.0
+        with:
+          python-version: '3.12'
+      - name: 'SELFTEST — фикстуры, ноль сетевых запросов'
+        run: python3 tools/osps_baseline_check.py --selftest
+
+  matrix:
+    name: 'Живой прогон: OSPS-матрица публичных репо'
+    needs: selftest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548 # v6.1.0
+        with:
+          python-version: '3.12'
+      - name: 'Прогон живого аудита (evaluate: вердикт без exit-1)'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/osps_baseline_check.py --live
+      - name: 'Матрица в step summary'
+        if: always()
+        run: |
+          latest=$(ls -t audit/osps-baseline-*.md 2>/dev/null | head -1)
+          if [ -n "$latest" ]; then cat "$latest" >> "$GITHUB_STEP_SUMMARY"; fi
+      - name: 'Загрузка артефакта-матрицы'
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: osps-baseline-matrix
+          path: |
+            audit/osps-baseline-*.json
+            audit/osps-baseline-*.md
+          if-no-files-found: warn
+          retention-days: 30
