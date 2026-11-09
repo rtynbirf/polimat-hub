@@ -1,0 +1,256 @@
+{
+ "generated": "2026-11-09T20:36:05Z",
+ "plan": 25,
+ "agents_patched": 18,
+ "llms_patched": 19,
+ "fails": [
+  {
+   "repo": "rumu",
+   "act": "agents",
+   "ok": false,
+   "http": 403
+  },
+  {
+   "repo": "rumu",
+   "act": "llms",
+   "ok": false,
+   "http": 403
+  }
+ ],
+ "log": [
+  {
+   "repo": ".github",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": ".github",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "agryp",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "agryp",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "cell-rs",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "cell-rs",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "cell-swarm",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "cell-swarm",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "cell65-host",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "commons",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "commons",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "edinyy-svod",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "github-runbook",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "language-through-the-ages",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "markitdown",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "markitdown",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "nous",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "nous",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "polimat-hub",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "polymath-gen",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "polymath-gen",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "polymath-os",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "polymath-os",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "release-vault",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "repo-doctrine",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "revo",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "revo",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "rtynbirf",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "rtynbirf",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "rumu",
+   "act": "agents",
+   "ok": false,
+   "http": 403
+  },
+  {
+   "repo": "rumu",
+   "act": "llms",
+   "ok": false,
+   "http": 403
+  },
+  {
+   "repo": "runtime-protocol",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "runtime-protocol",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "ruvson-rse2",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "singulyar",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "universal-agent",
+   "act": "agents",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "universal-agent",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "web-evolution-1991-2026",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  },
+  {
+   "repo": "windows-chronicle",
+   "act": "llms",
+   "ok": true,
+   "http": 200
+  }
+ ]
+}
