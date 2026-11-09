@@ -1,53 +1,53 @@
-# PULSE · 2026-11-08
+# PULSE · 2026-11-09
 
 > Сгенерировано Единым Сердцем (tools/pulse_heart.py). Числа из API, не руками.
 
 - Репозиториев: **42** (публичных 27, приватных 15)
-- Открытых PR: **0**
-- РАНЫ (красные CI): **0** — нет
-- Тяжеловесы >512 МБ: **1** — singulyar (1547 МБ)
+- Открытых PR: **1**
+- РАНЫ (красные CI): **1** — universal-agent (ci 2026-11-09)
+- Тяжеловесы >512 МБ: **1** — singulyar (1054 МБ)
 
 | Репо | Т | Ветки | PR | CI | Вес КБ | Пуш |
 |---|---|---|---|---|---|---|
-| singulyar | пуб | 2 | 0 | ✅ Оракулы дома зелёные (so | 1584682 | 2026-11-08 |
-| voice-atlas-llm | пуб | 1 | 0 | ✅ CI | 99183 | 2026-11-08 |
-| polimat-hub | прив | 1 | 0 | — pulse-heart | 83027 | 2026-11-08 |
-| ruvson-lyrics | прив | 1 | 0 | ✅ CI | 35716 | 2026-11-08 |
-| H-PE11-PHOENIX | прив | 2 | 0 | ✅ evidence-chain | 12165 | 2026-11-08 |
-| polymath-gen | пуб | 1 | 0 | ✅ ci | 8689 | 2026-11-08 |
-| red-thread-debt-audit | прив | 1 | 0 | ✅ guardian-tripwire | 8416 | 2026-11-08 |
-| rtynbirf.github.io | пуб | 1 | 0 | ✅ agent-readiness | 7245 | 2026-11-08 |
-| polimat-task174 | прив | 1 | 0 | ✅ guardian-tripwire | 6793 | 2026-11-08 |
-| revo | пуб | 1 | 0 | ✅ CI | 6696 | 2026-11-08 |
-| markitdown | пуб | 1 | 0 | ✅ fork-diff | 6648 | 2026-11-08 |
-| uace-pml | прив | 1 | 0 | ✅ guardian-tripwire | 4677 | 2026-11-08 |
-| polymath-os | пуб | 2 | 0 | ✅ blood | 3067 | 2026-11-08 |
-| commons | пуб | 1 | 0 | ✅ sbom | 2748 | 2026-11-08 |
-| rtynbirf | пуб | 2 | 0 | — swarm-health (бейджи здо | 2505 | 2026-11-08 |
-| global-video-platforms-registry | пуб | 1 | 0 | ✅ validate | 2109 | 2026-11-08 |
-| language-through-the-ages | прив | 1 | 0 | ✅ ci | 2045 | 2026-11-08 |
-| cell65-host | пуб | 1 | 0 | ✅ ci | 1540 | 2026-11-08 |
-| polymath-tools-atlas | пуб | 1 | 0 | ✅ validate | 1512 | 2026-11-08 |
-| neutral-browser | пуб | 1 | 0 | ✅ CI | 1404 | 2026-11-08 |
-| domovoy-tweaker | пуб | 2 | 0 | ✅ CI | 1377 | 2026-11-08 |
-| polymath-atlas-v107 | пуб | 1 | 0 | ✅ anchors-verify (якоря-ин | 1135 | 2026-11-08 |
-| web-evolution-1991-2026 | прив | 1 | 0 | ✅ guardian-tripwire | 1103 | 2026-11-08 |
-| cell-swarm | пуб | 1 | 0 | — blood-genome | 1027 | 2026-11-08 |
-| edinyy-svod | прив | 1 | 0 | — wave3-svod-catalog | 1004 | 2026-11-08 |
-| ruvson-rse2 | пуб | 1 | 0 | ✅ CI | 976 | 2026-11-08 |
-| os-forge | пуб | 1 | 0 | ✅ FORGE-DAG | 926 | 2026-11-08 |
-| agryp | пуб | 1 | 0 | ✅ p37 | 886 | 2026-11-08 |
-| .github | пуб | 1 | 0 | ✅ account-facade | 854 | 2026-11-08 |
-| runtime-protocol | пуб | 1 | 0 | ✅ blood | 827 | 2026-11-08 |
-| cell-rs | пуб | 1 | 0 | ✅ metabolism | 725 | 2026-11-08 |
+| singulyar | пуб | 3 | 0 | ✅ main-drift-watch | 1079570 | 2026-11-09 |
+| voice-atlas-llm | пуб | 1 | 0 | ✅ CI | 99237 | 2026-11-09 |
+| polimat-hub | прив | 1 | 0 | — pulse-heart | 96447 | 2026-11-09 |
+| ruvson-lyrics | прив | 1 | 0 | ✅ CI | 35718 | 2026-11-09 |
+| H-PE11-PHOENIX | прив | 1 | 0 | ✅ guardian-tripwire | 14627 | 2026-11-09 |
+| polymath-gen | пуб | 1 | 0 | ✅ ci | 8691 | 2026-11-09 |
+| red-thread-debt-audit | прив | 1 | 0 | ✅ guardian-tripwire | 8418 | 2026-11-09 |
+| polimat-task174 | прив | 1 | 0 | ✅ guardian-tripwire | 8100 | 2026-11-09 |
+| rtynbirf.github.io | пуб | 1 | 0 | ✅ Deploy корневого сайта | 6891 | 2026-11-09 |
+| revo | пуб | 1 | 0 | ✅ CI | 6758 | 2026-11-09 |
+| markitdown | пуб | 1 | 0 | ✅ pre-commit | 6651 | 2026-11-09 |
+| uace-pml | прив | 1 | 0 | ✅ validate-contracts | 4708 | 2026-11-09 |
+| commons | пуб | 1 | 0 | ✅ scorecard | 4088 | 2026-11-09 |
+| global-video-platforms-registry | пуб | 1 | 0 | ✅ validate | 3461 | 2026-11-09 |
+| language-through-the-ages | прив | 1 | 0 | ✅ ci | 3373 | 2026-11-09 |
+| polymath-os | пуб | 3 | 1 | ✅ LLM Integration | 3091 | 2026-11-09 |
+| rtynbirf | пуб | 2 | 0 | ✅ generate snake | 3049 | 2026-11-09 |
+| cell65-host | пуб | 1 | 0 | ✅ ci | 2888 | 2026-11-09 |
+| domovoy-tweaker | пуб | 2 | 0 | ✅ CI | 2741 | 2026-11-09 |
+| polymath-atlas-v107 | пуб | 1 | 0 | ✅ anchors-verify (якоря-ин | 2453 | 2026-11-09 |
+| edinyy-svod | прив | 1 | 0 | ✅ wave3-portability | 2342 | 2026-11-09 |
+| agryp | пуб | 1 | 0 | ✅ doctrine | 2342 | 2026-11-09 |
+| cell-swarm | пуб | 1 | 0 | ✅ genome-reconcile | 2306 | 2026-11-09 |
+| os-forge | пуб | 1 | 0 | ✅ FORGE-DAG | 2229 | 2026-11-09 |
+| .github | пуб | 1 | 0 | ✅ account-facade | 2156 | 2026-11-09 |
+| karaoke-dream | пуб | 1 | 0 | ✅ CI | 1998 | 2026-11-09 |
+| cell-rs | пуб | 1 | 0 | ✅ metabolism | 1974 | 2026-11-09 |
+| nous | прив | 1 | 0 | ✅ ci | 1839 | 2026-11-09 |
+| github-runbook | прив | 1 | 0 | ✅ ci | 1717 | 2026-11-09 |
+| polymath-tools-atlas | пуб | 1 | 0 | ✅ validate | 1514 | 2026-11-09 |
+| neutral-browser | пуб | 1 | 0 | ✅ П43 supply-chain — cargo | 1453 | 2026-11-09 |
+| web-evolution-1991-2026 | прив | 1 | 0 | ✅ guardian-tripwire | 1105 | 2026-11-09 |
+| ruvson-rse2 | пуб | 1 | 0 | ✅ CI | 978 | 2026-11-09 |
+| runtime-protocol | пуб | 1 | 0 | ✅ metabolism | 874 | 2026-11-09 |
 | rumu | пуб | 1 | 0 | —  | 722 | 2026-11-08 |
-| singulyar-llm | пуб | 1 | 0 | ✅ weights-integrity | 702 | 2026-11-08 |
-| karaoke-dream | пуб | 1 | 0 | ✅ CI | 678 | 2026-11-08 |
-| release-vault | пуб | 1 | 0 | ✅ vault-integrity — сверка | 677 | 2026-11-08 |
-| rent-mechanism-q43 | прив | 1 | 0 | ✅ guardian-tripwire | 586 | 2026-11-08 |
-| universal-agent | пуб | 1 | 0 | ✅ ci | 577 | 2026-11-08 |
-| nous | прив | 1 | 0 | ✅ wave3-lease-guard | 548 | 2026-11-08 |
-| windows-chronicle | прив | 1 | 0 | ✅ guardian-tripwire | 261 | 2026-11-08 |
-| repo-doctrine | прив | 1 | 0 | ✅ wave6-t17-manifest-fresh | 244 | 2026-11-08 |
-| github-runbook | прив | 1 | 0 | ✅ guardian-tripwire | 195 | 2026-11-08 |
-| task-graph-propagator | прив | 1 | 0 | ✅ guardian-tripwire | 71 | 2026-11-08 |
+| singulyar-llm | пуб | 1 | 0 | ✅ weights-integrity | 704 | 2026-11-09 |
+| release-vault | пуб | 1 | 0 | ✅ vault-integrity — сверка | 689 | 2026-11-09 |
+| rent-mechanism-q43 | прив | 1 | 0 | ✅ guardian-tripwire | 587 | 2026-11-09 |
+| universal-agent | пуб | 1 | 0 | 🔴 ci | 579 | 2026-11-09 |
+| repo-doctrine | прив | 1 | 0 | ✅ guardian-tripwire | 348 | 2026-11-09 |
+| windows-chronicle | прив | 1 | 0 | ✅ guardian-tripwire | 264 | 2026-11-09 |
+| task-graph-propagator | прив | 1 | 0 | ✅ guardian-tripwire | 73 | 2026-11-09 |

@@ -1,0 +1,429 @@
+{
+ "date": "2026-11-09",
+ "repos": [
+  {
+   "repo": "singulyar",
+   "private": false,
+   "size_kb": 1079570,
+   "pushed_at": "2026-11-09",
+   "branches": 3,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "main-drift-watch"
+  },
+  {
+   "repo": "voice-atlas-llm",
+   "private": false,
+   "size_kb": 99237,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "polimat-hub",
+   "private": true,
+   "size_kb": 96447,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": "pulse-heart"
+  },
+  {
+   "repo": "ruvson-lyrics",
+   "private": true,
+   "size_kb": 35718,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "H-PE11-PHOENIX",
+   "private": true,
+   "size_kb": 14627,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "polymath-gen",
+   "private": false,
+   "size_kb": 8691,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "red-thread-debt-audit",
+   "private": true,
+   "size_kb": 8418,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "polimat-task174",
+   "private": true,
+   "size_kb": 8100,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "rtynbirf.github.io",
+   "private": false,
+   "size_kb": 6891,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "Deploy корневого сайта"
+  },
+  {
+   "repo": "revo",
+   "private": false,
+   "size_kb": 6758,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "markitdown",
+   "private": false,
+   "size_kb": 6651,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "pre-commit"
+  },
+  {
+   "repo": "uace-pml",
+   "private": true,
+   "size_kb": 4708,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "validate-contracts"
+  },
+  {
+   "repo": "commons",
+   "private": false,
+   "size_kb": 4088,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "scorecard"
+  },
+  {
+   "repo": "global-video-platforms-registry",
+   "private": false,
+   "size_kb": 3461,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "validate"
+  },
+  {
+   "repo": "language-through-the-ages",
+   "private": true,
+   "size_kb": 3373,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "polymath-os",
+   "private": false,
+   "size_kb": 3091,
+   "pushed_at": "2026-11-09",
+   "branches": 3,
+   "open_prs": 1,
+   "ci": "success",
+   "ci_workflow": "LLM Integration"
+  },
+  {
+   "repo": "rtynbirf",
+   "private": false,
+   "size_kb": 3049,
+   "pushed_at": "2026-11-09",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "generate snake"
+  },
+  {
+   "repo": "cell65-host",
+   "private": false,
+   "size_kb": 2888,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "domovoy-tweaker",
+   "private": false,
+   "size_kb": 2741,
+   "pushed_at": "2026-11-09",
+   "branches": 2,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "polymath-atlas-v107",
+   "private": false,
+   "size_kb": 2453,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "anchors-verify (якоря-инварианты)"
+  },
+  {
+   "repo": "edinyy-svod",
+   "private": true,
+   "size_kb": 2342,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "wave3-portability"
+  },
+  {
+   "repo": "agryp",
+   "private": false,
+   "size_kb": 2342,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "doctrine"
+  },
+  {
+   "repo": "cell-swarm",
+   "private": false,
+   "size_kb": 2306,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "genome-reconcile"
+  },
+  {
+   "repo": "os-forge",
+   "private": false,
+   "size_kb": 2229,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "FORGE-DAG"
+  },
+  {
+   "repo": ".github",
+   "private": false,
+   "size_kb": 2156,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "account-facade"
+  },
+  {
+   "repo": "karaoke-dream",
+   "private": false,
+   "size_kb": 1998,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "cell-rs",
+   "private": false,
+   "size_kb": 1974,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "metabolism"
+  },
+  {
+   "repo": "nous",
+   "private": true,
+   "size_kb": 1839,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "github-runbook",
+   "private": true,
+   "size_kb": 1717,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "polymath-tools-atlas",
+   "private": false,
+   "size_kb": 1514,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "validate"
+  },
+  {
+   "repo": "neutral-browser",
+   "private": false,
+   "size_kb": 1453,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "П43 supply-chain — cargo-deny + cargo-audit"
+  },
+  {
+   "repo": "web-evolution-1991-2026",
+   "private": true,
+   "size_kb": 1105,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "ruvson-rse2",
+   "private": false,
+   "size_kb": 978,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "CI"
+  },
+  {
+   "repo": "runtime-protocol",
+   "private": false,
+   "size_kb": 874,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "metabolism"
+  },
+  {
+   "repo": "rumu",
+   "private": false,
+   "size_kb": 722,
+   "pushed_at": "2026-11-08",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "none",
+   "ci_workflow": ""
+  },
+  {
+   "repo": "singulyar-llm",
+   "private": false,
+   "size_kb": 704,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "weights-integrity"
+  },
+  {
+   "repo": "release-vault",
+   "private": false,
+   "size_kb": 689,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "vault-integrity — сверка шифротекстов"
+  },
+  {
+   "repo": "rent-mechanism-q43",
+   "private": true,
+   "size_kb": 587,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "universal-agent",
+   "private": false,
+   "size_kb": 579,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "failure",
+   "ci_workflow": "ci"
+  },
+  {
+   "repo": "repo-doctrine",
+   "private": true,
+   "size_kb": 348,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "windows-chronicle",
+   "private": true,
+   "size_kb": 264,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  },
+  {
+   "repo": "task-graph-propagator",
+   "private": true,
+   "size_kb": 73,
+   "pushed_at": "2026-11-09",
+   "branches": 1,
+   "open_prs": 0,
+   "ci": "success",
+   "ci_workflow": "guardian-tripwire"
+  }
+ ],
+ "wounds": [
+  "universal-agent (ci 2026-11-09)"
+ ],
+ "open_prs_total": 1
+}
