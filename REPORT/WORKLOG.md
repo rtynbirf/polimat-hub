@@ -67,3 +67,19 @@
   разведки (не закрывался, живой индекс). Счётчик issue #10 пересчитан.
 - Пуш → git fetch → сверка SHA с API (Я-02/П-08). Токены раунда 11 подлежат
   отзыву Хозяином после волны (П-35: вышел из чата = скомпрометирован).
+
+## Раунд 12 · 2026-11-10 · «ЕЩЁ РАЗ РАЗВЕДКА — ПОТОМ МУТИТЬ»
+- Веб-разведка-2 ДО мутаций: in-toto Statement v1 (subject+digest.sha256),
+  CycloneDX 1.5/1.7 (CBOM), OSV POST /v1/querybatch, osv-scanner --sbom,
+  PUT /vulnerability-alerts + /automated-security-fixes (REST).
+- **П-18/#36 исполнено живьём:**
+  - PUT vulnerability-alerts ×4 активных (markitdown, polymath-gen, rtynbirf,
+    revo) = 204 ×4 + autosf 204 ×4; rumu — архив, PUT 422 (платформа запрещает,
+    закон архива); revo найден сенсором слепым (GET 403) и включён.
+  - `tools/osv_sweep.py` — второй сенсор иммунитета: манифесты ×41 через
+    git/trees, OSV querybatch, дифф с Dependabot-алертами. Прогон: 9 манифестов,
+    6 пакетов (6 ≈диапазонов), 14 unpinned (Я-06 в живую: polymath-gen, revo,
+    ruvson-rse2, polymath-os), OSV-хитов 0, GH open 1 (polymath-os, не critical),
+    расхождений 0. Отчёт: audit/osv-sweep-2026-11-10.json; строка-свод в PULSE.md.
+  - Приёмка issue исполнена в объёме активных репо; критичных алертов 0.
+- Пломба+закрытие #36 по закону §5; счётчик #10 пересчитан; пуш → fetch → SHA-API.

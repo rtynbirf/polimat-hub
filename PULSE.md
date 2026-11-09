@@ -51,3 +51,4 @@
 | repo-doctrine | прив | 1 | 0 | ✅ guardian-tripwire | 348 | 2026-11-09 |
 | windows-chronicle | прив | 1 | 0 | ✅ guardian-tripwire | 264 | 2026-11-09 |
 | task-graph-propagator | прив | 1 | 0 | ✅ guardian-tripwire | 73 | 2026-11-09 |
+- OSV-сенсор ×41: манифестов 9 · пакетов 6 (≈диапазонов 6 · unpinned 14 — яма Я-06) · OSV-хитов 0 · GH-алертов open 1 (critical 0) · расхождений 0 · 2026-11-09T20:53:18Z

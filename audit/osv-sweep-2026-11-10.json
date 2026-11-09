@@ -1,0 +1,233 @@
+{
+ "generated": "2026-11-09T20:51:11Z",
+ "repos": 41,
+ "manifests": 9,
+ "packages": 6,
+ "packages_approx": 6,
+ "packages_unpinned": [
+  "polymath-gen/requirements.txt :: PyPI/requests>=2.28",
+  "polymath-gen/requirements.txt :: PyPI/PyYAML>=6.0",
+  "polymath-gen/requirements.txt :: PyPI/Pillow>=9.0",
+  "polymath-os/apps/garden/package.json :: npm/@jackyzha0/quartz@github:jackyzha0/quartz#v4",
+  "revo/requirements.txt :: PyPI/pillow>=10.0",
+  "ruvson-rse2/scripts/requirements.txt :: PyPI/numpy>=2.5.4",
+  "ruvson-rse2/scripts/requirements.txt :: PyPI/scipy>=1.18.1",
+  "ruvson-rse2/scripts/requirements.txt :: PyPI/soundfile>=0.14.0",
+  "ruvson-rse2/scripts/requirements.txt :: PyPI/librosa>=1.0.0",
+  "ruvson-rse2/scripts/requirements.txt :: PyPI/PyYAML>=6.0.3",
+  "ruvson-rse2/scripts/requirements.txt :: PyPI/tqdm>=4.70.1",
+  "voice-atlas-llm/requirements.txt :: PyPI/scikit-learn>=1.9.1",
+  "voice-atlas-llm/requirements.txt :: PyPI/numpy>=1.24",
+  "voice-atlas-llm/requirements.txt :: PyPI/PyYAML>=6.0.3"
+ ],
+ "osv_hits": {},
+ "gh_alerts": {
+  ".github": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "agryp": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "cell-rs": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "cell-swarm": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "cell65-host": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "commons": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "domovoy-tweaker": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "edinyy-svod": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "github-runbook": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "global-video-platforms-registry": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "H-PE11-PHOENIX": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "karaoke-dream": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "language-through-the-ages": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "markitdown": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "neutral-browser": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "nous": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "os-forge": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "polimat-hub": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "polimat-task174": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "polymath-atlas-v107": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "polymath-gen": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "polymath-os": {
+   "open": 1,
+   "critical": 0,
+   "high": 0
+  },
+  "polymath-tools-atlas": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "red-thread-debt-audit": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "release-vault": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "rent-mechanism-q43": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "repo-doctrine": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "revo": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "rtynbirf": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "rtynbirf.github.io": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "runtime-protocol": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "ruvson-lyrics": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "ruvson-rse2": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "singulyar": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "singulyar-llm": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "task-graph-propagator": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "uace-pml": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "universal-agent": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "voice-atlas-llm": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "web-evolution-1991-2026": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  },
+  "windows-chronicle": {
+   "open": 0,
+   "critical": 0,
+   "high": 0
+  }
+ },
+ "diff": {},
+ "repos_no_alerts": []
+}
