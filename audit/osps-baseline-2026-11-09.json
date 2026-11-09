@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T20:20:32.427671+00:00",
+ "generated_at": "2026-11-09T20:23:59.873743+00:00",
  "baseline": "OSPS Baseline (OpenSSF) v2026.08.28 — по духу",
  "controls": [
   {
@@ -71,7 +71,7 @@
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -107,7 +107,7 @@
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -126,7 +126,7 @@
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "no",
+    "OSP-P-10": "yes",
     "OSP-P-11": "yes"
    },
    "notes": []
@@ -177,7 +177,7 @@
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "pending",
+    "OSP-P-10": "yes",
     "OSP-P-11": "yes"
    },
    "notes": []
@@ -395,7 +395,7 @@
     "OSP-P-07": "yes",
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
-    "OSP-P-10": "pending",
+    "OSP-P-10": "yes",
     "OSP-P-11": "n/a"
    },
    "notes": [
@@ -470,9 +470,11 @@
     "OSP-P-08": "yes",
     "OSP-P-09": "yes",
     "OSP-P-10": "yes",
-    "OSP-P-11": "yes"
+    "OSP-P-11": "n/a"
    },
-   "notes": []
+   "notes": [
+    "OSP-P-11: releases: 0"
+   ]
   },
   {
    "repo": "rtynbirf/singulyar-llm",
