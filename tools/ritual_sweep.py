@@ -112,6 +112,11 @@ for n in notifs:
             swept += 1
             time.sleep(0.05)
 st, after = gh(f'{H}/notifications?all=false&per_page=100')
+for _ in range(3):
+    if st == 200:
+        break
+    time.sleep(5)
+    st, after = gh(f'{H}/notifications?all=false&per_page=100')
 unread_after = len(after) if st == 200 else -1
 
 # ---------- S3: ПЛОМБА в PULSE.md ----------
