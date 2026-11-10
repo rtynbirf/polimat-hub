@@ -82,7 +82,7 @@ def probe(tok: str):
 
 
 def selftest():
-    t = "[REDACTED-DEAD-TOKEN]"
+    t = "ghp_" + "A" * 36  # синтетический манекен: настоящий токен в коде запрещён доктриной
     m = mask(t)
     assert "…" in m and len(m) <= len("ghp_") + 1 + 4, m
     assert t not in m, "МАСКА ПРОТЕКЛА!"
