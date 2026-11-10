@@ -1,0 +1,21 @@
+{
+ "generated": "2026-11-10T17:11:40Z",
+ "tool": "tools/house_automaton.py · раунд 14 · закон дома №23",
+ "automaton": "ВЗЯЛ→СДЕЛАЛ→УБРАЛ→ДОМ_ЧИСТ (| честный ПЕРЕДАЛ)",
+ "notifications_before": 0,
+ "notifications_marked_done": 0,
+ "notifications_after": 0,
+ "repos_checked": 51,
+ "ci_success_latest": 48,
+ "ci_no_actions": 1,
+ "ci_errors": 0,
+ "red_ci_fresh_72h": [],
+ "open_issue_cards": 6,
+ "open_cards_by_repo": {
+  "POLYMATH-ATLAS-GESTALT-CANON": 1,
+  "github-runbook": 1,
+  "repo-doctrine": 2,
+  "voice-atlas-llm": 1,
+  "singulyar": 1
+ }
+}
