@@ -1,0 +1,14 @@
+name: "PROBE · датчик регистрации"
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Пульс
+        run: echo "probe ok $(date -u +%FT%TZ)"
