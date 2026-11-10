@@ -1,0 +1,41 @@
+{
+ "what": "П-31/W-AUD-15: тираж polimat-guard (ruleset-as-code) на публичные репо без него",
+ "date": "2026-11-10",
+ "executor": "координатор волны триажа (классический PAT, Administration user-репо)",
+ "etalon": "rulesets/polimat-guard.json (экспорт cell-swarm id 26772136)",
+ "premise_change": "51 репо, приватных 0 (premise «16 приватных» из #16/#99 исчезла — решение Хозяина)",
+ "applied_201": [
+  "rtynbirf/H-PE11-PHOENIX",
+  "rtynbirf/POLYMATH-ATLAS-GESTALT-CANON",
+  "rtynbirf/combain-v2",
+  "rtynbirf/domovenok",
+  "rtynbirf/edinyy-svod",
+  "rtynbirf/github-runbook",
+  "rtynbirf/language-through-the-ages",
+  "rtynbirf/nous",
+  "rtynbirf/polimat-hub",
+  "rtynbirf/polimat-task174",
+  "rtynbirf/polymat-hive",
+  "rtynbirf/polymath-atlas",
+  "rtynbirf/polymath-multiagent",
+  "rtynbirf/polymath-stckg-core",
+  "rtynbirf/red-thread-debt-audit",
+  "rtynbirf/rent-mechanism-q43",
+  "rtynbirf/repo-doctrine",
+  "rtynbirf/revo",
+  "rtynbirf/ruvson-lyrics",
+  "rtynbirf/task-graph-propagator",
+  "rtynbirf/uace-pml",
+  "rtynbirf/uace-polymat",
+  "rtynbirf/web-evolution-1991-2026",
+  "rtynbirf/windows-chronicle",
+  "rtynbirf/yazyk-skvoz-epohi"
+ ],
+ "failures": [],
+ "totals": {
+  "applied": 25,
+  "failed": 0,
+  "already_had": 25,
+  "coverage": "50/50 активных публичных репо с polimat-guard (active)"
+ }
+}

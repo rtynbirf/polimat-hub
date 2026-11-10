@@ -170,3 +170,9 @@ archived: 1 (`rumu`, исключён). Сканировано не-archived п�
 - Проба POST: **403** (нет Administration:write) на 2 репо — тираж СТОП.
 - Создано rulesets агентом: **0**. Повторить после выдачи write-права
   командой выше по списку «Без polimat-guard (25)».
+
+## Тираж 2026-11-10 (исполнено)
+
+Проба POST fine-grained → 403 (нет Administration:write). Тираж исполнен координатором волны классическим PAT:
+**25/25 POST → HTTP 201, 0 отказов** (см. `rulesets/applied-2026-11-10.json`). Итог: **50/50 активных публичных репо**
+с polimat-guard (enforcement: active; 25 имели ранее, 25 получили 2026-11-10). rumu (archived) — не тронут.

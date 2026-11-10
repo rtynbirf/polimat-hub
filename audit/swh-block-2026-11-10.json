@@ -1,0 +1,14 @@
+{
+ "what": "П-28 (#46) Software Heritage Save Code Now — попытка 2026-11-10",
+ "verdict": "БЛОК СРЕДЫ: ноль реальных запросов. Ложные факты не записаны.",
+ "evidence": {
+  "POST x50": "HTTP 200, но тело = HTML-заглушка Anubis («Oh noes!»), не JSON — запросы НЕ приняты",
+  "GET статусы x50": "Anubis WAF, curl и headless-браузер (PoW) → «Access Denied: error code 4d1dbaddfcc0f385» (Anubis 1.24.0, Techaro)",
+  "conclusion": "archive.softwareheritage.org программно недоступен из CI/агентных сред за этим WAF"
+ },
+ "paths_forward": [
+  "браузерный контур на машине Хозяина (реальный браузер с JS проходит PoW)",
+  "SWH deposit API с аккаунтом (вне Anubis)",
+  "CI-runner с резидентным IP (проверить, не за WAF ли GitHub-раннеры)"
+ ]
+}
