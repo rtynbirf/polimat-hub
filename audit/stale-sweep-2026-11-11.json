@@ -1,0 +1,395 @@
+{
+ "generated": "2026-11-10T16:50:09Z",
+ "tool": "tools/stale_sweep.py · раунд 13 · П-62/#83",
+ "source_manifest": "meta-manifest.yml",
+ "threshold_days": 90,
+ "repos_in_manifest": 51,
+ "repos_live": 51,
+ "api_errors": 0,
+ "archived": [
+  "rumu"
+ ],
+ "stale_over_90d": [],
+ "stale_over_180d": [],
+ "top_oldest": [
+  {
+   "name": ".github",
+   "days": 0
+  },
+  {
+   "name": "agryp",
+   "days": 0
+  },
+  {
+   "name": "cell-rs",
+   "days": 0
+  },
+  {
+   "name": "cell-swarm",
+   "days": 0
+  },
+  {
+   "name": "cell65-host",
+   "days": 0
+  }
+ ],
+ "rows": [
+  {
+   "name": ".github",
+   "pushed_at": "2026-11-10T13:04:04Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3326
+  },
+  {
+   "name": "agryp",
+   "pushed_at": "2026-11-10T15:44:39Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3744
+  },
+  {
+   "name": "cell-rs",
+   "pushed_at": "2026-11-10T10:19:18Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3305
+  },
+  {
+   "name": "cell-swarm",
+   "pushed_at": "2026-11-10T15:43:53Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3894
+  },
+  {
+   "name": "cell65-host",
+   "pushed_at": "2026-11-10T10:19:24Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 4123
+  },
+  {
+   "name": "combain-v2",
+   "pushed_at": "2026-11-10T12:23:08Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 128
+  },
+  {
+   "name": "commons",
+   "pushed_at": "2026-11-10T10:13:19Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 5203
+  },
+  {
+   "name": "domovenok",
+   "pushed_at": "2026-11-10T16:08:02Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 1679
+  },
+  {
+   "name": "domovoy-tweaker",
+   "pushed_at": "2026-11-10T11:17:03Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 4001
+  },
+  {
+   "name": "edinyy-svod",
+   "pushed_at": "2026-11-10T12:32:23Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3741
+  },
+  {
+   "name": "github-runbook",
+   "pushed_at": "2026-11-10T15:53:56Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3603
+  },
+  {
+   "name": "global-video-platforms-registry",
+   "pushed_at": "2026-11-10T10:19:30Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 4536
+  },
+  {
+   "name": "H-PE11-PHOENIX",
+   "pushed_at": "2026-11-10T14:52:40Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 17849
+  },
+  {
+   "name": "karaoke-dream",
+   "pushed_at": "2026-11-10T10:19:33Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3301
+  },
+  {
+   "name": "language-through-the-ages",
+   "pushed_at": "2026-11-09T20:35:22Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 4909
+  },
+  {
+   "name": "markitdown",
+   "pushed_at": "2026-11-09T22:00:05Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 9350
+  },
+  {
+   "name": "neutral-browser",
+   "pushed_at": "2026-11-10T10:19:35Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 4744
+  },
+  {
+   "name": "nous",
+   "pushed_at": "2026-11-10T09:07:26Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3062
+  },
+  {
+   "name": "os-forge",
+   "pushed_at": "2026-11-10T10:19:38Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3583
+  },
+  {
+   "name": "polimat-hub",
+   "pushed_at": "2026-11-10T16:46:59Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 113583
+  },
+  {
+   "name": "polimat-task174",
+   "pushed_at": "2026-11-09T18:24:11Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 9264
+  },
+  {
+   "name": "polymat-hive",
+   "pushed_at": "2026-11-10T12:35:12Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 78
+  },
+  {
+   "name": "polymath-atlas",
+   "pushed_at": "2026-11-10T16:06:34Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 6311
+  },
+  {
+   "name": "POLYMATH-ATLAS-GESTALT-CANON",
+   "pushed_at": "2026-11-10T15:55:45Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 1652
+  },
+  {
+   "name": "polymath-atlas-v107",
+   "pushed_at": "2026-11-10T10:19:45Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3454
+  },
+  {
+   "name": "polymath-gen",
+   "pushed_at": "2026-11-10T12:55:50Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 12344
+  },
+  {
+   "name": "polymath-multiagent",
+   "pushed_at": "2026-11-10T16:15:37Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 373
+  },
+  {
+   "name": "polymath-os",
+   "pushed_at": "2026-11-10T11:19:57Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 6591
+  },
+  {
+   "name": "polymath-stckg-core",
+   "pushed_at": "2026-11-10T11:20:19Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 341
+  },
+  {
+   "name": "polymath-tools-atlas",
+   "pushed_at": "2026-11-10T10:19:53Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 5016
+  },
+  {
+   "name": "red-thread-debt-audit",
+   "pushed_at": "2026-11-09T18:24:58Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 11279
+  },
+  {
+   "name": "release-vault",
+   "pushed_at": "2026-11-10T10:19:56Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 4120
+  },
+  {
+   "name": "rent-mechanism-q43",
+   "pushed_at": "2026-11-09T18:25:17Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3029
+  },
+  {
+   "name": "repo-doctrine",
+   "pushed_at": "2026-11-10T15:51:20Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3116
+  },
+  {
+   "name": "revo",
+   "pushed_at": "2026-11-10T12:43:10Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 9964
+  },
+  {
+   "name": "rtynbirf",
+   "pushed_at": "2026-11-10T14:27:29Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 10667
+  },
+  {
+   "name": "rtynbirf.github.io",
+   "pushed_at": "2026-11-10T11:28:26Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 9364
+  },
+  {
+   "name": "rumu",
+   "pushed_at": "2026-11-08T12:49:22Z",
+   "days_since_push": 2,
+   "archived": true,
+   "size_kb": 722
+  },
+  {
+   "name": "runtime-protocol",
+   "pushed_at": "2026-11-10T10:20:08Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3228
+  },
+  {
+   "name": "ruvson-lyrics",
+   "pushed_at": "2026-11-09T18:26:10Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 38473
+  },
+  {
+   "name": "ruvson-rse2",
+   "pushed_at": "2026-11-10T10:20:11Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3297
+  },
+  {
+   "name": "singulyar",
+   "pushed_at": "2026-11-10T12:55:43Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 1098836
+  },
+  {
+   "name": "singulyar-llm",
+   "pushed_at": "2026-11-10T10:20:14Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3416
+  },
+  {
+   "name": "task-graph-propagator",
+   "pushed_at": "2026-11-09T18:26:47Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 2922
+  },
+  {
+   "name": "uace-pml",
+   "pushed_at": "2026-11-09T18:26:57Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 7469
+  },
+  {
+   "name": "uace-polymat",
+   "pushed_at": "2026-11-10T11:19:48Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 504
+  },
+  {
+   "name": "universal-agent",
+   "pushed_at": "2026-11-10T10:20:20Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3338
+  },
+  {
+   "name": "voice-atlas-llm",
+   "pushed_at": "2026-11-10T12:55:46Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 166652
+  },
+  {
+   "name": "web-evolution-1991-2026",
+   "pushed_at": "2026-11-09T20:36:03Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 3881
+  },
+  {
+   "name": "windows-chronicle",
+   "pushed_at": "2026-11-09T20:36:04Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 2633
+  },
+  {
+   "name": "yazyk-skvoz-epohi",
+   "pushed_at": "2026-11-10T14:51:00Z",
+   "days_since_push": 0,
+   "archived": false,
+   "size_kb": 89
+  }
+ ]
+}
