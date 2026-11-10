@@ -5,9 +5,164 @@
  "repos_total": 53,
  "violations": [
   {
-   "inv": "I0",
-   "repo": "(аккаунт)",
-   "fact": "непрочитанных нотификаций: 6 — чистка: house_automaton --clean"
+   "inv": "I5",
+   "repo": "domovoy-ritual",
+   "fact": "неполный SHA: actions/checkout@v4"
+  },
+  {
+   "inv": "I7",
+   "repo": "edinyy-svod",
+   "fact": "красный check catalog (441b34e2)"
+  },
+  {
+   "inv": "I7",
+   "repo": "singulyar",
+   "fact": "красный check deploy (c70b09ea)"
+  },
+  {
+   "inv": "I7",
+   "repo": "singulyar",
+   "fact": "красный check oracle (c70b09ea)"
+  },
+  {
+   "inv": "I7",
+   "repo": "uace-pml",
+   "fact": "красный check контракт-снапшоты 36/36 (python3 stdlib) + негативный гейт (b44ad614)"
+  },
+  {
+   "inv": "I7",
+   "repo": "uace-pml",
+   "fact": "красный check контракт-снапшоты 36 доменов (b44ad614)"
+  },
+  {
+   "inv": "I8",
+   "repo": "agryp",
+   "fact": ".github/workflows/sua.yml: незакавыченное ': ' в name (строка 33)"
+  },
+  {
+   "inv": "I8",
+   "repo": "agryp",
+   "fact": ".github/workflows/sua.yml: незакавыченное ': ' в name (строка 107)"
+  },
+  {
+   "inv": "I8",
+   "repo": "cell-rs",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 18)"
+  },
+  {
+   "inv": "I8",
+   "repo": "cell-rs",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 20)"
+  },
+  {
+   "inv": "I8",
+   "repo": "cell-rs",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 22)"
+  },
+  {
+   "inv": "I8",
+   "repo": "cell-swarm",
+   "fact": ".github/workflows/cards-seals.yml: незакавыченное ': ' в name (строка 33)"
+  },
+  {
+   "inv": "I8",
+   "repo": "cell-swarm",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 22)"
+  },
+  {
+   "inv": "I8",
+   "repo": "combain-v2",
+   "fact": ".github/workflows/docker-publish.yml: незакавыченное ': ' в name (строка 46)"
+  },
+  {
+   "inv": "I8",
+   "repo": "domovoy-ritual",
+   "fact": ".github/workflows/ritual-guard.yml: незакавыченное ': ' в name (строка 23)"
+  },
+  {
+   "inv": "I8",
+   "repo": "domovoy-ritual",
+   "fact": ".github/workflows/ritual-guard.yml: незакавыченное ': ' в name (строка 33)"
+  },
+  {
+   "inv": "I8",
+   "repo": "domovoy-tweaker",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 34)"
+  },
+  {
+   "inv": "I8",
+   "repo": "polimat-hub",
+   "fact": ".github/workflows/osps-gate.yml: незакавыченное ': ' в name (строка 33)"
+  },
+  {
+   "inv": "I8",
+   "repo": "polimat-hub",
+   "fact": ".github/workflows/ritual-law-drill.yml: незакавыченное ': ' в name (строка 40)"
+  },
+  {
+   "inv": "I8",
+   "repo": "polymath-gen",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 25)"
+  },
+  {
+   "inv": "I8",
+   "repo": "rent-mechanism-q43",
+   "fact": ".github/workflows/caveats-registry.yml: незакавыченное ': ' в name (строка 30)"
+  },
+  {
+   "inv": "I8",
+   "repo": "repo-doctrine",
+   "fact": ".github/workflows/agentic-pilot.yml: незакавыченное ': ' в name (строка 26)"
+  },
+  {
+   "inv": "I8",
+   "repo": "rtynbirf",
+   "fact": ".github/workflows/swarm-health.yml: незакавыченное ': ' в name (строка 37)"
+  },
+  {
+   "inv": "I8",
+   "repo": "rtynbirf",
+   "fact": ".github/workflows/swarm-health.yml: незакавыченное ': ' в name (строка 54)"
+  },
+  {
+   "inv": "I8",
+   "repo": "ruvson-lyrics",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 39)"
+  },
+  {
+   "inv": "I8",
+   "repo": "singulyar",
+   "fact": ".github/workflows/pages.yml: незакавыченное ': ' в name (строка 36)"
+  },
+  {
+   "inv": "I8",
+   "repo": "voice-atlas-llm",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 30)"
+  },
+  {
+   "inv": "I8",
+   "repo": "voice-atlas-llm",
+   "fact": ".github/workflows/ci.yml: незакавыченное ': ' в name (строка 38)"
+  },
+  {
+   "inv": "I8",
+   "repo": "yazyk-skvoz-epohi",
+   "fact": ".github/workflows/guard.yml: незакавыченное ': ' в name (строка 35)"
+  },
+  {
+   "inv": "I8",
+   "repo": "yazyk-skvoz-epohi",
+   "fact": ".github/workflows/guard.yml: незакавыченное ': ' в name (строка 45)"
+  },
+  {
+   "inv": "I8",
+   "repo": "yazyk-skvoz-epohi",
+   "fact": ".github/workflows/guard.yml: незакавыченное ': ' в name (строка 50)"
+  },
+  {
+   "inv": "I8",
+   "repo": "yazyk-skvoz-epohi",
+   "fact": ".github/workflows/guard.yml: незакавыченное ': ' в name (строка 53)"
   }
  ],
  "queue": [],
