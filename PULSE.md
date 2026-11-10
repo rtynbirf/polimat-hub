@@ -52,3 +52,5 @@
 | windows-chronicle | прив | 1 | 0 | ✅ guardian-tripwire | 264 | 2026-11-09 |
 | task-graph-propagator | прив | 1 | 0 | ✅ guardian-tripwire | 73 | 2026-11-09 |
 - OSV-сенсор ×41: манифестов 9 · пакетов 6 (≈диапазонов 6 · unpinned 14 — яма Я-06) · OSV-хитов 0 · GH-алертов open 1 (critical 0) · расхождений 0 · 2026-11-09T20:53:18Z
+- Свобода флота (П-67): 6/24 = 25% free (polymath-os docs/LIBERATION_ROADMAP.md:97) · живой check_freedom.py 2026-11-10: 119 находок (Tier 1 ×4, Tier 2 ×115, Tier 3 ×0) · sovereignty_drill по крону «0 3 * * 1», success 2026-11-09 10:51
+- Пломбы (П-27): конвейер tools/seal_all.sh издан (full/incr, атомарный MANIFEST, --drill restore-верификация) · пломб-бандлов в vault/: 47 (bundles-2026-11-08 ×37 сверены 1:1, MANIFEST.sha256 37 строк) · Ф1-счётчик считает скрипт
