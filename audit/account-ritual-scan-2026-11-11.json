@@ -1,0 +1,64 @@
+{
+ "scan": "account_ritual_check",
+ "date": "2026-11-11",
+ "repos_total": 51,
+ "private": [],
+ "archived": [
+  "rumu"
+ ],
+ "queue_hot": [
+  {
+   "repo": ".github",
+   "open": 1
+  },
+  {
+   "repo": "H-PE11-PHOENIX",
+   "open": 1
+  },
+  {
+   "repo": "POLYMATH-ATLAS-GESTALT-CANON",
+   "open": 1
+  },
+  {
+   "repo": "commons",
+   "open": 1
+  },
+  {
+   "repo": "domovenok",
+   "open": 5
+  },
+  {
+   "repo": "github-runbook",
+   "open": 11
+  },
+  {
+   "repo": "nous",
+   "open": 2
+  },
+  {
+   "repo": "polymath-atlas",
+   "open": 1
+  },
+  {
+   "repo": "polymath-multiagent",
+   "open": 1
+  },
+  {
+   "repo": "repo-doctrine",
+   "open": 5
+  },
+  {
+   "repo": "singulyar",
+   "open": 1
+  },
+  {
+   "repo": "uace-polymat",
+   "open": 1
+  },
+  {
+   "repo": "voice-atlas-llm",
+   "open": 1
+  }
+ ],
+ "stale_30d_alive": []
+}

@@ -1,0 +1,33 @@
+{
+ "ritual": "zakon-doma v1.0",
+ "date": "2026-11-10",
+ "owner": "rtynbirf",
+ "repos_total": 51,
+ "violations": [
+  {
+   "inv": "I1",
+   "repo": "nous",
+   "fact": "открыт PR #26: docs(genesis): волна-3 разведки S–V + статус валидации governor §6.1 (TH-SG-2)"
+  },
+  {
+   "inv": "I1",
+   "repo": "uace-polymat",
+   "fact": "открыт PR #4: hardening 2026-11-10: метаданные репо (CODEOWNERS / CITATION.cff)"
+  }
+ ],
+ "queue": [
+  {
+   "repo": "nous",
+   "kind": "PR",
+   "number": 26,
+   "title": "docs(genesis): волна-3 разведки S–V + статус валидации governor §6.1 (TH-SG-2)"
+  },
+  {
+   "repo": "uace-polymat",
+   "kind": "PR",
+   "number": 4,
+   "title": "hardening 2026-11-10: метаданные репо (CODEOWNERS / CITATION.cff)"
+  }
+ ],
+ "stale": []
+}
