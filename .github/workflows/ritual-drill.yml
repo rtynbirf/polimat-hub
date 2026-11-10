@@ -4,6 +4,7 @@ name: "РИТУАЛ ДОМА — прегон закона"
 # Прогоняет tools/ritual_check.py --deep по живому API, снапшот в audit/ritual-<дата>.json,
 # коммит-пуш сам (fetch→rebase→retry, урок pulse-heart ×5-D). Issue НЕ заводит: очередь=0.
 # Вердикт живёт в job summary; нарушения = сигнал роя (S1→S5 по ЗАКОНУ).
+# v2.0: сверка закона §7/§8; перерегистрация 2026-11-11 после startup-failure волны Х5.
 
 on:
   schedule:
