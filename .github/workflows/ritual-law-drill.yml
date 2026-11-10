@@ -1,0 +1,57 @@
+name: "РИТУАЛ ДОМА — прегон закона"
+
+# ЗАКОН ДОМА (RITUAL/ЗАКОН-ДОМА.md §4): еженедельный машинный прегон инвариантов.
+# Прогоняет tools/ritual_check.py --deep по живому API, снапшот в audit/ritual-<дата>.json,
+# коммит-пуш сам (fetch→rebase→retry, урок pulse-heart ×5-D). Issue НЕ заводит: очередь=0.
+# Вердикт живёт в job summary; нарушения = сигнал роя (S1→S5 по ЗАКОНУ).
+# v2.0: сверка закона §7/§8; перерегистрация 2026-11-11 после startup-failure волны Х5.
+
+on:
+  schedule:
+    - cron: "7 5 * * 1"   # понедельник 05:07 UTC — вне топ-часов
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ritual:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (полный SHA — инвариант I5)
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Прегон закона (--deep, все инварианты)
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
+        run: python3 tools/ritual_check.py --deep | tee ritual-verdict.txt
+
+      - name: Вердикт в job summary
+        if: always()
+        run: |
+          {
+            echo "## ЗАКОН ДОМА · прегон $(date -u +%F)"
+            echo '```'
+            cat ritual-verdict.txt
+            echo '```'
+            echo "Снапшот: audit/ritual-$(date -u +%F).json · свод: RITUAL/ЗАКОН-ДОМА.md"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Снапшот в репо (пуш сам: fetch→rebase→retry)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
+        run: |
+          git config user.name  "дом-ритуал"
+          git config user.email "ritual@doma.local"
+          git add audit/ritual-*.json
+          if git diff --cached --quiet; then
+            echo "Снапшот не изменился — коммита нет (ритм без шума)"; exit 0
+          fi
+          git commit -m "ritual: машинный снапшот закона дома $(date -u +%F) [skip ci]"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main && git push origin HEAD:main && exit 0
+            sleep 10
+          done
+          echo "пуш не прошёл за 5 попыток — сигнал роя"; exit 1
