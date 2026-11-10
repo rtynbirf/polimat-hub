@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
-"""ЗАКОН ДОМА · ritual_check.py · машина инвариантов дома (v1.0, 2026-11-11)
+"""ЗАКОН ДОМА · ritual_check.py · машина инвариантов дома (v2.1, 2026-11-11)
 
 Проверяет инварианты ЗАКОНА ДОМА (RITUAL/ЗАКОН-ДОМА.md §2) по живому GitHub API:
+  I0 нотификации = 0 (тишина ящика дома; чистка: house_automaton --clean)
   I1 очередь = 0 (открытые issues и PR во всех репо)
   I2 приватных = 0
   I3 тишина живого репо <= 30 дней
   I4 у каждого schedule-воркфлоу есть дверь workflow_dispatch   [--deep]
   I5 uses-экшены запинены полным SHA                             [--deep]
   I7 нет некомментированных красных check-runs                   [--deep]
+  I8 YAML-живучесть: каждый .github/workflows парсится;          [--deep]
+     в name нет незакавыченных ': ' (урок волны 6: незакавыченное
+     «пуш сам:» молча убило крон дома — startup failure, 0 jobs).
+     pyyaml опционален: есть — полный парс, нет — грубый детектор.
 
 Выход: текстовый вердикт в stdout, машинный снапшот audit/ritual-<date>.json.
 Issue НЕ заводит (закон: очередь = 0). Exit code всегда 0: красит вердикт, не job.
@@ -22,6 +27,11 @@ OUTDIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))
 STALE_DAYS = 30
 SHA_RE = re.compile(r"uses:\s*[\w\-./]+@([0-9a-f]{40})", re.I)
 USES_RE = re.compile(r"uses:\s*([\w\-./]+)@")
+NAME_COLON_RE = re.compile(r"^\s*-\s*name:\s*[^\"'\[].*:\s")  # I8: незакавыченное ': ' в name
+try:
+    import yaml as _yaml  # опционально: на раннерах обычно есть
+except Exception:
+    _yaml = None
 
 def api(url):
     req = urllib.request.Request(url, headers={
@@ -53,8 +63,18 @@ def main():
     today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     repos = paged(f"https://api.github.com/users/{OWNER}/repos?per_page=100")
     violations = []
-    snap = {"ritual": "zakon-doma v1.0", "date": today, "owner": OWNER,
+    snap = {"ritual": "zakon-doma v2.1", "date": today, "owner": OWNER,
             "repos_total": len(repos), "violations": []}
+
+    # I0 нотификации (слово Хозяина: «НИКАКИХ НОТИФИКАЦИЙ ИССУСЕ НЕ ДОЛЖНО БЫТЬ»)
+    try:
+        notifs = api("https://api.github.com/notifications?per_page=100")
+        unread = len(notifs) if isinstance(notifs, list) else -1
+    except Exception:
+        unread = -1
+    if unread > 0:
+        violations.append({"inv": "I0", "repo": "(аккаунт)",
+                           "fact": f"непрочитанных нотификаций: {unread} — чистка: house_automaton --clean"})
 
     # I2 приватность
     priv = [r["name"] for r in repos if r["private"]]
@@ -68,6 +88,7 @@ def main():
     doors = []   # I4
     pins = []    # I5
     blood = []   # I7
+    wfyaml = []  # I8
 
     for r in sorted(repos, key=lambda x: x["name"]):
         name = r["name"]
@@ -100,6 +121,17 @@ def main():
                         if act.startswith("actions/") or act.startswith("github/"):
                             if not SHA_RE.search("uses: " + act + "@" + ref):
                                 pins.append({"repo": name, "wf": p, "action": f"{act}@{ref}"})
+                    # I8: YAML-живучесть этого же файла
+                    for ln, line in enumerate(src.splitlines(), 1):
+                        if NAME_COLON_RE.match(line):
+                            wfyaml.append({"repo": name, "wf": p, "line": ln,
+                                           "fact": "незакавыченное ': ' в name"})
+                    if _yaml is not None:
+                        try:
+                            _yaml.safe_load(src)
+                        except Exception as e:
+                            wfyaml.append({"repo": name, "wf": p,
+                                           "fact": f"YAML не парсится: {str(e).splitlines()[-1][:80]}"})
             except Exception as e:
                 doors.append({"repo": name, "wf": "TREE-ERROR", "err": str(e)[:80]})
             # I7: красные check-runs на HEAD
@@ -124,6 +156,9 @@ def main():
         violations.append({"inv": "I5", "repo": p["repo"], "fact": f"неполный SHA: {p['action']}"})
     for b in blood:
         violations.append({"inv": "I7", "repo": b["repo"], "fact": f"красный check {b['check']} ({b['sha']})"})
+    for w in wfyaml:
+        violations.append({"inv": "I8", "repo": w["repo"],
+                           "fact": f"{w.get('wf','?')}: {w['fact']}" + (f" (строка {w['line']})" if w.get("line") else "")})
 
     snap["queue"] = queue
     snap["stale"] = stale
@@ -134,9 +169,10 @@ def main():
         json.dump(snap, f, ensure_ascii=False, indent=1)
 
     print(f"== ЗАКОН ДОМА · прегон {today} · репо {len(repos)} · deep={DEEP} ==")
-    print(f"I1 очередь: {len(queue)}  |  I2 приватных: {len(priv)}  |  I3 тишина>30д: {len(stale)}")
+    print(f"I0 нотификации: {max(unread, 0) if unread >= 0 else 'н/д'}  |  I1 очередь: {len(queue)}  |  "
+          f"I2 приватных: {len(priv)}  |  I3 тишина>30д: {len(stale)}")
     if DEEP:
-        print(f"I4 двери: {len(doors)}  |  I5 пины: {len(pins)}  |  I7 красные: {len(blood)}")
+        print(f"I4 двери: {len(doors)}  |  I5 пины: {len(pins)}  |  I7 красные: {len(blood)}  |  I8 yaml: {len(wfyaml)}")
     if violations:
         print(f"\nВЕРДИКТ: НАРУШЕНИЙ {len(violations)} → ритуал! (S1→S5 по каждой)")
         for v in violations[:60]:

@@ -67,7 +67,12 @@ def main():
     if a.clean:
         for t in threads:
             st2, _ = api(f"{GH}/notifications/threads/{t['id']}", tok, method="PUT")
-            if st2 == 205 or st2 == 204 or st2 == 200:
+            if st2 not in (205, 204, 200):
+                # квирка GitHub (урок волны 6, run 42863383742-эпохи): PUT может отдать
+                # 404 на живой thread — PATCH read=true возвращает 205 и работает.
+                st2, _ = api(f"{GH}/notifications/threads/{t['id']}", tok, method="PATCH",
+                             payload={"read": True})
+            if st2 in (205, 204, 200):
                 cleaned += 1
         st3, after = api(f"{GH}/notifications?per_page=100", tok)
         threads_after = after if isinstance(after, list) else []
