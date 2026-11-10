@@ -1,0 +1,701 @@
+{
+  "generated_at": "2026-11-10",
+  "tasks": [
+    "П-30 (polimat-hub#48)",
+    "W-AUD-14 (polimat-hub#15)"
+  ],
+  "scope": "не-archived репо rtynbirf, primary language в {Python, JavaScript, TypeScript, Go, Rust, Java, C, C++, C#}",
+  "method": "GET/PATCH https://api.github.com/repos/rtynbirf/{repo}/code-scanning/default-setup; включение = PATCH {\"state\":\"configured\",\"languages\":[\"actions\",<lang>],\"query_suite\":\"default\"}",
+  "probe_notes": "Проба права: windows-chronicle (наименьшее кодовое not-configured, доступное fine-токену): PUT → 404 (метод API не PUT); PATCH {\"languages\",\"query_suite\"} → 422 (нужен state); PATCH {\"state\":\"configured\",...} → 202, run_id 42847752363. Fine-grained: Code-scanning write подтверждён (202) на 17 репо из своей выборки; на остальные 8 включено классическим токеном (202).",
+  "total_code_repos": 35,
+  "previously_configured": 19,
+  "enabled_this_run": 16,
+  "repos": {
+    ".github": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "agryp": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "c-cpp",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "C",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "cell-rs": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python",
+        "rust"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "cell-swarm": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python",
+        "rust"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "cell65-host": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "python",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "JavaScript",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "combain-v2": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "JavaScript",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848030637
+    },
+    "commons": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "domovenok": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "TypeScript",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848046956
+    },
+    "github-runbook": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42847935955
+    },
+    "global-video-platforms-registry": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "karaoke-dream": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "JavaScript",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "markitdown": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848060911
+    },
+    "neutral-browser": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python",
+        "rust"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Rust",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "nous": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848072880
+    },
+    "polimat-hub": {
+      "state": "configured",
+      "languages": [],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42847948572
+    },
+    "polimat-task174": {
+      "state": "configured",
+      "languages": [],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848090088
+    },
+    "polymath-gen": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "polymath-multiagent": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848103182
+    },
+    "polymath-os": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848116077
+    },
+    "red-thread-debt-audit": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "token",
+      "run_id": 42848134217
+    },
+    "release-vault": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "rent-mechanism-q43": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42847961212
+    },
+    "repo-doctrine": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42847975968
+    },
+    "revo": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "python",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "rtynbirf": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "runtime-protocol": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python",
+        "rust"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "ruvson-lyrics": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "JavaScript",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42848003333
+    },
+    "ruvson-rse2": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "singulyar-llm": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "task-graph-propagator": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42847988841
+    },
+    "uace-pml": {
+      "state": "configured",
+      "languages": [],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "JavaScript",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42848017639
+    },
+    "uace-polymat": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "python",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 403,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "JavaScript",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "universal-agent": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "voice-atlas-llm": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "javascript",
+        "javascript-typescript",
+        "python",
+        "typescript"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": null,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": false,
+      "token_used": null,
+      "run_id": null
+    },
+    "windows-chronicle": {
+      "state": "configured",
+      "languages": [
+        "actions",
+        "python"
+      ],
+      "http": {
+        "get_before": {
+          "fine": 200,
+          "classic": 200
+        },
+        "patch": 202,
+        "get_after": 200
+      },
+      "primary_language": "Python",
+      "enabled_by_this_run": true,
+      "token_used": "Bearer",
+      "run_id": 42847752363
+    }
+  },
+  "summary": "CodeQL coverage: 35/35 кодовых (было configured: 19, включено в этой волне: 16)"
+}
