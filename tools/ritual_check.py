@@ -27,7 +27,7 @@ OUTDIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))
 STALE_DAYS = 30
 SHA_RE = re.compile(r"uses:\s*[\w\-./]+@([0-9a-f]{40})", re.I)
 USES_RE = re.compile(r"uses:\s*([\w\-./]+)@")
-NAME_COLON_RE = re.compile(r"^\s*-\s*name:\s*[^\"'\[].*:\s")  # I8: незакавыченное ': ' в name
+NAME_COLON_RE = re.compile(r"^\s*-\s*name:\s+[^\"'\[\s].*:\s")  # I8: незакавыченное ': ' в name (первый символ значения — не пробел/кавычка/скобка)
 try:
     import yaml as _yaml  # опционально: на раннерах обычно есть
 except Exception:
@@ -121,17 +121,22 @@ def main():
                         if act.startswith("actions/") or act.startswith("github/"):
                             if not SHA_RE.search("uses: " + act + "@" + ref):
                                 pins.append({"repo": name, "wf": p, "action": f"{act}@{ref}"})
-                    # I8: YAML-живучесть этого же файла
-                    for ln, line in enumerate(src.splitlines(), 1):
-                        if NAME_COLON_RE.match(line):
-                            wfyaml.append({"repo": name, "wf": p, "line": ln,
-                                           "fact": "незакавыченное ': ' в name"})
+                    # I8: YAML-живучесть этого же файла — судья pyyaml, регекс локализует строку
                     if _yaml is not None:
                         try:
                             _yaml.safe_load(src)
                         except Exception as e:
                             wfyaml.append({"repo": name, "wf": p,
                                            "fact": f"YAML не парсится: {str(e).splitlines()[-1][:80]}"})
+                            for ln, line in enumerate(src.splitlines(), 1):
+                                if NAME_COLON_RE.match(line):
+                                    wfyaml.append({"repo": name, "wf": p, "line": ln,
+                                                   "fact": "кандидат: незакавыченное ': ' в name"})
+                    else:
+                        for ln, line in enumerate(src.splitlines(), 1):
+                            if NAME_COLON_RE.match(line):
+                                wfyaml.append({"repo": name, "wf": p, "line": ln,
+                                               "fact": "незакавыченное ': ' в name (pyyaml недоступен)"})
             except Exception as e:
                 doors.append({"repo": name, "wf": "TREE-ERROR", "err": str(e)[:80]})
             # I7: красные check-runs на HEAD
