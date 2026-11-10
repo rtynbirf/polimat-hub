@@ -1,0 +1,30 @@
+name: RITUAL · закон дома (конечный автомат)
+
+# Закон дома №13 (canon: repo-doctrine/25-ритуал-дома-конечный-автомат-2026-11-10.md)
+# Формула: ПОРАБОТАЛ → СДЕЛАЛ → УБРАЛ ЗА СОБОЙ → ЧИСТ.
+# Автомат не останавливается в грязном состоянии.
+
+on:
+  schedule:
+    - cron: '37 2 * * *' # свободное окно (урок У-5: не шаблонный крон)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ritual-sweep
+  cancel-in-progress: false
+
+jobs:
+  ritual:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (SHA-пин, У-7)
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - name: Прогон автомата
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: python3 tools/ritual_sweep.py
