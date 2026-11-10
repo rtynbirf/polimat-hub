@@ -37,7 +37,7 @@ jobs:
             echo "Снапшот: audit/ritual-$(date -u +%F).json · свод: RITUAL/ЗАКОН-ДОМА.md"
           } >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Снапшот в репо (пуш сам: fetch→rebase→retry)
+      - name: "Снапшот в репо (пуш сам: fetch→rebase→retry)"
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GH_PAT || github.token }}
