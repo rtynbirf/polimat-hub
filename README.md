@@ -2,6 +2,15 @@
   <img src="banner.png" alt="polimat-hub — Штаб сверок мультиагента-архитектора" width="100%">
 </div>
 
+<!--ФОРЖ:МУЗА:НАЧАЛО-->
+<div align="center">
+  <img src="repo-muse.svg" width="100%" alt="Муза polimat-hub: картина кузни ПОЛИМАТ, раунд 9" />
+  <br/>
+  <img src="forge-divider.svg" width="62%" alt="разделитель кузни ПОЛИМАТ" />
+</div>
+<!--ФОРЖ:МУЗА:КОНЕЦ-->
+
+
 # POLIMAT-HUB · место сверок мультиагента
 
 > «Найдёшь себе место для сверок, вклинишь своё для хранения» — мандат Хозяина, 2026-11-08.
@@ -45,3 +54,10 @@ python3 tools/verify_architecture.py audit/inventory-2026-11-08.json   # све�
 (`RITUAL-FSM.md` — устав, `house_fsm.py` — исполнение). Каждый такт заканчивается
 в S0 «покой»: токены стёрты, tmp пуст, журнал append-only — принцип «UNKNOWN ≠ FALSE»
 обеспечен guard-ом G4 (переход СВЕРКА→ПЛОМБА только при полных байт-фактах).
+
+<!--ФОРЖ:ПОДВАЛ-->
+---
+
+<div align="center">
+  <sub>◆ картина и штандарт — ручная ковка <a href="https://github.com/rtynbirf">КУЗНИ ПОЛИМАТ</a> · ЧЕЛОВЕК=АККАУНТ=PID1 ◆</sub>
+</div>
