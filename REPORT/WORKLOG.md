@@ -160,3 +160,30 @@
     параллельность вживую, одно другое не исключает).
 - Пломба: audit/house-automaton-2026-11-11.json (+dry) · ПУЛЬС-строка дома.
 - Пуш → fetch → SHA-API; счётчик #10 — перегон live_counter.py --stamp.
+## Раунд 15 · 2026-11-12 · «ГИГИЕНА ГЕЙТОВ: 22 АЛЕРТА → 0»
+- Токен Хозяина раунда 15 проверен живьём (HTTP 200, login rtynbirf, rate 4868/5000) — только env,
+  в артефакты не попал ни одним байтом. Приказ: «ТУТ ЧТО ЗА БАРДАК?» → Security → Code scanning
+  rtynbirf/rtynbirf. Мастер-индекс #10 прочитан: github-runbook — АРХИВ (403 на запись), пломба
+  волн — в журнал hub.
+- **Диагноз:** 22 открытых алерта, инструмент у всех Scorecard; CodeQL (default setup, actions+python)
+  чист (0 находок во всех 90+ анализах). 9×Token-Permissions (write на top-level; у snake — job-level
+  contents: write, Scorecard v5 флагует ЛЮБОЙ write), 6×Pinned-Dependencies (checkout@v4/setup-python@v5
+  в pulse/zavodnoy/numbers-canon), 7 репо-уровневых (Branch-Protection, Code-Review, Maintained,
+  Fuzzing, SAST, Security-Policy, CII).
+- **Скрытый квест:** секрет `SWARM_TOKEN` в rtynbirf/rtynbirf был битым (обновлён 13:16 битым значением)
+  → snake/zavodnoy 401 на волновом SHA; Доктор честно отказал реран («гейт не подмазан», HTTP 401).
+- **Исполнено:** атомарный коммит `068c16cecb` (10 файлов, git-data API, попытка 1): 9 воркфлоу
+  read-all + писающие шаги рукой роя + SHA-канон (checkout 3d3c42e/v7.0.1, setup-python 6d4fd22b/v7,
+  верифицированы живым API до пуша) + SECURITY.md (PVR-ссылки против «no linked content») + анти-шум
+  3d-contrib/neofetch. Рука роя восстановлена (sealed-box PUT → 204); snake `43267913727` 🟢 и
+  zavodnoy `43267908436` 🟢 чистым dispatch (новый attempt-1, закон доктора цел).
+- **Scorecard 🟢** (run `43265492957`): 16 файловых + Security-Policy автозакрылись; остаток ×6 —
+  вердикты с основаниями (#1 rulesets активны, required-review против закона дома; #8 false positive —
+  CodeQL зелёный; #9/#11/#12 несовместимы с законом дома/вне досягаемости; #10 самозакроется ~2027-02-05).
+- **Терминал: 0 открытых алертов.** Нотификации 50→0.
+- **Уроки:** Я-25/Я-26, П-22/П-23 → REPORT/CONCLUSIONS.md (Я-24 живёт в этом журнале, раунд 14).
+- **Хвосты честно:** runbook — архив; singulyar/rumu — 404 для токена rtynbirf (зеркало уроков за
+  сиблингом); CII-бейдж — решение Хозяина (внешняя регистрация); унификация старых пинов checkout v4
+  (3d-contrib/neofetch/swarm-health, валидны) — опциональный такт.
+- **Пломба:** `WORKLOG-ВОЛНА-Х13-2026-11-12.md`; коммит rtynbirf/rtynbirf `068c16cecb`; счётчик #10
+  недоступен (архив) — живой учёт в этом журнале.
