@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/polimat-hub@main/banner.png" alt="polimat-hub — Штаб сверок мультиагента-архитектора" width="100%">
+
+<a href="https://github.com/rtynbirf/polimat-hub"><img src="banner.png" width="100%" alt="polimat-hub — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
 </div>
 
 <!--ФОРЖ:МУЗА:НАЧАЛО-->
@@ -12,13 +14,25 @@
 
 <!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/polimat-hub@main/revo-page.svg" width="100%" alt="РЕВО-паспорт страницы polimat-hub: строение файлов, лексикон, числа — по фактическому контенту" />
+  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы polimat-hub №38 в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
 </div>
 
 | ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
 |---:|---:|---:|---|---:|
-| 262 | 25 | 188 | 2026-11-16 | 1 |
+| 272 | 25 | 1 | 2026-11-28 | 1 |
 <!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
+# polimat-hub
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/polimat-hub@main/.github/social-preview.png" alt="polimat-hub" width="100%"></p>
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/polimat-hub@main/banner.png" alt="polimat-hub — Штаб сверок мультиагента-архитектора" width="100%">
+</div>
+
+
+
+
 
 
 
