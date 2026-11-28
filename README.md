@@ -24,6 +24,18 @@
 
 # polimat-hub
 
+<div align="center">
+
+<a href="https://github.com/rtynbirf/polimat-hub"><img src="banner.png" width="100%" alt="polimat-hub — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+
+
+
+
+# polimat-hub
+
 <p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/polimat-hub@main/.github/social-preview.png" alt="polimat-hub" width="100%"></p>
 
 <div align="center">
